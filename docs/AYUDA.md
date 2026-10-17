@@ -1,0 +1,99 @@
+# Ayuda y preguntas frecuentes
+
+[← Volver a las descargas](../README.md#descargas) · [Guía de instalación](GUIA.md)
+
+## ¿Cuál es la versión para mi equipo?
+
+La [tabla de descargas](../README.md#descargas) indica el sistema, el procesador y la versión disponible de cada edición.
+
+- **Windows:** la edición es para Intel/AMD de 64 bits. Compruébalo en **Configuración > Sistema > Acerca de > Tipo de sistema**. Esta publicación no incluye un instalador nativo de Windows ARM ni una edición de 32 bits.
+- **Mac:** en **Apple > Acerca de esta Mac**, revisa si tienes un **Chip Apple** o un **Procesador Intel**. Los chips M1 o posteriores usan Apple Silicon. Las ediciones actuales requieren macOS 26 Tahoe o un sistema posterior compatible; Apple Silicon también se verifica en macOS 27 Golden Gate.
+- **Linux:** AMD64 es para Intel/AMD de 64 bits y ARM64 es para ARM de 64 bits. El comando `uname -m` permite distinguir `x86_64` de `aarch64`.
+
+## ¿Necesito una cuenta de GitHub?
+
+Puedes descargar e instalar el Himnario sin iniciar sesión. Para abrir una consulta o informar un problema en este repositorio, GitHub sí solicita una cuenta.
+
+## ¿Por qué el instalador es pequeño?
+
+El programa y los recursos multimedia se distribuyen por separado. Primero instalas la aplicación y después ella descarga e integra las letras, la música y los videos. El instalador es de unos 52,8 MB en Windows, 3,2 MB en macOS y 1,3 MB en Linux. Cada sistema puede descargar componentes adicionales si hacen falta.
+
+## ¿Cuánto espacio y conexión necesito?
+
+El paquete multimedia actual pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y extracción. Haz esta descarga antes de necesitar el Himnario en una reunión; su duración depende de tu conexión. Puedes pausarla y continuarla desde el asistente.
+
+## ¿Funciona sin Internet?
+
+Sí. Una vez integrados los recursos, puedes mostrar las letras y reproducir la música y los videos descargados sin conexión. Internet se necesita para descargar recursos, repararlos o buscar nuevas versiones.
+
+## ¿Puedo guardar los recursos en otro disco?
+
+Sí. Pulsa **Elegir carpeta** en el asistente. Usa un disco con espacio suficiente y mantenlo conectado cuando utilices el Himnario. La aplicación recuerda la ubicación elegida.
+
+## La descarga se interrumpió
+
+Vuelve al asistente y utiliza **Continuar descarga** o **Reintentar descarga**, según el mensaje que aparezca. El programa reutiliza el avance guardado cuando el servidor lo permite. Comprueba también la conexión y el espacio disponible en el disco elegido.
+
+## Faltan letras, música o videos
+
+Abre **Buscar actualización > Reparar Contenido Multimedia**. Confirma la reparación, elige la carpeta si lo necesitas y espera a que se integre el paquete. Al finalizar, pulsa **Volver al Himnario**.
+
+La reparación reinstala el contenido oficial y puede reemplazar archivos personalizados guardados dentro de las carpetas multimedia. Guarda una copia de esos archivos si deseas conservarlos.
+
+<a id="macos-no-abre"></a>
+
+## macOS bloquea la primera apertura
+
+Las ediciones actuales tienen firma ad hoc y **no están notarizadas por Apple**. Después de intentar abrir la aplicación descargada desde este repositorio, revisa el aviso de **Configuración del Sistema / Ajustes del Sistema > Privacidad y seguridad**. Si decides autorizar esta aplicación, macOS ofrece **Abrir de todos modos** o **Abrir igualmente**, según su versión e idioma.
+
+Sigue la [guía de Apple para abrir una app de un desarrollador desconocido](https://support.apple.com/es-cl/guide/mac-help/mh40616/mac). Esta autorización corresponde a la aplicación concreta.
+
+Comprueba además que elegiste el DMG de tu procesador y que utilizas una versión compatible de macOS.
+
+## ¿Cómo instalo el archivo DEB en Linux?
+
+Ábrelo con el instalador de software de tu distribución. Si necesitas usar la terminal, abre una en la carpeta donde descargaste el archivo:
+
+```sh
+# Para Intel / AMD de 64 bits:
+sudo apt install ./Himnario_Adventista_Linux_AMD64.deb
+
+# Para ARM de 64 bits:
+sudo apt install ./Himnario_Adventista_Linux_ARM64.deb
+```
+
+Ejecuta solo la línea de tu procesador. El gestor de paquetes obtiene las dependencias que falten. Consulta la [compatibilidad y los detalles de Linux](GUIA.md#instalar-linux).
+
+## ¿Qué pasa con mis recursos al actualizar?
+
+Una actualización normal conserva tus recursos y preferencias. Usa **Buscar actualización** desde el propio Himnario para obtener la edición de tu sistema y procesador. En macOS, la actualización abre el DMG verificado para que sustituyas la app en Aplicaciones.
+
+## ¿Cómo cambio entre ventana y pantalla completa?
+
+Usa **F11**; en algunos teclados puede requerir **Fn + F11**. Windows y Linux también tienen un botón de pantalla completa en la parte superior. En macOS puedes usar el botón verde de la ventana. En modo ventana puedes moverla y cambiar su tamaño desde los bordes.
+
+<a id="desinstalar"></a>
+
+## ¿Cómo desinstalo el programa y sus recursos?
+
+| Sistema | Opción de limpieza completa |
+| --- | --- |
+| Windows | Usa el desinstalador de Himnario Adventista, versión 2.1.3 o posterior, desde las aplicaciones instaladas de Windows. |
+| macOS | En la barra de menús, abre el menú del Himnario y elige **Desinstalar Himnario…**. |
+| Linux | Abre **Información > Desinstalar y eliminar datos…** dentro del Himnario. |
+
+Conecta los discos donde hayas guardado recursos antes de desinstalar. Se eliminan las carpetas multimedia registradas, incluidos los archivos personalizados guardados dentro de ellas; las listas exportadas fuera de las carpetas del Himnario se conservan.
+
+En macOS, mover solo la app a la Papelera conserva sus datos. En Linux, retirar solo el paquete con el gestor de software también conserva los datos del usuario. Consulta los [detalles de limpieza por sistema](GUIA.md).
+
+## ¿Qué archivo elijo en la página de versiones?
+
+Utiliza los enlaces de la [portada de descargas](../README.md#descargas): llevan directamente al **EXE de Windows**, al **DMG del Mac correspondiente** o al **DEB de Linux correspondiente**. Las publicaciones incluyen también archivos de verificación y otros formatos para distribución y actualización.
+
+## ¿Cómo compruebo que una descarga está íntegra?
+
+Cada versión publica archivos **SHA256SUMS** para sus instaladores. La aplicación también verifica sus propias descargas. Si deseas comprobar un archivo manualmente, consulta [Verificación de descargas — SHA-256](GUIA.md#verificar-descargas).
+
+## ¿Dónde pido ayuda?
+
+[Abre una consulta o informa un problema](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/issues/new/choose). Indica la edición, la versión del Himnario, el sistema operativo y qué ocurre. Los formularios te ayudarán a reunir esos datos.

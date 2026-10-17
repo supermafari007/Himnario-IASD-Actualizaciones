@@ -1,0 +1,48 @@
+name: Informar un problema
+description: Algo no funciona al instalar, descargar o utilizar el Himnario.
+title: "[Problema]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por ayudar a mejorar el Himnario. Revisa primero las [preguntas frecuentes](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/blob/main/docs/AYUDA.md).
+  - type: dropdown
+    id: edicion
+    attributes:
+      label: ¿Qué edición utilizas?
+      options:
+        - Windows Intel / AMD de 64 bits
+        - macOS Apple Silicon
+        - macOS Intel
+        - Linux Intel / AMD de 64 bits
+        - Linux ARM64
+        - No lo sé
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Versión del Himnario
+      description: Puedes verla en Información o Acerca del Himnario.
+      placeholder: "Ejemplo: 2.1.3"
+    validations:
+      required: true
+  - type: input
+    id: sistema
+    attributes:
+      label: Sistema operativo y versión
+      placeholder: "Ejemplo: Windows 11, macOS 26 Tahoe o Ubuntu 24.04"
+    validations:
+      required: true
+  - type: textarea
+    id: problema
+    attributes:
+      label: ¿Qué ocurrió?
+      description: Explica qué intentabas hacer y qué pasos seguiste.
+    validations:
+      required: true
+  - type: textarea
+    id: mensaje
+    attributes:
+      label: Mensaje que aparece, si hay alguno
+      description: Puedes copiar el mensaje o adjuntar una imagen.

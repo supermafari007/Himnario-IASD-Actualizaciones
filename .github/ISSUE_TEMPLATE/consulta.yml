@@ -1,0 +1,26 @@
+name: Hacer una consulta
+description: Ayuda para elegir, instalar o utilizar una edición del Himnario.
+title: "[Consulta]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Aquí puedes consultar sobre las ediciones del Himnario. También tienes una [guía de instalación](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/blob/main/docs/GUIA.md) y [respuestas frecuentes](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/blob/main/docs/AYUDA.md).
+  - type: dropdown
+    id: sistema
+    attributes:
+      label: ¿En qué sistema lo usarás?
+      options:
+        - Windows
+        - macOS
+        - Linux
+        - No lo sé
+    validations:
+      required: true
+  - type: textarea
+    id: consulta
+    attributes:
+      label: ¿En qué necesitas ayuda?
+      description: Indica el equipo que utilizas y qué deseas hacer.
+    validations:
+      required: true

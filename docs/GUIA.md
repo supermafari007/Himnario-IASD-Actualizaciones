@@ -1,0 +1,93 @@
+# Guía de instalación y uso
+
+[← Volver a las descargas](../README.md#descargas) · [Preguntas frecuentes](AYUDA.md)
+
+Elige primero el instalador desde la portada. Esta guía reúne los detalles de instalación, actualización, reparación y limpieza de cada sistema.
+
+<a id="instalar-windows"></a>
+
+## Instalación en Windows — x64
+
+1. Descarga y ejecuta **Himnario_Adventista_Windows_Setup.exe**.
+2. Abre el Himnario y descarga los recursos si faltan.
+3. Puedes usar **Elegir carpeta** para guardarlos en otro disco.
+
+El instalador es un único archivo y no necesita archivos `.bin` adicionales. Si falta WebView2, el instalador web oficial de Microsoft lo descarga. La aplicación incluye .NET. La instalación conserva los recursos existentes; la reparación manual puede reemplazar archivos multimedia personalizados.
+
+En Windows, puedes mover la ventana desde el título o la franja superior entre los botones. F11 y el botón superior alternan la pantalla completa sin bordes y recuperan el tamaño y la posición anteriores. En **Buscar actualización**, la frase **Reparar Contenido Multimedia** abre el asistente del primer inicio: permite elegir carpeta, pausar, continuar o reintentar la descarga y volver al Himnario al terminar.
+
+### Desinstalación en Windows
+
+Instala **2.1.3 o posterior** para actualizar también el desinstalador. Al confirmar la desinstalación, se retiran el programa, sus recursos multimedia, las descargas temporales, las preferencias y las cachés. También se limpian las ubicaciones multimedia que el Himnario haya registrado en otros discos. Los archivos personalizados guardados dentro de las carpetas multimedia se eliminan.
+
+Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloqueados, se debe resolver antes de completar la desinstalación. Las actualizaciones normales conservan los recursos existentes.
+
+<a id="instalar-macos"></a>
+
+## Instalación en macOS — Intel y Apple Silicon
+
+Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift nativos separados. Requieren macOS 26 Tahoe o posterior compatible con el equipo; Apple Silicon también se comprueba en macOS 27 Golden Gate.
+
+1. Descarga el DMG de tu procesador.
+2. Ábrelo y arrastra **Himnario Adventista** a **Aplicaciones**.
+3. Abre el Himnario. Si faltan recursos, pulsa **Descargar ahora** o usa **Elegir carpeta** para guardarlos en otro disco.
+
+Los recursos y preferencias existentes se conservan. La aplicación inicia en modo ventana, con controles nativos de macOS. Puedes moverla desde la barra de título, redimensionarla desde los bordes y solicitar pantalla completa con el botón verde o F11. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
+
+### Reparación y desinstalación en macOS
+
+Desde **Buscar actualización > Reparar Contenido Multimedia** puedes volver a descargar el paquete oficial aunque no haya una nueva versión. El asistente pide confirmación, permite elegir carpeta, pausar, continuar y reintentar; al terminar, pulsa **Volver al Himnario**. La reparación detiene la reproducción y conserva los recursos anteriores si la instalación falla.
+
+Para retirar la aplicación y sus datos, abre el menú del Himnario en la barra de macOS y selecciona **Desinstalar Himnario…**. Tras confirmar, se eliminan los recursos, las descargas temporales, los instaladores, las preferencias y los datos web de la aplicación; la app se envía a la Papelera. También se limpian las ubicaciones multimedia registradas en otros discos. Conecta esos discos antes de desinstalar. Los archivos personalizados guardados dentro de Letra, Musica o Video Cantado se eliminan; los documentos y listas exportados fuera de esas carpetas se conservan.
+
+La limpieza completa requiere usar el menú del Himnario. Mover únicamente la app a la Papelera desde Finder conserva sus datos. Las actualizaciones normales conservan los recursos y preferencias.
+
+### Firma y comprobaciones de macOS
+
+La firma es ad hoc, sin notarización de Apple. Si macOS bloquea la apertura, consulta [qué hacer al abrir la aplicación por primera vez](AYUDA.md#macos-no-abre) y la [guía de Apple](https://support.apple.com/es-cl/guide/mac-help/mh40616/mac).
+
+Intel supera las pruebas de ventana y reproducción en Tahoe. La máquina virtual Intel no completa la animación de Spaces; esa transición requiere comprobación adicional en un Mac físico. Apple Silicon supera también la entrada y salida de pantalla completa en Tahoe y Golden Gate.
+
+<a id="instalar-linux"></a>
+
+## Instalación en Linux — Intel/AMD64 y ARM64
+
+Para **Ubuntu 24.04 o posterior, Linux Mint 22 o posterior y Debian 13**. Descarga AMD64 si tu procesador es Intel/AMD, o ARM64 si es ARM. Abre el archivo DEB con el instalador de software de tu distribución. También puedes instalarlo desde la carpeta de descarga con:
+
+    sudo apt install ./Himnario_Adventista_Linux_AMD64.deb
+
+Usa el nombre ARM64 si corresponde. El instalador del Himnario pesa aproximadamente **1,3 MB**; el gestor de paquetes descarga GTK, WebKitGTK y decodificadores nativos si faltan. La primera instalación necesita conexión.
+
+Abre **Himnario Adventista** desde el menú. Al primer inicio, pulsa **Descargar ahora** para integrar la multimedia o **Elegir carpeta** para guardarla en otro disco. La ventana usa los botones propios del Himnario, como Windows; F11 alterna pantalla completa. En modo ventana se puede mover desde el título o la franja superior y redimensionar desde los bordes.
+
+**Buscar actualización > Reparar Contenido Multimedia** abre el mismo asistente del primer inicio, con confirmación, carpeta, pausa, reanudación y reintento. Al terminar, pulsa **Volver al Himnario**. Cada procesador recibe únicamente su paquete Linux, verificado con SHA-256.
+
+El paquete instala un perfil AppArmor exclusivo de `/usr/bin/himnario-adventista`, autorizado para permitir el aislamiento de WebKit en Ubuntu. No altera las restricciones generales del sistema. Se retira al desinstalar y se elimina al purgar el paquete.
+
+### Desinstalación en Linux
+
+Usa **Información > Desinstalar y eliminar datos…** y confirma. Se eliminan recursos, descargas, preferencias, cachés y las carpetas multimedia registradas; después se solicita la autorización nativa para retirar el paquete. Conecta los discos usados antes de desinstalar. También se eliminan archivos personalizados dentro de Letra, Musica y Video Cantado; las listas exportadas fuera de las carpetas del Himnario se conservan.
+
+Eliminar solo el paquete desde el gestor de software conserva los datos del usuario. Para una limpieza completa usa primero la opción del Himnario. Las actualizaciones normales conservan recursos y preferencias.
+
+## Recursos multimedia — letras, música y videos
+
+Los instaladores no incluyen el paquete multimedia. La aplicación lo descarga del [dataset configurado en Hugging Face](https://huggingface.co/datasets/supermafari007/himnario-recursos) y consulta su versión en el [manifiesto multimedia](https://gist.github.com/supermafari007/bfa044dcec126d836bfea974e2a95cb3).
+
+El paquete 1.0 pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y extracción. Una vez instalados los recursos, puedes reproducirlos sin conexión.
+
+## Actualizaciones — programa y contenido multimedia
+
+El Himnario comprueba las actualizaciones al iniciar y desde **Buscar actualización**. Consulta las publicaciones del programa y el manifiesto multimedia. Cada edición selecciona su instalador correspondiente y verifica su integridad. Actualizar el programa conserva la multimedia existente.
+
+Si eliges **Más tarde**, al cerrar se prepara la actualización pendiente. En macOS se abre el DMG verificado para que arrastres la app a Aplicaciones; cada procesador recibe su propia edición. Si solo hay recursos multimedia pendientes, se instalan antes de cerrar.
+
+Las notas usan un encabezado general y secciones por plataforma. Una publicación que solo contiene Windows se identifica como Windows; las publicaciones compartidas indican las plataformas y arquitecturas que realmente incluyen.
+
+<a id="verificar-descargas"></a>
+
+## Verificación de descargas — SHA-256
+
+Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Windows, **SHA256SUMS-macOS-Intel.txt** para macOS Intel, **SHA256SUMS-macOS-AppleSilicon.txt** para macOS Apple Silicon, **SHA256SUMS-Linux-AMD64.txt** y **SHA256SUMS-Linux-ARM64.txt** para Linux, según las ediciones disponibles.
+
+En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256` y en Linux `sha256sum`.

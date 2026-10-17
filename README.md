@@ -1,97 +1,90 @@
-# Himnario Adventista — descargas y actualizaciones
+<p align="center">
+  <img src="assets/portada.svg" alt="Himnario Adventista — letras, música y videos para Windows, macOS y Linux" width="1000" />
+</p>
 
-Instaladores ligeros para **macOS Intel**, **macOS Apple Silicon**, **Windows x64**, **Linux Intel/AMD64** y **Linux ARM64**. Cada plataforma puede tener una versión distinta; elige la descarga que corresponda a tu equipo.
+# Descarga el Himnario para tu equipo
 
-Este repositorio público distribuye instaladores y sumas SHA-256. El código fuente se mantiene en repositorios privados.
+Letras, música cantada e instrumental y videos para acompañar el canto en la iglesia y en casa. Elige tu edición, instala la aplicación y descarga sus recursos desde el propio Himnario.
 
-## Descargas por plataforma
+**[Descargas](#descargas)** · **[Primer inicio](#primer-inicio)** · **[Guía de instalación](docs/GUIA.md)** · **[Ayuda](docs/AYUDA.md)**
 
-| Plataforma | Versión disponible | Instalador |
+## Descargas
+
+**Descarga directa, sin iniciar sesión en GitHub.** Elige la fila que corresponda a tu sistema y procesador.
+
+| Tu equipo | Instalador | Versión y tamaño |
 | --- | --- | --- |
-| macOS Intel (x86_64) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DMG Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_Intel.dmg) |
-| macOS Apple Silicon (arm64; M1 o posterior) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DMG Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_AppleSilicon.dmg) |
-| Windows x64 | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar instalador Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Windows_Setup.exe) |
-| Linux Intel/AMD64 (x86_64) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DEB AMD64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_AMD64.deb) |
-| Linux ARM64 (aarch64) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DEB ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_ARM64.deb) |
+| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits | **[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Windows_Setup.exe)** | 2.1.3 · 52,8 MB · EXE |
+| **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 | **[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_AppleSilicon.dmg)** | 2.1.3 · 3,2 MB · DMG |
+| **Mac · Intel**<br>Procesador Intel · macOS 26 Tahoe | **[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_Intel.dmg)** | 2.1.3 · 3,2 MB · DMG |
+| **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 | **[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_AMD64.deb)** | 2.1.3 · 1,3 MB · DEB |
+| **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits | **[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_ARM64.deb)** | 2.1.3 · 1,3 MB · DEB |
 
-También puedes consultar el [historial de publicaciones](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases). Los títulos indican las plataformas incluidas en cada versión.
+Los tamaños de esta tabla corresponden al instalador. **Las letras, la música y los videos se descargan después**, desde la aplicación.
 
-## Instalación en Linux — Intel/AMD64 y ARM64
+<details>
+<summary><strong>¿Cómo sé qué descarga necesito?</strong></summary>
 
-Para **Ubuntu 24.04 o posterior, Linux Mint 22 o posterior y Debian 13**. Descarga AMD64 si tu procesador es Intel/AMD, o ARM64 si es ARM. Abre el archivo DEB con el instalador de software de tu distribución. También puedes instalarlo desde la carpeta de descarga con:
+- **Windows:** abre **Configuración > Sistema > Acerca de** y revisa **Tipo de sistema**. La edición publicada es para equipos Intel/AMD de 64 bits.
+- **Mac:** abre el menú **Apple > Acerca de esta Mac**. Si aparece **Chip Apple M…**, elige **Apple Silicon**; si aparece **Procesador Intel**, elige **Mac Intel**. Comprueba también la versión de macOS que indica la tabla.
+- **Linux:** para un PC Intel o AMD elige **Linux Intel / AMD**. Para un equipo ARM de 64 bits elige **Linux ARM64**. Si necesitas confirmarlo, `uname -m` muestra `x86_64` para Intel/AMD o `aarch64` para ARM64.
 
-    sudo apt install ./Himnario_Adventista_Linux_AMD64.deb
+**AMD64 sirve tanto para procesadores Intel como AMD.** Para instalar en un Mac, utiliza el archivo **DMG** de tu procesador.
 
-Usa el nombre ARM64 si corresponde. El instalador del Himnario pesa aproximadamente **1,3 MB**; el gestor de paquetes descarga GTK, WebKitGTK y decodificadores nativos si faltan. La primera instalación necesita conexión.
+</details>
 
-Abre **Himnario Adventista** desde el menú. Al primer inicio, pulsa **Descargar ahora** para integrar la multimedia o **Elegir carpeta** para guardarla en otro disco. La ventana usa los botones propios del Himnario, como Windows; F11 alterna pantalla completa. En modo ventana se puede mover desde el título o la franja superior y redimensionar desde los bordes.
+## Primer inicio
 
-**Buscar actualización > Reparar Contenido Multimedia** abre el mismo asistente del primer inicio, con confirmación, carpeta, pausa, reanudación y reintento. Al terminar, pulsa **Volver al Himnario**. Cada procesador recibe únicamente su paquete Linux, verificado con SHA-256.
+1. **Instala y abre el Himnario.** En Windows ejecuta el EXE; en macOS abre el DMG y arrastra la app a **Aplicaciones**; en Linux abre el DEB con el instalador de software.
+2. **Pulsa Descargar ahora.** Puedes usar **Elegir carpeta** para guardar las letras, la música y los videos en otro disco.
+3. **Espera a que se integren los recursos.** Al terminar, pulsa **Volver al Himnario**. Ya podrás reproducir el contenido descargado sin conexión.
 
-El paquete instala un perfil AppArmor exclusivo de `/usr/bin/himnario-adventista`, autorizado para permitir el aislamiento de WebKit en Ubuntu. No altera las restricciones generales del sistema. Se retira al desinstalar y se elimina al purgar el paquete.
+> **Antes de comenzar:** el paquete multimedia actual pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y la instalación. Puedes pausar y continuar la descarga desde el asistente.
 
-### Desinstalación en Linux
+**[Instalar en Windows](docs/GUIA.md#instalar-windows)** · **[Instalar en macOS](docs/GUIA.md#instalar-macos)** · **[Instalar en Linux](docs/GUIA.md#instalar-linux)**
 
-Usa **Información > Desinstalar y eliminar datos…** y confirma. Se eliminan recursos, descargas, preferencias, cachés y las carpetas multimedia registradas; después se solicita la autorización nativa para retirar el paquete. Conecta los discos usados antes de desinstalar. También se eliminan archivos personalizados dentro de Letra, Musica y Video Cantado; las listas exportadas fuera de las carpetas del Himnario se conservan.
+## Qué puedes hacer
 
-Eliminar solo el paquete desde el gestor de software conserva los datos del usuario. Para una limpieza completa usa primero la opción del Himnario. Las actualizaciones normales conservan recursos y preferencias.
+- Buscar entre **614 himnos** por número o título y explorar sus temas.
+- Mostrar las letras y reproducir música **cantada o instrumental**.
+- Reproducir videos en los himnos que tienen ese recurso disponible.
+- Preparar listas de reproducción y usar el modo secuencial o aleatorio.
+- Usar pantalla completa, mover la ventana y ajustar su tamaño.
+- Comprobar actualizaciones y reparar los recursos desde el programa.
 
-## Instalación en macOS — Intel y Apple Silicon
+<details>
+<summary><strong>Ver la interfaz del Himnario</strong></summary>
 
-Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift nativos separados. Requieren macOS 26 Tahoe o posterior compatible con el equipo; Apple Silicon también se comprueba en macOS 27 Golden Gate.
+<img src="assets/interfaz-linux.png" alt="Interfaz de la edición Linux del Himnario, con búsqueda, controles de reproducción y lista de reproducción" width="1000" />
 
-1. Descarga el DMG de tu procesador.
-2. Ábrelo y arrastra **Himnario Adventista** a **Aplicaciones**.
-3. Abre el Himnario. Si faltan recursos, pulsa **Descargar ahora** o usa **Elegir carpeta** para guardarlos en otro disco.
+Vista de la edición Linux. Las ediciones comparten sus funciones; macOS utiliza sus controles de ventana nativos.
 
-Los recursos y preferencias existentes se conservan. La aplicación inicia en modo ventana, con controles nativos de macOS. Puedes moverla desde la barra de título, redimensionarla desde los bordes y solicitar pantalla completa con el botón verde o F11. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
+</details>
 
-### Reparación y desinstalación en macOS
+## Actualizar o reparar
 
-Desde **Buscar actualización > Reparar Contenido Multimedia** puedes volver a descargar el paquete oficial aunque no haya una nueva versión. El asistente pide confirmación, permite elegir carpeta, pausar, continuar y reintentar; al terminar, pulsa **Volver al Himnario**. La reparación detiene la reproducción y conserva los recursos anteriores si la instalación falla.
+Abre **Buscar actualización** dentro del Himnario. Cada edición busca el instalador correspondiente a su sistema y procesador.
 
-Para retirar la aplicación y sus datos, abre el menú del Himnario en la barra de macOS y selecciona **Desinstalar Himnario…**. Tras confirmar, se eliminan los recursos, las descargas temporales, los instaladores, las preferencias y los datos web de la aplicación; la app se envía a la Papelera. También se limpian las ubicaciones multimedia registradas en otros discos. Conecta esos discos antes de desinstalar. Los archivos personalizados guardados dentro de Letra, Musica o Video Cantado se eliminan; los documentos y listas exportados fuera de esas carpetas se conservan.
+Si faltan letras, música o videos, pulsa **Reparar Contenido Multimedia** en ese mismo diálogo. Se abrirá el asistente de descarga, con elección de carpeta, pausa, reanudación y reintento. Al finalizar, pulsa **Volver al Himnario**.
 
-La limpieza completa requiere usar el menú del Himnario. Mover únicamente la app a la Papelera desde Finder conserva sus datos. Las actualizaciones normales conservan los recursos y preferencias.
+Las actualizaciones normales conservan tus recursos y preferencias. La reparación vuelve a instalar el contenido oficial y puede sustituir archivos multimedia personalizados.
 
-### Firma y comprobaciones de macOS
+## Ayuda para la comunidad
 
-La firma es ad hoc, sin notarización de Apple. macOS puede pedir autorizar la apertura en **Ajustes del Sistema > Privacidad y seguridad**.
+| Necesitas… | Encuentra aquí |
+| --- | --- |
+| Instalar el programa o reconocer tu procesador | [Guía de instalación](docs/GUIA.md) |
+| Resolver dudas de descarga, espacio o apertura en macOS | [Preguntas frecuentes](docs/AYUDA.md) |
+| Informar un problema o hacer una consulta | [Abrir una consulta](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/issues/new/choose) |
+| Revisar cambios y versiones anteriores | [Historial de versiones](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases) |
+| Eliminar el programa y sus recursos | [Desinstalación por sistema](docs/AYUDA.md#desinstalar) |
 
-Intel supera las pruebas de ventana y reproducción en Tahoe. La máquina virtual Intel no completa la animación de Spaces; esa transición requiere comprobación adicional en un Mac físico. Apple Silicon supera también la entrada y salida de pantalla completa en Tahoe y Golden Gate.
+## Comparte el Himnario
 
-## Instalación en Windows — x64
+Comparte este enlace con tu iglesia, familiares o amigos. Desde aquí podrán elegir la edición que corresponda a su equipo:
 
-1. Descarga y ejecuta **Himnario_Adventista_Windows_Setup.exe**.
-2. Abre el Himnario y descarga los recursos si faltan.
-3. Puedes usar **Elegir carpeta** para guardarlos en otro disco.
+**https://github.com/supermafari007/Himnario-IASD-Actualizaciones**
 
-El instalador es un único archivo y no necesita archivos `.bin` adicionales. Si falta WebView2, el instalador web oficial de Microsoft lo descarga. La aplicación incluye .NET. La instalación conserva los recursos existentes; la reparación manual puede reemplazar archivos multimedia personalizados.
+---
 
-En Windows, puedes mover la ventana desde el título o la franja superior entre los botones. F11 y el botón superior alternan la pantalla completa sin bordes y recuperan el tamaño y la posición anteriores. En **Buscar actualización**, la frase **Reparar Contenido Multimedia** abre el asistente del primer inicio: permite elegir carpeta, pausar, continuar o reintentar la descarga y volver al Himnario al terminar.
-
-### Desinstalación en Windows
-
-Instala **2.1.3 o posterior** para actualizar también el desinstalador. Al confirmar la desinstalación, se retiran el programa, sus recursos multimedia, las descargas temporales, las preferencias y las cachés. También se limpian las ubicaciones multimedia que el Himnario haya registrado en otros discos. Los archivos personalizados guardados dentro de las carpetas multimedia se eliminan.
-
-Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloqueados, se debe resolver antes de completar la desinstalación. Las actualizaciones normales conservan los recursos existentes.
-
-## Recursos multimedia — letras, música y videos
-
-Los instaladores no incluyen el paquete multimedia. La aplicación lo descarga del [dataset configurado en Hugging Face](https://huggingface.co/datasets/supermafari007/himnario-recursos) y consulta su versión en el [manifiesto multimedia](https://gist.github.com/supermafari007/bfa044dcec126d836bfea974e2a95cb3).
-
-El paquete 1.0 pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y extracción. Una vez instalados los recursos, puedes reproducirlos sin conexión.
-
-## Actualizaciones — programa y contenido multimedia
-
-El Himnario comprueba las actualizaciones al iniciar y desde **Buscar actualización**. Consulta las publicaciones del programa y el manifiesto multimedia. Cada edición selecciona su instalador correspondiente y verifica su integridad. Actualizar el programa conserva la multimedia existente.
-
-Si eliges **Más tarde**, al cerrar se prepara la actualización pendiente. En macOS se abre el DMG verificado para que arrastres la app a Aplicaciones; cada procesador recibe su propia edición. Si solo hay recursos multimedia pendientes, se instalan antes de cerrar.
-
-Las notas usan un encabezado general y secciones por plataforma. Una publicación que solo contiene Windows se identifica como Windows; las publicaciones compartidas indican las plataformas y arquitecturas que realmente incluyen.
-
-## Verificación de descargas — SHA-256
-
-Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Windows, **SHA256SUMS-macOS-Intel.txt** para macOS Intel, **SHA256SUMS-macOS-AppleSilicon.txt** para macOS Apple Silicon, **SHA256SUMS-Linux-AMD64.txt** y **SHA256SUMS-Linux-ARM64.txt** para Linux, según las ediciones disponibles.
-
-En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256` y en Linux `sha256sum`.
+**Adaptación y mantenimiento:** [Manuel Farías](https://github.com/supermafari007). Este repositorio reúne instaladores y documentación de distribución; el código de las aplicaciones se mantiene en repositorios privados.

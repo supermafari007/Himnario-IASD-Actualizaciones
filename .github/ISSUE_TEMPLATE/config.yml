@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Descargar el Himnario
+    url: https://github.com/supermafari007/Himnario-IASD-Actualizaciones#descargas
+    about: Elige el instalador correspondiente a tu sistema y procesador.
+  - name: Preguntas frecuentes
+    url: https://github.com/supermafari007/Himnario-IASD-Actualizaciones/blob/main/docs/AYUDA.md
+    about: Descargas, primer inicio, recursos multimedia y apertura en macOS.
