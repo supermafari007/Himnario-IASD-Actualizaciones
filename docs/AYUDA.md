@@ -64,6 +64,22 @@ sudo apt install ./Himnario_Adventista_Linux_ARM64.deb
 
 Ejecuta solo la línea de tu procesador. El gestor de paquetes obtiene las dependencias que falten. Consulta la [compatibilidad y los detalles de Linux](GUIA.md#instalar-linux).
 
+## Linux 2.1.3 muestra un error al comprobar actualizaciones
+
+La descarga actual de **Linux 2.1.3** incluye la corrección del comprobador de versiones. Si instalaste el paquete anterior y aparece el mensaje `select_release is not defined`, cierra el Himnario y descarga de nuevo el DEB de tu procesador desde la [portada](../README.md#descargas).
+
+Reinstala el paquete corregido. Por ejemplo, desde la carpeta de descarga:
+
+```sh
+# Para Intel / AMD de 64 bits:
+sudo apt install --reinstall ./Himnario_Adventista_Linux_AMD64.deb
+
+# Para ARM de 64 bits:
+sudo apt install --reinstall ./Himnario_Adventista_Linux_ARM64.deb
+```
+
+Ejecuta solo la línea de tu procesador. El programa conserva la versión **2.1.3**, tus recursos y tus preferencias. Después de reinstalar, vuelve a abrirlo y pulsa **Buscar actualización**.
+
 ## ¿Qué pasa con mis recursos al actualizar?
 
 Una actualización normal conserva tus recursos y preferencias. Usa **Buscar actualización** desde el propio Himnario para obtener la edición de tu sistema y procesador. En macOS, la actualización abre el DMG verificado para que sustituyas la app en Aplicaciones.
