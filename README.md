@@ -12,13 +12,13 @@ Letras, música cantada e instrumental y videos para acompañar el canto en la i
 
 **Descarga directa, sin iniciar sesión en GitHub.** Elige la fila que corresponda a tu sistema y procesador.
 
-| Tu equipo | Instalador | Versión y tamaño |
-| --- | --- | --- |
-| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits | **[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Windows_Setup.exe)** | 2.1.3 · 52,8 MB · EXE |
-| **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 | **[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_AppleSilicon.dmg)** | 2.1.3 · 3,2 MB · DMG |
-| **Mac · Intel**<br>Procesador Intel · macOS 26 Tahoe | **[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_Intel.dmg)** | 2.1.3 · 3,2 MB · DMG |
-| **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 | **[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_AMD64.deb)** | 2.1.3 · 1,3 MB · DEB |
-| **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits | **[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_ARM64.deb)** | 2.1.3 · 1,3 MB · DEB |
+| Tu equipo | Descarga · versión y tamaño |
+| --- | --- |
+| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.3 · 52,8 MB · EXE |
+| **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.3 · 3,2 MB · DMG |
+| **Mac · Intel**<br>Procesador Intel · macOS 26 Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.3 · 3,2 MB · DMG |
+| **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.3 · 1,3 MB · DEB |
+| **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.3 · 1,3 MB · DEB |
 
 Los tamaños de esta tabla corresponden al instalador. **Las letras, la música y los videos se descargan después**, desde la aplicación.
 
