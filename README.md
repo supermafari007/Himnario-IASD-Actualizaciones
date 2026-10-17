@@ -1,38 +1,57 @@
-# Himnario Adventista para Windows y macOS
+# Himnario Adventista — descargas y actualizaciones
 
-Descarga el instalador desde [la última versión estable](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/latest).
+Instaladores ligeros para **macOS Intel**, **macOS Apple Silicon** y **Windows x64**. Cada plataforma puede tener una versión distinta; elige la descarga que corresponda a tu equipo.
 
-Este repositorio público distribuye los instaladores y sus sumas SHA-256. El código del programa se mantiene en un repositorio privado.
+Este repositorio público distribuye instaladores y sumas SHA-256. El código fuente se mantiene en repositorios privados.
 
-## Instalar en Windows
+## Descargas por plataforma
 
-1. Descarga `Himnario_Adventista_WebView2_Setup.exe` desde Releases y ejecútalo en Windows x64.
-2. Abre el Himnario y pulsa **Descargar ahora** para instalar los recursos multimedia.
-3. Puedes usar **Elegir carpeta** para guardarlos en otro disco. Necesitas aproximadamente **8,6 GB libres** durante la descarga y extracción del paquete 1.0 de 4,21 GB.
+| Plataforma | Versión disponible | Instalador |
+| --- | --- | --- |
+| macOS Intel (x86_64) | [2.0.2](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.0.2) | [Descargar DMG Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_Intel.dmg) |
+| macOS Apple Silicon (arm64; M1 o posterior) | [2.0.2](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.0.2) | [Descargar DMG Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_AppleSilicon.dmg) |
+| Windows x64 | [2.1.0](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.0) | [Descargar instalador Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.0/Himnario_Adventista_WebView2_Setup.exe) |
 
-El instalador es un único archivo; no necesita archivos `.bin` adicionales. Si falta WebView2, el instalador web oficial de Microsoft lo descarga. La aplicación incluye .NET y, una vez descargados los recursos, funciona sin conexión.
+También puedes consultar el [historial de publicaciones](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases). Los títulos indican las plataformas incluidas en cada versión.
 
-## Actualizaciones
+## Instalación en macOS — Intel y Apple Silicon
 
-**Buscar actualización** consulta las nuevas versiones estables de este repositorio y el manifiesto de recursos multimedia. El programa verifica el SHA-256 del instalador descargado antes de permitir su ejecución y conserva los recursos existentes.
+Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift nativos separados. Requieren macOS 26 Tahoe o posterior compatible con el equipo; Apple Silicon también se comprueba en macOS 27 Golden Gate.
 
-Los recursos se descargan del [dataset oficial configurado en Hugging Face](https://huggingface.co/datasets/supermafari007/himnario-recursos). La versión multimedia se consulta en [este manifiesto](https://gist.github.com/supermafari007/bfa044dcec126d836bfea974e2a95cb3).
+1. Descarga el DMG de tu procesador.
+2. Ábrelo y arrastra **Himnario Adventista** a **Aplicaciones**.
+3. Abre el Himnario. Si faltan recursos, pulsa **Descargar ahora** o usa **Elegir carpeta** para guardarlos en otro disco.
 
-El archivo `SHA256SUMS.txt` de cada publicación permite verificar también el instalador manualmente con `Get-FileHash -Algorithm SHA256`.
+Los recursos y preferencias existentes se conservan. La aplicación inicia en modo ventana, con controles nativos de macOS. Puedes moverla desde la barra de título, redimensionarla desde los bordes y solicitar pantalla completa con el botón verde o F11. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-## macOS Intel y Apple Silicon
+### Firma y comprobaciones de macOS
 
-Las dos ediciones comparten la misma interfaz y funciones, con ejecutables Swift nativos separados. Requieren macOS 26 Tahoe o posterior; Apple Silicon también se comprueba en macOS 27 Golden Gate.
+La firma es ad hoc, sin notarización de Apple. macOS puede pedir autorizar la apertura en **Ajustes del Sistema > Privacidad y seguridad**.
 
-| Tu Mac | Instalador 2.0.2 |
-| --- | --- |
-| Intel | [Descargar DMG Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_Intel.dmg) |
-| Apple Silicon, M1 o posterior | [Descargar DMG Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_AppleSilicon.dmg) |
+Intel supera las pruebas de ventana y reproducción en Tahoe. La máquina virtual Intel no completa la animación de Spaces; esa transición requiere comprobación adicional en un Mac físico. Apple Silicon supera también la entrada y salida de pantalla completa en Tahoe y Golden Gate.
 
-Abre el DMG y arrastra Himnario Adventista a Aplicaciones. Los recursos ya descargados se conservan. En una instalación nueva, la aplicación descarga la multimedia y permite elegir otro disco; reserva unos 8,6 GB libres temporalmente.
+## Instalación en Windows — x64
 
-La aplicación inicia en modo ventana con los controles nativos de macOS. Puedes moverla desde la barra de título, redimensionarla desde los bordes y usar el botón verde o F11 para pantalla completa. Ayuda, información y actualizaciones están a la derecha. Se ha desactivado el arrastre HTML que producía imágenes flotantes.
+1. Descarga y ejecuta **Himnario_Adventista_WebView2_Setup.exe**.
+2. Abre el Himnario y descarga los recursos si faltan.
+3. Puedes usar **Elegir carpeta** para guardarlos en otro disco.
 
-Cada edición descarga únicamente su instalador oficial y verifica el SHA-256 de GitHub. No requiere iniciar sesión. La firma es ad hoc, sin notarización de Apple; macOS puede pedir autorizar su apertura en Ajustes del Sistema > Privacidad y seguridad.
+El instalador es un único archivo y no necesita archivos `.bin` adicionales. Si falta WebView2, el instalador web oficial de Microsoft lo descarga. La aplicación incluye .NET. La instalación conserva los recursos existentes; la reparación manual puede reemplazar archivos multimedia personalizados.
 
-La versión Intel supera las pruebas de ventana y reproducción en Tahoe. La animación de Spaces no se completa en el runner Intel y requiere comprobación adicional en un Mac físico. Apple Silicon supera también la entrada y salida de pantalla completa en Tahoe y Golden Gate.
+## Recursos multimedia — letras, música y videos
+
+Los instaladores no incluyen el paquete multimedia. La aplicación lo descarga del [dataset configurado en Hugging Face](https://huggingface.co/datasets/supermafari007/himnario-recursos) y consulta su versión en el [manifiesto multimedia](https://gist.github.com/supermafari007/bfa044dcec126d836bfea974e2a95cb3).
+
+El paquete 1.0 pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y extracción. Una vez instalados los recursos, puedes reproducirlos sin conexión.
+
+## Actualizaciones — programa y contenido multimedia
+
+**Buscar actualización** consulta las publicaciones del programa y el manifiesto multimedia. Cada edición selecciona su instalador correspondiente y verifica su integridad. Actualizar el programa conserva la multimedia existente.
+
+Las notas usan un encabezado general y secciones por plataforma. Una publicación que solo contiene Windows se identifica como Windows; las publicaciones compartidas indican las arquitecturas de macOS que realmente incluyen.
+
+## Verificación de descargas — SHA-256
+
+Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Windows, **SHA256SUMS-macOS-Intel.txt** para Intel y **SHA256SUMS-macOS-AppleSilicon.txt** para Apple Silicon, según las ediciones disponibles.
+
+En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256`.
