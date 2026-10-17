@@ -10,7 +10,7 @@ Este repositorio público distribuye instaladores y sumas SHA-256. El código fu
 | --- | --- | --- |
 | macOS Intel (x86_64) | [2.0.2](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.0.2) | [Descargar DMG Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_Intel.dmg) |
 | macOS Apple Silicon (arm64; M1 o posterior) | [2.0.2](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.0.2) | [Descargar DMG Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_AppleSilicon.dmg) |
-| Windows x64 | [2.1.0](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.0) | [Descargar instalador Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.0/Himnario_Adventista_WebView2_Setup.exe) |
+| Windows x64 | [2.1.1](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.1) | [Descargar instalador Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.1/Himnario_Adventista_Windows_Setup.exe) |
 
 También puedes consultar el [historial de publicaciones](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases). Los títulos indican las plataformas incluidas en cada versión.
 
@@ -32,11 +32,13 @@ Intel supera las pruebas de ventana y reproducción en Tahoe. La máquina virtua
 
 ## Instalación en Windows — x64
 
-1. Descarga y ejecuta **Himnario_Adventista_WebView2_Setup.exe**.
+1. Descarga y ejecuta **Himnario_Adventista_Windows_Setup.exe**.
 2. Abre el Himnario y descarga los recursos si faltan.
 3. Puedes usar **Elegir carpeta** para guardarlos en otro disco.
 
 El instalador es un único archivo y no necesita archivos `.bin` adicionales. Si falta WebView2, el instalador web oficial de Microsoft lo descarga. La aplicación incluye .NET. La instalación conserva los recursos existentes; la reparación manual puede reemplazar archivos multimedia personalizados.
+
+En Windows, F11 y el botón superior permiten volver a pantalla completa sin bordes y recuperar después el tamaño y la posición de la ventana. En **Buscar actualización**, la frase **Reparar Contenido Multimedia** abre el asistente de descarga e instalación del primer inicio; la reparación comienza al confirmarla.
 
 ## Recursos multimedia — letras, música y videos
 
