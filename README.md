@@ -8,8 +8,8 @@ Este repositorio público distribuye instaladores y sumas SHA-256. El código fu
 
 | Plataforma | Versión disponible | Instalador |
 | --- | --- | --- |
-| macOS Intel (x86_64) | [2.0.2](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.0.2) | [Descargar DMG Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_Intel.dmg) |
-| macOS Apple Silicon (arm64; M1 o posterior) | [2.0.2](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.0.2) | [Descargar DMG Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_AppleSilicon.dmg) |
+| macOS Intel (x86_64) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DMG Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_Intel.dmg) |
+| macOS Apple Silicon (arm64; M1 o posterior) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DMG Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_AppleSilicon.dmg) |
 | Windows x64 | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar instalador Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Windows_Setup.exe) |
 
 También puedes consultar el [historial de publicaciones](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases). Los títulos indican las plataformas incluidas en cada versión.
@@ -23,6 +23,14 @@ Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift n
 3. Abre el Himnario. Si faltan recursos, pulsa **Descargar ahora** o usa **Elegir carpeta** para guardarlos en otro disco.
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en modo ventana, con controles nativos de macOS. Puedes moverla desde la barra de título, redimensionarla desde los bordes y solicitar pantalla completa con el botón verde o F11. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
+
+### Reparación y desinstalación en macOS
+
+Desde **Buscar actualización > Reparar Contenido Multimedia** puedes volver a descargar el paquete oficial aunque no haya una nueva versión. El asistente pide confirmación, permite elegir carpeta, pausar, continuar y reintentar; al terminar, pulsa **Volver al Himnario**. La reparación detiene la reproducción y conserva los recursos anteriores si la instalación falla.
+
+Para retirar la aplicación y sus datos, abre el menú del Himnario en la barra de macOS y selecciona **Desinstalar Himnario…**. Tras confirmar, se eliminan los recursos, las descargas temporales, los instaladores, las preferencias y los datos web de la aplicación; la app se envía a la Papelera. También se limpian las ubicaciones multimedia registradas en otros discos. Conecta esos discos antes de desinstalar. Los archivos personalizados guardados dentro de Letra, Musica o Video Cantado se eliminan; los documentos y listas exportados fuera de esas carpetas se conservan.
+
+La limpieza completa requiere usar el menú del Himnario. Mover únicamente la app a la Papelera desde Finder conserva sus datos. Las actualizaciones normales conservan los recursos y preferencias.
 
 ### Firma y comprobaciones de macOS
 
@@ -54,7 +62,9 @@ El paquete 1.0 pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** duran
 
 ## Actualizaciones — programa y contenido multimedia
 
-**Buscar actualización** consulta las publicaciones del programa y el manifiesto multimedia. Cada edición selecciona su instalador correspondiente y verifica su integridad. Actualizar el programa conserva la multimedia existente.
+El Himnario comprueba las actualizaciones al iniciar y desde **Buscar actualización**. Consulta las publicaciones del programa y el manifiesto multimedia. Cada edición selecciona su instalador correspondiente y verifica su integridad. Actualizar el programa conserva la multimedia existente.
+
+Si eliges **Más tarde**, al cerrar se prepara la actualización pendiente. En macOS se abre el DMG verificado para que arrastres la app a Aplicaciones; cada procesador recibe su propia edición. Si solo hay recursos multimedia pendientes, se instalan antes de cerrar.
 
 Las notas usan un encabezado general y secciones por plataforma. Una publicación que solo contiene Windows se identifica como Windows; las publicaciones compartidas indican las arquitecturas de macOS que realmente incluyen.
 
