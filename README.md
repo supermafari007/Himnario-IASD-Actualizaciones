@@ -1,6 +1,6 @@
 # Himnario Adventista — descargas y actualizaciones
 
-Instaladores ligeros para **macOS Intel**, **macOS Apple Silicon** y **Windows x64**. Cada plataforma puede tener una versión distinta; elige la descarga que corresponda a tu equipo.
+Instaladores ligeros para **macOS Intel**, **macOS Apple Silicon**, **Windows x64**, **Linux Intel/AMD64** y **Linux ARM64**. Cada plataforma puede tener una versión distinta; elige la descarga que corresponda a tu equipo.
 
 Este repositorio público distribuye instaladores y sumas SHA-256. El código fuente se mantiene en repositorios privados.
 
@@ -11,8 +11,30 @@ Este repositorio público distribuye instaladores y sumas SHA-256. El código fu
 | macOS Intel (x86_64) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DMG Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_Intel.dmg) |
 | macOS Apple Silicon (arm64; M1 o posterior) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DMG Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_AppleSilicon.dmg) |
 | Windows x64 | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar instalador Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Windows_Setup.exe) |
+| Linux Intel/AMD64 (x86_64) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DEB AMD64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_AMD64.deb) |
+| Linux ARM64 (aarch64) | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar DEB ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_ARM64.deb) |
 
 También puedes consultar el [historial de publicaciones](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases). Los títulos indican las plataformas incluidas en cada versión.
+
+## Instalación en Linux — Intel/AMD64 y ARM64
+
+Para **Ubuntu 24.04 o posterior, Linux Mint 22 o posterior y Debian 13**. Descarga AMD64 si tu procesador es Intel/AMD, o ARM64 si es ARM. Abre el archivo DEB con el instalador de software de tu distribución. También puedes instalarlo desde la carpeta de descarga con:
+
+    sudo apt install ./Himnario_Adventista_Linux_AMD64.deb
+
+Usa el nombre ARM64 si corresponde. El instalador del Himnario pesa aproximadamente **1,3 MB**; el gestor de paquetes descarga GTK, WebKitGTK y decodificadores nativos si faltan. La primera instalación necesita conexión.
+
+Abre **Himnario Adventista** desde el menú. Al primer inicio, pulsa **Descargar ahora** para integrar la multimedia o **Elegir carpeta** para guardarla en otro disco. La ventana usa los botones propios del Himnario, como Windows; F11 alterna pantalla completa. En modo ventana se puede mover desde el título o la franja superior y redimensionar desde los bordes.
+
+**Buscar actualización > Reparar Contenido Multimedia** abre el mismo asistente del primer inicio, con confirmación, carpeta, pausa, reanudación y reintento. Al terminar, pulsa **Volver al Himnario**. Cada procesador recibe únicamente su paquete Linux, verificado con SHA-256.
+
+El paquete instala un perfil AppArmor exclusivo de `/usr/bin/himnario-adventista`, autorizado para permitir el aislamiento de WebKit en Ubuntu. No altera las restricciones generales del sistema. Se retira al desinstalar y se elimina al purgar el paquete.
+
+### Desinstalación en Linux
+
+Usa **Información > Desinstalar y eliminar datos…** y confirma. Se eliminan recursos, descargas, preferencias, cachés y las carpetas multimedia registradas; después se solicita la autorización nativa para retirar el paquete. Conecta los discos usados antes de desinstalar. También se eliminan archivos personalizados dentro de Letra, Musica y Video Cantado; las listas exportadas fuera de las carpetas del Himnario se conservan.
+
+Eliminar solo el paquete desde el gestor de software conserva los datos del usuario. Para una limpieza completa usa primero la opción del Himnario. Las actualizaciones normales conservan recursos y preferencias.
 
 ## Instalación en macOS — Intel y Apple Silicon
 
@@ -66,10 +88,10 @@ El Himnario comprueba las actualizaciones al iniciar y desde **Buscar actualizac
 
 Si eliges **Más tarde**, al cerrar se prepara la actualización pendiente. En macOS se abre el DMG verificado para que arrastres la app a Aplicaciones; cada procesador recibe su propia edición. Si solo hay recursos multimedia pendientes, se instalan antes de cerrar.
 
-Las notas usan un encabezado general y secciones por plataforma. Una publicación que solo contiene Windows se identifica como Windows; las publicaciones compartidas indican las arquitecturas de macOS que realmente incluyen.
+Las notas usan un encabezado general y secciones por plataforma. Una publicación que solo contiene Windows se identifica como Windows; las publicaciones compartidas indican las plataformas y arquitecturas que realmente incluyen.
 
 ## Verificación de descargas — SHA-256
 
-Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Windows, **SHA256SUMS-macOS-Intel.txt** para Intel y **SHA256SUMS-macOS-AppleSilicon.txt** para Apple Silicon, según las ediciones disponibles.
+Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Windows, **SHA256SUMS-macOS-Intel.txt** para macOS Intel, **SHA256SUMS-macOS-AppleSilicon.txt** para macOS Apple Silicon, **SHA256SUMS-Linux-AMD64.txt** y **SHA256SUMS-Linux-ARM64.txt** para Linux, según las ediciones disponibles.
 
-En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256`.
+En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256` y en Linux `sha256sum`.
