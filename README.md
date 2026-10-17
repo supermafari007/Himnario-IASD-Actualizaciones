@@ -10,7 +10,7 @@ Este repositorio público distribuye instaladores y sumas SHA-256. El código fu
 | --- | --- | --- |
 | macOS Intel (x86_64) | [2.0.2](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.0.2) | [Descargar DMG Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_Intel.dmg) |
 | macOS Apple Silicon (arm64; M1 o posterior) | [2.0.2](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.0.2) | [Descargar DMG Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.0.2/Himnario_Adventista_macOS_AppleSilicon.dmg) |
-| Windows x64 | [2.1.1](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.1) | [Descargar instalador Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.1/Himnario_Adventista_Windows_Setup.exe) |
+| Windows x64 | [2.1.3](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/tag/v2.1.3) | [Descargar instalador Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Windows_Setup.exe) |
 
 También puedes consultar el [historial de publicaciones](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases). Los títulos indican las plataformas incluidas en cada versión.
 
@@ -38,7 +38,13 @@ Intel supera las pruebas de ventana y reproducción en Tahoe. La máquina virtua
 
 El instalador es un único archivo y no necesita archivos `.bin` adicionales. Si falta WebView2, el instalador web oficial de Microsoft lo descarga. La aplicación incluye .NET. La instalación conserva los recursos existentes; la reparación manual puede reemplazar archivos multimedia personalizados.
 
-En Windows, F11 y el botón superior permiten volver a pantalla completa sin bordes y recuperar después el tamaño y la posición de la ventana. En **Buscar actualización**, la frase **Reparar Contenido Multimedia** abre el asistente de descarga e instalación del primer inicio; la reparación comienza al confirmarla.
+En Windows, puedes mover la ventana desde el título o la franja superior entre los botones. F11 y el botón superior alternan la pantalla completa sin bordes y recuperan el tamaño y la posición anteriores. En **Buscar actualización**, la frase **Reparar Contenido Multimedia** abre el asistente del primer inicio: permite elegir carpeta, pausar, continuar o reintentar la descarga y volver al Himnario al terminar.
+
+### Desinstalación en Windows
+
+Instala **2.1.3 o posterior** para actualizar también el desinstalador. Al confirmar la desinstalación, se retiran el programa, sus recursos multimedia, las descargas temporales, las preferencias y las cachés. También se limpian las ubicaciones multimedia que el Himnario haya registrado en otros discos. Los archivos personalizados guardados dentro de las carpetas multimedia se eliminan.
+
+Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloqueados, se debe resolver antes de completar la desinstalación. Las actualizaciones normales conservan los recursos existentes.
 
 ## Recursos multimedia — letras, música y videos
 
