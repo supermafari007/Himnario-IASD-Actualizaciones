@@ -64,6 +64,22 @@ sudo apt install ./Himnario_Adventista_Linux_ARM64.deb
 
 Ejecuta solo la línea de tu procesador. El gestor de paquetes obtiene las dependencias que falten. Consulta la [compatibilidad y los detalles de Linux](GUIA.md#instalar-linux).
 
+## Linux suena bajo o sube de golpe al salir con Esc
+
+Los paquetes actuales de **Linux 2.1.3** incluyen una corrección de sonido: mantienen el nivel original del archivo, respetan el volumen y la amplificación elegidos en Linux y evitan el salto de volumen al interrumpir un himno con Esc. También corrigen el cambio rápido entre himnos.
+
+Si descargaste un instalador anterior, cierra el Himnario y vuelve a descargar el [DEB de tu procesador](../README.md#descargas). Reinstálalo con una de estas líneas desde la carpeta de descarga:
+
+```sh
+# Intel / AMD de 64 bits:
+sudo apt install --reinstall ./Himnario_Adventista_Linux_AMD64.deb
+
+# ARM de 64 bits:
+sudo apt install --reinstall ./Himnario_Adventista_Linux_ARM64.deb
+```
+
+Ejecuta solo la línea de tu procesador. **La versión sigue siendo 2.1.3 y se conservan los recursos y preferencias.** No necesitas reparar ni volver a descargar el contenido multimedia para aplicar esta corrección.
+
 ## Linux 2.1.3 muestra un error al comprobar actualizaciones
 
 La descarga actual de **Linux 2.1.3** incluye la corrección del comprobador de versiones. Si instalaste el paquete anterior y aparece el mensaje `select_release is not defined`, cierra el Himnario y descarga de nuevo el DEB de tu procesador desde la [portada](../README.md#descargas).
