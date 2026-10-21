@@ -15,17 +15,18 @@ Letras, música cantada e instrumental y videos para acompañar el canto en la i
 | Tu equipo | Descarga · versión y tamaño |
 | --- | --- |
 | **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.3 · 52,8 MB · EXE |
+| **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2 y Windows 7/8 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.3 · 7,2 MB · EXE x86 |
 | **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.3 · 3,2 MB · DMG |
 | **Mac · Intel**<br>Procesador Intel · macOS 26 Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.3 · 3,2 MB · DMG |
 | **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.3 · 1,3 MB · DEB |
 | **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.3/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.3 · 1,3 MB · DEB |
 
-Los tamaños de esta tabla corresponden al instalador. **Las letras, la música y los videos se descargan después**, desde la aplicación.
+Los tamaños de esta tabla corresponden al instalador. **Los recursos se descargan después**, desde la aplicación. Windows Legacy incluye Solo letra, Instrumental y Cantado; utiliza su propio paquete de letras y música, sin videos. [Guía de Windows Legacy](docs/WINDOWS-LEGACY.md).
 
 <details>
 <summary><strong>¿Cómo sé qué descarga necesito?</strong></summary>
 
-- **Windows:** abre **Configuración > Sistema > Acerca de** y revisa **Tipo de sistema**. La edición publicada es para equipos Intel/AMD de 64 bits.
+- **Windows:** abre **Configuración > Sistema > Acerca de** y revisa **Tipo de sistema**. Para Windows 10/11 elige la edición actual de 64 bits. Para XP/Vista/7/8 elige **Windows Legacy** (XP requiere SP3 de 32 bits).
 - **Mac:** abre el menú **Apple > Acerca de esta Mac**. Si aparece **Chip Apple M…**, elige **Apple Silicon**; si aparece **Procesador Intel**, elige **Mac Intel**. Comprueba también la versión de macOS que indica la tabla.
 - **Linux:** para un PC Intel o AMD elige **Linux Intel / AMD**. Para un equipo ARM de 64 bits elige **Linux ARM64**. Si necesitas confirmarlo, `uname -m` muestra `x86_64` para Intel/AMD o `aarch64` para ARM64.
 
@@ -39,15 +40,15 @@ Los tamaños de esta tabla corresponden al instalador. **Las letras, la música 
 2. **Pulsa Descargar ahora.** Puedes usar **Elegir carpeta** para guardar las letras, la música y los videos en otro disco.
 3. **Espera a que se integren los recursos.** Al terminar, pulsa **Volver al Himnario**. Ya podrás reproducir el contenido descargado sin conexión.
 
-> **Antes de comenzar:** el paquete multimedia actual pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y la instalación. Puedes pausar y continuar la descarga desde el asistente.
+> **Antes de comenzar:** el paquete multimedia actual pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y la instalación. Puedes pausar y continuar la descarga desde el asistente. Windows Legacy usa un paquete separado de **3,87 GB**, con unos **8,0 GB libres** durante su instalación.
 
-**[Instalar en Windows](docs/GUIA.md#instalar-windows)** · **[Instalar en macOS](docs/GUIA.md#instalar-macos)** · **[Instalar en Linux](docs/GUIA.md#instalar-linux)**
+**[Instalar en Windows](docs/GUIA.md#instalar-windows)** · **[Instalar en Windows Legacy](docs/GUIA.md#instalar-windows-legacy)** · **[Instalar en macOS](docs/GUIA.md#instalar-macos)** · **[Instalar en Linux](docs/GUIA.md#instalar-linux)**
 
 ## Qué puedes hacer
 
 - Buscar entre **614 himnos** por número o título y explorar sus temas.
 - Mostrar las letras y reproducir música **cantada o instrumental**.
-- Reproducir videos en los himnos que tienen ese recurso disponible.
+- Reproducir videos en los himnos que tienen ese recurso disponible, en las ediciones actuales.
 - Preparar listas de reproducción y usar el modo secuencial o aleatorio.
 - Usar pantalla completa, mover la ventana y ajustar su tamaño.
 - Comprobar actualizaciones y reparar los recursos desde el programa.
@@ -57,7 +58,7 @@ Los tamaños de esta tabla corresponden al instalador. **Las letras, la música 
 
 <img src="assets/interfaz-linux.png" alt="Interfaz de la edición Linux del Himnario, con búsqueda, controles de reproducción y lista de reproducción" width="1000" />
 
-Vista de la edición Linux. Las ediciones comparten sus funciones; macOS utiliza sus controles de ventana nativos.
+Vista de la edición Linux. Las ediciones actuales comparten sus funciones; macOS utiliza sus controles de ventana nativos. Windows Legacy se centra en el himnario estándar, sin reproducción de video.
 
 </details>
 

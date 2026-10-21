@@ -24,6 +24,21 @@ Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloquea
 
 <a id="instalar-macos"></a>
 
+## Instalación en Windows Legacy — XP/Vista/7/8
+
+Descarga **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** desde la publicación
+2.1.3. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
+Vista requiere SP2 y Windows 7, SP1. El procesador debe admitir SSE2.
+
+Esta edición conserva Solo letra, Instrumental y Cantado; no reproduce videos.
+Descarga un paquete propio de 3,87 GB y consulta un manifiesto exclusivo. Las
+ediciones actuales mantienen sus recursos completos.
+
+Consulta la [guía de Windows Legacy](WINDOWS-LEGACY.md) para importar desde USB,
+reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias.
+
+<a id="instalar-macos"></a>
+
 ## Instalación en macOS — Intel y Apple Silicon
 
 Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift nativos separados. Requieren macOS 26 Tahoe o posterior compatible con el equipo; Apple Silicon también se comprueba en macOS 27 Golden Gate.
@@ -74,7 +89,7 @@ Eliminar solo el paquete desde el gestor de software conserva los datos del usua
 
 Los instaladores no incluyen el paquete multimedia. La aplicación lo descarga del [dataset configurado en Hugging Face](https://huggingface.co/datasets/supermafari007/himnario-recursos) y consulta su versión en el [manifiesto multimedia](https://gist.github.com/supermafari007/bfa044dcec126d836bfea974e2a95cb3).
 
-El paquete 1.0 pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y extracción. Una vez instalados los recursos, puedes reproducirlos sin conexión.
+Las ediciones actuales usan el paquete 1.0 de **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y extracción. Windows Legacy usa un paquete separado de **3,87 GB**, necesita unos **8,0 GB libres** y solo incluye letras y música. Una vez instalados los recursos, puedes reproducirlos sin conexión.
 
 ## Actualizaciones — programa y contenido multimedia
 
@@ -88,6 +103,6 @@ Las notas usan un encabezado general y secciones por plataforma. Una publicació
 
 ## Verificación de descargas — SHA-256
 
-Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Windows, **SHA256SUMS-macOS-Intel.txt** para macOS Intel, **SHA256SUMS-macOS-AppleSilicon.txt** para macOS Apple Silicon, **SHA256SUMS-Linux-AMD64.txt** y **SHA256SUMS-Linux-ARM64.txt** para Linux, según las ediciones disponibles.
+Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Windows, **SHA256SUMS-Windows-Legacy-x86.txt** para Windows Legacy, **SHA256SUMS-macOS-Intel.txt** para macOS Intel, **SHA256SUMS-macOS-AppleSilicon.txt** para macOS Apple Silicon, **SHA256SUMS-Linux-AMD64.txt** y **SHA256SUMS-Linux-ARM64.txt** para Linux, según las ediciones disponibles.
 
 En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256` y en Linux `sha256sum`.
