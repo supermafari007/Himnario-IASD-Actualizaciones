@@ -55,7 +55,7 @@ WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su int
 
 ## Qué puedes hacer
 
-- Buscar entre **614 himnos** por número o título y explorar sus temas.
+- Buscar entre **613 himnos** por número o título y explorar sus temas.
 - Mostrar las letras y reproducir música **cantada o instrumental**.
 - Reproducir videos en los himnos que tienen ese recurso disponible, en las ediciones actuales.
 - Preparar listas de reproducción y usar el modo secuencial o aleatorio.
