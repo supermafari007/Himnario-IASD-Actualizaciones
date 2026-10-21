@@ -27,7 +27,7 @@ Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloquea
 ## Instalación en Windows Legacy — XP/Vista/7/8
 
 Descarga **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** desde la publicación
-2.1.4. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
+2.1.5. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
 Vista requiere SP2 y Windows 7, SP1. El procesador debe admitir SSE2.
 
 Esta edición conserva Solo letra, Instrumental y Cantado; no reproduce videos.
@@ -49,7 +49,7 @@ Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift n
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-La versión 2.1.4 se ofrece desde Buscar actualización. En macOS, abre el DMG descargado y reemplaza la app en Aplicaciones; se conservan recursos y preferencias.
+La versión 2.1.5 se ofrece desde Buscar actualización. En macOS, abre el DMG descargado y reemplaza la app en Aplicaciones; se conservan recursos y preferencias.
 
 ### Reparación y desinstalación en macOS
 

@@ -8,18 +8,22 @@ Letras, música cantada e instrumental y videos para acompañar el canto en la i
 
 **[Descargas](#descargas)** · **[Primer inicio](#primer-inicio)** · **[Guía de instalación](docs/GUIA.md)** · **[Ayuda](docs/AYUDA.md)**
 
+## Versión 2.1.5
+
+Ajustes de rendimiento y seguridad, con ventanas de información y actualización más claras. El Himnario distingue las novedades del programa y de los recursos multimedia, y permite actualizar ambos componentes cuando corresponda.
+
 ## Descargas
 
 **Descarga directa, sin iniciar sesión en GitHub.** Elige la fila que corresponda a tu sistema y procesador.
 
 | Tu equipo | Descarga · versión y tamaño |
 | --- | --- |
-| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.4 · 52,9 MB · EXE |
-| **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.4 · 7,2 MB · EXE x86 |
-| **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.4 · 3,2 MB · DMG |
-| **Mac · Intel**<br>Procesador Intel · macOS 26 Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.4 · 3,2 MB · DMG |
-| **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.4 · 1,3 MB · DEB |
-| **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.4 · 1,3 MB · DEB |
+| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.5 · 52,9 MB · EXE |
+| **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.5 · 7,2 MB · EXE x86 |
+| **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.5 · 3,2 MB · DMG |
+| **Mac · Intel**<br>Procesador Intel · macOS 26 Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.5 · 3,3 MB · DMG |
+| **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.5 · 1,3 MB · DEB |
+| **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.5 · 1,3 MB · DEB |
 
 Los tamaños de esta tabla corresponden al instalador. **Los recursos se descargan después**, desde la aplicación. Windows Legacy incluye Solo letra, Instrumental y Cantado; utiliza su propio paquete de letras y música, sin videos. [Guía de Windows Legacy](docs/WINDOWS-LEGACY.md).
 
