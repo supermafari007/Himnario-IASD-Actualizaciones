@@ -6,13 +6,19 @@
 
 La [tabla de descargas](../README.md#descargas) indica el sistema, el procesador y la versión disponible de cada edición.
 
-- **Windows:** la edición es para Intel/AMD de 64 bits. Compruébalo en **Configuración > Sistema > Acerca de > Tipo de sistema**. Esta publicación no incluye un instalador nativo de Windows ARM ni una edición de 32 bits.
+- **Windows:** la edición es para Intel/AMD de 64 bits. Compruébalo en **Configuración > Sistema > Acerca de > Tipo de sistema**. Para XP/Vista/7/8 está disponible Windows Legacy de 32 bits. No hay instalador nativo de Windows ARM.
 - **Mac:** en **Apple > Acerca de esta Mac**, revisa si tienes un **Chip Apple** o un **Procesador Intel**. Los chips M1 o posteriores usan Apple Silicon. Las ediciones actuales requieren macOS 26 Tahoe o un sistema posterior compatible; Apple Silicon también se verifica en macOS 27 Golden Gate.
 - **Linux:** AMD64 es para Intel/AMD de 64 bits y ARM64 es para ARM de 64 bits. El comando `uname -m` permite distinguir `x86_64` de `aarch64`.
 
 ## ¿Necesito una cuenta de GitHub?
 
 Puedes descargar e instalar el Himnario sin iniciar sesión. Para abrir una consulta o informar un problema en este repositorio, GitHub sí solicita una cuenta.
+
+## Windows muestra una alerta de SmartScreen
+
+El instalador actual de Windows no está firmado con un certificado de editor confiable. SmartScreen puede advertir que la aplicación es desconocida porque aún no tiene suficiente reputación; ese aviso no equivale a una detección de malware. Comprueba que la descarga viene de este repositorio y verifica su SHA-256. No desactives las protecciones del sistema para instalarla.
+
+Una firma válida identifica al editor, pero tampoco garantiza eliminar inmediatamente la alerta de un archivo nuevo. Consulta la [explicación de Microsoft](https://learn.microsoft.com/windows/apps/package-and-deploy/smartscreen-reputation).
 
 ## ¿Por qué el instalador es pequeño?
 

@@ -47,7 +47,9 @@ Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift n
 2. Ábrelo y arrastra **Himnario Adventista** a **Aplicaciones**.
 3. Abre el Himnario. Si faltan recursos, pulsa **Descargar ahora** o usa **Elegir carpeta** para guardarlos en otro disco.
 
-Los recursos y preferencias existentes se conservan. La aplicación inicia en modo ventana, con controles nativos de macOS. Puedes moverla desde la barra de título, redimensionarla desde los bordes y solicitar pantalla completa con el botón verde o F11. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
+Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
+
+Si ya tienes 2.1.3, descarga el DMG actualizado y reemplaza la app en Aplicaciones para recibir el inicio en pantalla completa. Se conserva el mismo número de versión y el actualizador no ofrece una versión igual.
 
 ### Reparación y desinstalación en macOS
 
