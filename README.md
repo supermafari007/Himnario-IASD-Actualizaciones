@@ -15,7 +15,7 @@ Letras, música cantada e instrumental y videos para acompañar el canto en la i
 | Tu equipo | Descarga · versión y tamaño |
 | --- | --- |
 | **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.4 · 52,9 MB · EXE |
-| **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2 y Windows 7/8 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.4 · 7,2 MB · EXE x86 |
+| **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.4 · 7,2 MB · EXE x86 |
 | **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.4 · 3,2 MB · DMG |
 | **Mac · Intel**<br>Procesador Intel · macOS 26 Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.4 · 3,2 MB · DMG |
 | **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.4/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.4 · 1,3 MB · DEB |
@@ -31,6 +31,15 @@ Los tamaños de esta tabla corresponden al instalador. **Los recursos se descarg
 - **Linux:** para un PC Intel o AMD elige **Linux Intel / AMD**. Para un equipo ARM de 64 bits elige **Linux ARM64**. Si necesitas confirmarlo, `uname -m` muestra `x86_64` para Intel/AMD o `aarch64` para ARM64.
 
 **AMD64 sirve tanto para procesadores Intel como AMD.** Para instalar en un Mac, utiliza el archivo **DMG** de tu procesador.
+
+</details>
+
+<details>
+<summary><strong>¿Por qué hay un archivo llamado WebView2 en las descargas?</strong></summary>
+
+Para Windows 10/11 de 64 bits, descarga **Himnario_Adventista_Windows_Setup.exe**. El archivo **Himnario_Adventista_WebView2_Setup.exe** es una copia idéntica con el nombre antiguo, conservada para que las versiones anteriores puedan actualizarse automáticamente.
+
+WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su interfaz. Ese archivo no es otra edición del Himnario ni un instalador independiente del motor WebView2.
 
 </details>
 
