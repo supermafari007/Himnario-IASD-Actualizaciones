@@ -27,7 +27,7 @@ Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloquea
 ## Instalación en Windows Legacy — XP/Vista/7/8
 
 Descarga **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** desde la publicación
-2.1.5. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
+2.1.6. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
 Vista requiere SP2 y Windows 7, SP1. El procesador debe admitir SSE2.
 
 Esta edición conserva Solo letra, Instrumental y Cantado; no reproduce videos.
@@ -49,7 +49,7 @@ Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift n
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-La versión 2.1.5 se ofrece desde Buscar actualización. En macOS, abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
+La versión 2.1.6 se ofrece desde Buscar actualización. En macOS, abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
 
 ### Reparación y desinstalación en macOS
 
@@ -63,7 +63,7 @@ La limpieza completa requiere usar el menú del Himnario. Mover únicamente la a
 
 La firma es ad hoc, sin notarización de Apple. Si macOS bloquea la apertura, consulta [qué hacer al abrir la aplicación por primera vez](AYUDA.md#macos-no-abre) y la [guía de Apple](https://support.apple.com/es-cl/guide/mac-help/mh40616/mac).
 
-El mismo ejecutable Intel 2.1.5 supera las pruebas de arranque, catálogo, controles nativos, puente multimedia y diálogos en Sequoia 15.7.9 y Tahoe 26.6.1 sobre Intel, y en Sonoma 14.8.9 mediante Rosetta. El mínimo Ventura 13 está verificado en la compilación y en el ejecutable; queda pendiente una prueba de ejecución en ese sistema. La máquina virtual Intel no completa la animación de Spaces; esa transición requiere comprobación adicional en un Mac físico. Apple Silicon supera también la entrada y salida de pantalla completa en Tahoe y Golden Gate.
+El mismo ejecutable Intel 2.1.6 supera las pruebas de arranque, catálogo, controles nativos, puente multimedia y diálogos en Sequoia 15.7.9 y Tahoe 26.6.1 sobre Intel, y en Sonoma 14.8.9 mediante Rosetta. El mínimo Ventura 13 está verificado en la compilación y en el ejecutable; queda pendiente una prueba de ejecución en ese sistema. La máquina virtual Intel no completa la animación de Spaces; esa transición requiere comprobación adicional en un Mac físico. Apple Silicon supera también la entrada y salida de pantalla completa en Tahoe y Golden Gate.
 
 Los DMG incluyen fondo musical, acceso a Applications e instrucciones LEEME_MAC.txt. La unidad montada utiliza el icono del Himnario. Arrastra la aplicación a Applications, expulsa la unidad y abre la copia instalada en Aplicaciones.
 

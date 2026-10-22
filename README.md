@@ -8,9 +8,9 @@ Letras, música cantada e instrumental y videos para acompañar el canto en la i
 
 **[Descargas](#descargas)** · **[Primer inicio](#primer-inicio)** · **[Guía de instalación](docs/GUIA.md)** · **[Ayuda](docs/AYUDA.md)**
 
-## Versión 2.1.5
+## Versión 2.1.6
 
-Ajustes de rendimiento y seguridad, con ventanas de información y actualización más claras. El Himnario distingue las novedades del programa y de los recursos multimedia, y permite actualizar ambos componentes cuando corresponda.
+Ajustes de estabilidad, rendimiento y seguridad, con correcciones en los enlaces externos de la interfaz y un canal de actualización unificado para Windows. Se conserva la gestión de actualizaciones del programa y de sus recursos multimedia.
 
 ## Descargas
 
@@ -18,12 +18,12 @@ Ajustes de rendimiento y seguridad, con ventanas de información y actualizació
 
 | Tu equipo | Descarga · versión y tamaño |
 | --- | --- |
-| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.5 · 52,9 MB · EXE |
-| **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.5 · 7,2 MB · EXE x86 |
-| **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.5 · 4,1 MB · DMG |
-| **Mac · Intel**<br>Procesador Intel · macOS 13 Ventura o posterior |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.5 · 4,2 MB · DMG |
-| **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.5 · 1,3 MB · DEB |
-| **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.5 · 1,3 MB · DEB |
+| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.6 · 52,9 MB · EXE |
+| **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.6 · 7,2 MB · EXE x86 |
+| **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.6 · 4,1 MB · DMG |
+| **Mac · Intel**<br>Procesador Intel · macOS 13 Ventura o posterior |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.6 · 4,2 MB · DMG |
+| **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.6 · 1,3 MB · DEB |
+| **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.6 · 1,3 MB · DEB |
 
 **Mac Intel:** mínimo de compilación macOS Ventura 13. Arranque e interfaz comprobados en Sequoia 15 y Tahoe 26 sobre Intel, y en Sonoma 14 mediante Rosetta. Ventura está pendiente de una prueba de ejecución en un Mac con ese sistema.
 
@@ -41,9 +41,9 @@ Los tamaños de esta tabla corresponden al instalador. **Los recursos se descarg
 </details>
 
 <details>
-<summary><strong>¿Por qué hay un archivo llamado WebView2 en las descargas?</strong></summary>
+<summary><strong>¿Cuál es el instalador de Windows?</strong></summary>
 
-Para Windows 10/11 de 64 bits, descarga **Himnario_Adventista_Windows_Setup.exe**. El archivo **Himnario_Adventista_WebView2_Setup.exe** es una copia idéntica con el nombre antiguo, conservada para que las versiones anteriores puedan actualizarse automáticamente.
+Para Windows 10/11 de 64 bits, descarga **Himnario_Adventista_Windows_Setup.exe**. Desde la versión 2.1.6 este es el único instalador de Windows moderno. El nombre antiguo queda limitado a publicaciones anteriores.
 
 WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su interfaz. Ese archivo no es otra edición del Himnario ni un instalador independiente del motor WebView2.
 

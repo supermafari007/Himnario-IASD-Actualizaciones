@@ -1,4 +1,4 @@
-# Windows Legacy 2.1.5
+# Windows Legacy 2.1.6
 
 Edición nativa de 32 bits para Windows XP SP3 (x86), Vista SP2 y Windows 7 SP1/8/8.1.
 Requiere procesador con SSE2. Ofrece Solo letra, Instrumental y Cantado con letras
@@ -7,7 +7,7 @@ sincronizadas. No incluye reproducción de video ni activaciones ocultas.
 ## Instalar o actualizar
 
 1. Cierra el Himnario Legacy.
-2. Descarga y ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
+2. Descarga y ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
 3. La actualización conserva las preferencias y la biblioteca.
 
 El instalador incluye el reproductor. No necesita .NET, WebView2 ni instalar VLC.
