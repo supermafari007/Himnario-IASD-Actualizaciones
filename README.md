@@ -20,10 +20,12 @@ Ajustes de rendimiento y seguridad, con ventanas de información y actualizació
 | --- | --- |
 | **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.5 · 52,9 MB · EXE |
 | **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.5 · 7,2 MB · EXE x86 |
-| **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.5 · 3,2 MB · DMG |
-| **Mac · Intel**<br>Procesador Intel · macOS 26 Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.5 · 3,3 MB · DMG |
+| **Mac · Apple Silicon**<br>Chip M1 o posterior · macOS 26 / 27 |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.5 · 4,1 MB · DMG |
+| **Mac · Intel**<br>Procesador Intel · macOS 13 Ventura o posterior |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.5 · 4,2 MB · DMG |
 | **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+ o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.5 · 1,3 MB · DEB |
 | **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.5/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.5 · 1,3 MB · DEB |
+
+**Mac Intel:** mínimo de compilación macOS Ventura 13. Arranque e interfaz comprobados en Sequoia 15 y Tahoe 26 sobre Intel, y en Sonoma 14 mediante Rosetta. Ventura está pendiente de una prueba de ejecución en un Mac con ese sistema.
 
 Los tamaños de esta tabla corresponden al instalador. **Los recursos se descargan después**, desde la aplicación. Windows Legacy incluye Solo letra, Instrumental y Cantado; utiliza su propio paquete de letras y música, sin videos. [Guía de Windows Legacy](docs/WINDOWS-LEGACY.md).
 

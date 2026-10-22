@@ -7,7 +7,7 @@
 La [tabla de descargas](../README.md#descargas) indica el sistema, el procesador y la versión disponible de cada edición.
 
 - **Windows:** la edición es para Intel/AMD de 64 bits. Compruébalo en **Configuración > Sistema > Acerca de > Tipo de sistema**. Para XP/Vista/7/8 está disponible Windows Legacy de 32 bits. No hay instalador nativo de Windows ARM.
-- **Mac:** en **Apple > Acerca de esta Mac**, revisa si tienes un **Chip Apple** o un **Procesador Intel**. Los chips M1 o posteriores usan Apple Silicon. Las ediciones actuales requieren macOS 26 Tahoe o un sistema posterior compatible; Apple Silicon también se verifica en macOS 27 Golden Gate.
+- **Mac:** en **Apple > Acerca de esta Mac**, revisa si tienes un **Chip Apple** o un **Procesador Intel**. Los chips M1 o posteriores usan Apple Silicon. Intel está compilado para macOS Ventura 13 o posterior; se ha comprobado en Sequoia y Tahoe sobre Intel, y en Sonoma mediante Rosetta. La ejecución en Ventura está pendiente de validación. Apple Silicon requiere macOS 26 Tahoe o posterior y también se verifica en macOS 27 Golden Gate.
 - **Linux:** AMD64 es para Intel/AMD de 64 bits y ARM64 es para ARM de 64 bits. El comando `uname -m` permite distinguir `x86_64` de `aarch64`.
 
 ## ¿Necesito una cuenta de GitHub?

@@ -41,7 +41,7 @@ reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias
 
 ## Instalación en macOS — Intel y Apple Silicon
 
-Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift nativos separados. Requieren macOS 26 Tahoe o posterior compatible con el equipo; Apple Silicon también se comprueba en macOS 27 Golden Gate.
+Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift nativos separados. La edición Intel está compilada para macOS Ventura 13 o posterior. Apple Silicon requiere macOS 26 Tahoe o posterior compatible con el equipo y también se comprueba en macOS 27 Golden Gate.
 
 1. Descarga el DMG de tu procesador.
 2. Ábrelo y arrastra **Himnario Adventista** a **Aplicaciones**.
@@ -49,7 +49,7 @@ Las dos ediciones comparten la interfaz y las funciones, con ejecutables Swift n
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-La versión 2.1.5 se ofrece desde Buscar actualización. En macOS, abre el DMG descargado y reemplaza la app en Aplicaciones; se conservan recursos y preferencias.
+La versión 2.1.5 se ofrece desde Buscar actualización. En macOS, abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
 
 ### Reparación y desinstalación en macOS
 
@@ -63,7 +63,9 @@ La limpieza completa requiere usar el menú del Himnario. Mover únicamente la a
 
 La firma es ad hoc, sin notarización de Apple. Si macOS bloquea la apertura, consulta [qué hacer al abrir la aplicación por primera vez](AYUDA.md#macos-no-abre) y la [guía de Apple](https://support.apple.com/es-cl/guide/mac-help/mh40616/mac).
 
-Intel supera las pruebas de ventana y reproducción en Tahoe. La máquina virtual Intel no completa la animación de Spaces; esa transición requiere comprobación adicional en un Mac físico. Apple Silicon supera también la entrada y salida de pantalla completa en Tahoe y Golden Gate.
+El mismo ejecutable Intel 2.1.5 supera las pruebas de arranque, catálogo, controles nativos, puente multimedia y diálogos en Sequoia 15.7.9 y Tahoe 26.6.1 sobre Intel, y en Sonoma 14.8.9 mediante Rosetta. El mínimo Ventura 13 está verificado en la compilación y en el ejecutable; queda pendiente una prueba de ejecución en ese sistema. La máquina virtual Intel no completa la animación de Spaces; esa transición requiere comprobación adicional en un Mac físico. Apple Silicon supera también la entrada y salida de pantalla completa en Tahoe y Golden Gate.
+
+Los DMG incluyen fondo musical, acceso a Applications e instrucciones LEEME_MAC.txt. La unidad montada utiliza el icono del Himnario. Arrastra la aplicación a Applications, expulsa la unidad y abre la copia instalada en Aplicaciones.
 
 <a id="instalar-linux"></a>
 
