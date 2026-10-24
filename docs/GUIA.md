@@ -16,6 +16,12 @@ El instalador es un único archivo y no necesita archivos `.bin` adicionales. Si
 
 En Windows, puedes mover la ventana desde el título o la franja superior entre los botones. F11 y el botón superior alternan la pantalla completa sin bordes y recuperan el tamaño y la posición anteriores. En **Buscar actualización**, la frase **Reparar Contenido Multimedia** abre el asistente del primer inicio: permite elegir carpeta, pausar, continuar o reintentar la descarga y volver al Himnario al terminar.
 
+### Novedades de Windows 2.1.7
+
+La edición para Windows 10/11 de 64 bits incorpora **Favoritos**, **Recientes** de la sesión y una guía visual renovada al pulsar **?**. El corazón guarda o retira favoritos; el signo **+** permite añadir himnos a la lista de reproducción. Puedes guardar y recuperar tus favoritos desde **Respaldar favoritos**. Recientes se borra al cerrar el programa.
+
+Abre **Buscar actualización** para recibir la 2.1.7. La actualización conserva tus recursos multimedia y preferencias.
+
 ### Desinstalación en Windows
 
 Instala **2.1.3 o posterior** para actualizar también el desinstalador. Al confirmar la desinstalación, se retiran el programa, sus recursos multimedia, las descargas temporales, las preferencias y las cachés. También se limpian las ubicaciones multimedia que el Himnario haya registrado en otros discos. Los archivos personalizados guardados dentro de las carpetas multimedia se eliminan.
@@ -54,7 +60,7 @@ Elige la edición que corresponda a tu Mac. Ambas ofrecen las mismas funciones d
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-Windows 10/11 recibe la versión 2.1.7 desde Buscar actualización. Windows Legacy, macOS y Linux mantienen la 2.1.6. En macOS, abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
+La versión vigente de macOS es la **2.1.6**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
 
 ### Reparación y desinstalación en macOS
 
