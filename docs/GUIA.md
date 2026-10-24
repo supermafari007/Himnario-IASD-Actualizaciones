@@ -54,7 +54,7 @@ Elige la edición que corresponda a tu Mac. Ambas ofrecen las mismas funciones d
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-La versión 2.1.6 se ofrece desde Buscar actualización. En macOS, abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
+Windows 10/11 recibe la versión 2.1.7 desde Buscar actualización. Windows Legacy, macOS y Linux mantienen la 2.1.6. En macOS, abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
 
 ### Reparación y desinstalación en macOS
 
