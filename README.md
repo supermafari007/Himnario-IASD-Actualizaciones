@@ -8,9 +8,11 @@ Letras, música cantada e instrumental y videos para acompañar el canto en la i
 
 **[Descargas](#descargas)** · **[Primer inicio](#primer-inicio)** · **[Guía de instalación](docs/GUIA.md)** · **[Ayuda](docs/AYUDA.md)**
 
-## Versión 2.1.6
+## Versión 2.1.7 · Windows
 
-Ajustes de estabilidad, rendimiento y seguridad, con correcciones en los enlaces externos de la interfaz y un canal de actualización unificado para Windows. Se conserva la gestión de actualizaciones del programa y de sus recursos multimedia.
+La edición para **Windows 10 y Windows 11 de 64 bits** incorpora favoritos, recientes de la sesión y una guía de ayuda renovada. Sus paneles se integran con la lista de reproducción y se adaptan al espacio de la ventana.
+
+**Windows Legacy, macOS y Linux mantienen la versión 2.1.6.** Sus descargas siguen disponibles en la tabla.
 
 ## Descargas
 
@@ -18,7 +20,7 @@ Ajustes de estabilidad, rendimiento y seguridad, con correcciones en los enlaces
 
 | Tu equipo | Descarga · versión y tamaño |
 | --- | --- |
-| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.6 · 52,9 MB · EXE |
+| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.7 · 52,9 MB · EXE |
 | **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.6 · 7,2 MB · EXE x86 |
 | **Mac · Apple Silicon**<br>Chip M1 o posterior · Tahoe, Golden Gate y posteriores |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.6 · 4,1 MB · DMG |
 | **Mac · Intel**<br>Procesador Intel · Ventura, Sonoma, Sequoia y Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.6 · 4,2 MB · DMG |
@@ -64,6 +66,15 @@ WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su int
 
 **[Instalar en Windows](docs/GUIA.md#instalar-windows)** · **[Instalar en Windows Legacy](docs/GUIA.md#instalar-windows-legacy)** · **[Instalar en macOS](docs/GUIA.md#instalar-macos)** · **[Instalar en Linux](docs/GUIA.md#instalar-linux)**
 
+### Novedades de Windows 2.1.7
+
+- **Favoritos:** guarda himnos con el corazón, búscalos y consulta tu lista en el orden en que los añadiste. Puedes deshacer una eliminación y respaldar o recuperar tus favoritos.
+- **Recientes:** accede a los himnos reproducidos durante la sesión, del más reciente al más antiguo. El historial se borra al cerrar el programa.
+- **Listas de reproducción:** añade himnos desde favoritos o recientes con el signo **+**, sin iniciar la reproducción automáticamente.
+- **Ayuda visual:** pulsa **?** para recorrer una guía de los controles, con indicaciones que se ajustan a la posición real de los botones.
+
+Estas novedades están disponibles por ahora en la edición de **Windows 10/11**. La actualización conserva tus recursos multimedia y preferencias.
+
 ## Qué puedes hacer
 
 - Buscar entre **613 himnos** por número o título y explorar sus temas.
@@ -78,7 +89,7 @@ WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su int
 
 <img src="assets/interfaz-linux.png" alt="Interfaz de la edición Linux del Himnario, con búsqueda, controles de reproducción y lista de reproducción" width="1000" />
 
-Vista de la edición Linux. Las ediciones actuales comparten sus funciones; macOS utiliza sus controles de ventana nativos. Windows Legacy se centra en el himnario estándar, sin reproducción de video.
+Vista de la edición Linux. La edición Windows 2.1.7 añade favoritos, recientes y la nueva guía de ayuda. macOS utiliza sus controles de ventana nativos. Windows Legacy se centra en el himnario estándar, sin reproducción de video.
 
 </details>
 
