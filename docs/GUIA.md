@@ -33,12 +33,14 @@ Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloquea
 ## Instalación en Windows Legacy — XP/Vista/7/8
 
 Descarga **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** desde la publicación
-2.1.6. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
+2.1.7. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
 Vista requiere SP2 y Windows 7, SP1. El procesador debe admitir SSE2.
 
 Esta edición conserva Solo letra, Instrumental y Cantado; no reproduce videos.
 Descarga un paquete propio de 3,87 GB y consulta un manifiesto exclusivo. Las
 ediciones actuales mantienen sus recursos completos.
+
+La versión **2.1.7** incluye favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy y Linux; recientes se borra al cerrar el programa.
 
 Consulta la [guía de Windows Legacy](WINDOWS-LEGACY.md) para importar desde USB,
 reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias.
@@ -47,7 +49,7 @@ reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias
 
 ## Instalación en macOS — Intel y Apple Silicon
 
-Elige la edición que corresponda a tu Mac. Ambas ofrecen las mismas funciones del Himnario.
+Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS mantienen las funciones de la versión 2.1.6.
 
 | Edición | Versiones compatibles de macOS |
 | --- | --- |
@@ -81,7 +83,7 @@ Los DMG incluyen fondo musical, acceso a Applications e instrucciones LEEME_MAC.
 
 ## Instalación en Linux — Intel/AMD64 y ARM64
 
-Para **Ubuntu 24.04 o posterior, Linux Mint 22 o posterior y Debian 13**. Descarga AMD64 si tu procesador es Intel/AMD, o ARM64 si es ARM. Abre el archivo DEB con el instalador de software de tu distribución. También puedes instalarlo desde la carpeta de descarga con:
+Para **Ubuntu 24.04 o posterior, Linux Mint 22 o posterior, Zorin OS 18 y Debian 13**. Descarga AMD64 si tu procesador es Intel/AMD, o ARM64 si es ARM. Abre el archivo DEB con el instalador de software de tu distribución. También puedes instalarlo desde la carpeta de descarga con:
 
     sudo apt install ./Himnario_Adventista_Linux_AMD64.deb
 
@@ -92,6 +94,8 @@ Abre **Himnario Adventista** desde el menú. Al primer inicio, pulsa **Descargar
 **Buscar actualización > Reparar Contenido Multimedia** abre el mismo asistente del primer inicio, con confirmación, carpeta, pausa, reanudación y reintento. Al terminar, pulsa **Volver al Himnario**. Cada procesador recibe únicamente su paquete Linux, verificado con SHA-256.
 
 El paquete instala un perfil AppArmor exclusivo de `/usr/bin/himnario-adventista`, autorizado para permitir el aislamiento de WebKit en Ubuntu. No altera las restricciones generales del sistema. Se retira al desinstalar y se elimina al purgar el paquete.
+
+La versión **2.1.7** incluye favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy y Linux; recientes se borra al cerrar el programa.
 
 ### Desinstalación en Linux
 
