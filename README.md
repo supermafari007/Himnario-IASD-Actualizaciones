@@ -8,11 +8,11 @@ Letras, música cantada e instrumental y videos para acompañar el canto en la i
 
 **[Descargas](#descargas)** · **[Primer inicio](#primer-inicio)** · **[Guía de instalación](docs/GUIA.md)** · **[Ayuda](docs/AYUDA.md)**
 
-## Versión 2.1.7 · Windows, Windows Legacy y Linux
+## Versión 2.1.7 · Windows, macOS y Linux
 
-Las ediciones de **Windows 10/11, Windows Legacy y Linux** incorporan favoritos, recientes de la sesión y una guía de ayuda renovada. Sus paneles se integran con la lista de reproducción y se adaptan al espacio de la ventana.
+Las ediciones de **Windows 10/11, Windows Legacy, macOS y Linux** incorporan favoritos, recientes de la sesión y una guía de ayuda renovada. Sus paneles se integran con la lista de reproducción y se adaptan al espacio de la ventana.
 
-**macOS mantiene la versión 2.1.6.** Sus descargas siguen disponibles en la tabla.
+En macOS, la ayuda se adapta a los controles nativos y los DMG presentan una distribución más clara y legible.
 
 ## Descargas
 
@@ -22,8 +22,8 @@ Las ediciones de **Windows 10/11, Windows Legacy y Linux** incorporan favoritos,
 | --- | --- |
 | **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.7 · 52,9 MB · EXE |
 | **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.7 · 7,3 MB · EXE x86 |
-| **Mac · Apple Silicon**<br>Chip M1 o posterior · Tahoe, Golden Gate y posteriores |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.6 · 4,1 MB · DMG |
-| **Mac · Intel**<br>Procesador Intel · Ventura, Sonoma, Sequoia y Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.6/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.6 · 4,2 MB · DMG |
+| **Mac · Apple Silicon**<br>Chip M1 o posterior · Tahoe, Golden Gate y posteriores |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.7 · 4,1 MB · DMG |
+| **Mac · Intel**<br>Procesador Intel · Ventura, Sonoma, Sequoia y Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.7 · 4,2 MB · DMG |
 | **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+, Zorin OS 18 o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.7 · 1,3 MB · DEB |
 | **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.7 · 1,3 MB · DEB |
 
@@ -73,7 +73,7 @@ WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su int
 - **Listas de reproducción:** añade himnos desde favoritos o recientes con el signo **+**, sin iniciar la reproducción automáticamente.
 - **Ayuda visual:** pulsa **?** para recorrer una guía de los controles, con indicaciones que se ajustan a la posición real de los botones.
 
-Estas novedades están disponibles en **Windows 10/11, Windows Legacy y Linux**. Los respaldos de favoritos en JSON son compatibles entre estas ediciones. La actualización conserva tus recursos multimedia y preferencias.
+Estas novedades están disponibles en **Windows 10/11, Windows Legacy, macOS y Linux**. Los respaldos de favoritos en JSON son compatibles entre estas ediciones. La actualización conserva tus recursos multimedia y preferencias.
 
 ## Qué puedes hacer
 
@@ -89,7 +89,7 @@ Estas novedades están disponibles en **Windows 10/11, Windows Legacy y Linux**.
 
 <img src="assets/interfaz-linux.png" alt="Interfaz de la edición Linux del Himnario, con búsqueda, controles de reproducción y lista de reproducción" width="1000" />
 
-Vista de una edición anterior de Linux. Windows, Windows Legacy y Linux 2.1.7 añaden favoritos, recientes y la nueva guía de ayuda. macOS utiliza sus controles de ventana nativos. Windows Legacy se centra en el himnario estándar, sin reproducción de video.
+Vista de una edición anterior de Linux. Windows, Windows Legacy, macOS y Linux 2.1.7 añaden favoritos, recientes y la nueva guía de ayuda. macOS utiliza sus controles de ventana nativos. Windows Legacy se centra en el himnario estándar, sin reproducción de video.
 
 </details>
 
