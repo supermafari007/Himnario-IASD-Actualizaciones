@@ -40,7 +40,7 @@ Esta edición conserva Solo letra, Instrumental y Cantado; no reproduce videos.
 Descarga un paquete propio de 3,87 GB y consulta un manifiesto exclusivo. Las
 ediciones actuales mantienen sus recursos completos.
 
-La versión **2.1.7** incluye favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy y Linux; recientes se borra al cerrar el programa.
+La versión **2.1.7** incluye favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy, macOS y Linux; recientes se borra al cerrar el programa.
 
 Consulta la [guía de Windows Legacy](WINDOWS-LEGACY.md) para importar desde USB,
 reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias.
@@ -49,7 +49,7 @@ reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias
 
 ## Instalación en macOS — Intel y Apple Silicon
 
-Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS mantienen las funciones de la versión 2.1.6.
+Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan las novedades de la versión **2.1.7**.
 
 | Edición | Versiones compatibles de macOS |
 | --- | --- |
@@ -62,7 +62,13 @@ Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS mantienen l
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-La versión vigente de macOS es la **2.1.6**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
+La versión vigente de macOS es la **2.1.7**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
+
+### Novedades de macOS 2.1.7
+
+**Favoritos** conserva los himnos entre aperturas, permite buscar, deshacer y respaldar o recuperar la lista con los paneles de archivos de macOS. El respaldo JSON es compatible con las otras ediciones. **Recientes** guarda únicamente los himnos reproducidos durante la sesión; desde ambos paneles, el signo **+** añade himnos a la lista de reproducción.
+
+La guía del botón **?** incluye el semáforo de la ventana, la barra de título nativa y los atajos de macOS. Sus indicaciones se ajustan al tamaño de la ventana y a la posición de cada control.
 
 ### Reparación y desinstalación en macOS
 
@@ -77,7 +83,7 @@ La limpieza completa requiere usar el menú del Himnario. Mover únicamente la a
 La firma es ad hoc, sin notarización de Apple. Si macOS bloquea la apertura, consulta [qué hacer al abrir la aplicación por primera vez](AYUDA.md#macos-no-abre) y la [guía de Apple](https://support.apple.com/es-cl/guide/mac-help/mh40616/mac).
 
 
-Los DMG incluyen fondo musical, acceso a Applications e instrucciones LEEME_MAC.txt. La unidad montada utiliza el icono del Himnario. Arrastra la aplicación a Applications, expulsa la unidad y abre la copia instalada en Aplicaciones.
+Los DMG incluyen fondo musical, acceso a Applications e instrucciones LEEME_MAC.txt, con iconos alineados, etiquetas más legibles y una distribución que deja visibles los tres elementos. La unidad montada utiliza el icono del Himnario. Arrastra la aplicación a Applications, expulsa la unidad y abre la copia instalada en Aplicaciones.
 
 <a id="instalar-linux"></a>
 
@@ -95,7 +101,7 @@ Abre **Himnario Adventista** desde el menú. Al primer inicio, pulsa **Descargar
 
 El paquete instala un perfil AppArmor exclusivo de `/usr/bin/himnario-adventista`, autorizado para permitir el aislamiento de WebKit en Ubuntu. No altera las restricciones generales del sistema. Se retira al desinstalar y se elimina al purgar el paquete.
 
-La versión **2.1.7** incluye favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy y Linux; recientes se borra al cerrar el programa.
+La versión **2.1.7** incluye favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy, macOS y Linux; recientes se borra al cerrar el programa.
 
 ### Desinstalación en Linux
 
