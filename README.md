@@ -8,11 +8,11 @@ Letras, música cantada e instrumental y videos para acompañar el canto en la i
 
 **[Descargas](#descargas)** · **[Primer inicio](#primer-inicio)** · **[Guía de instalación](docs/GUIA.md)** · **[Ayuda](docs/AYUDA.md)**
 
-## Windows 2.1.8 · las demás ediciones continúan en 2.1.7
+## Windows y macOS 2.1.8 · Windows Legacy y Linux 2.1.7
 
-**Windows 10/11 x64** incorpora Temas y sugerencias por necesidad u ocasión, presentación en una segunda pantalla, recursos descargables por componentes desde GitHub y una apertura más ágil. Conserva los recursos y las preferencias de instalaciones anteriores.
+**Windows 10/11 x64 y macOS Intel/Apple Silicon** incorporan Temas y sugerencias por necesidad u ocasión, presentación en una segunda pantalla, recursos descargables por componentes desde GitHub y una apertura más ágil. Conservan los recursos y las preferencias de instalaciones anteriores.
 
-**Windows Legacy, macOS Intel/Apple Silicon y Linux mantienen la versión 2.1.7.** Sus descargas siguen disponibles en la tabla siguiente.
+**Windows Legacy y Linux mantienen la versión 2.1.7.** Sus descargas siguen disponibles en la tabla siguiente.
 
 ### Funciones compartidas de la versión 2.1.7
 
@@ -28,8 +28,8 @@ En macOS, la ayuda se adapta a los controles nativos y los DMG presentan una dis
 | --- | --- |
 | **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.8 · 54,8 MB · EXE |
 | **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.7 · 7,3 MB · EXE x86 |
-| **Mac · Apple Silicon**<br>Chip M1 o posterior · Tahoe, Golden Gate y posteriores |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.7 · 4,1 MB · DMG |
-| **Mac · Intel**<br>Procesador Intel · Ventura, Sonoma, Sequoia y Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.7 · 4,2 MB · DMG |
+| **Mac · Apple Silicon**<br>Chip M1 o posterior · Tahoe, Golden Gate y posteriores |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.8 · 6,2 MB · DMG |
+| **Mac · Intel**<br>Procesador Intel · Ventura, Sonoma, Sequoia y Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.8 · 6,2 MB · DMG |
 | **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+, Zorin OS 18 o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.7 · 1,3 MB · DEB |
 | **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.7 · 1,3 MB · DEB |
 
@@ -65,19 +65,19 @@ WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su int
 ## Primer inicio
 
 1. **Instala y abre el Himnario.** En Windows ejecuta el EXE; en macOS abre el DMG y arrastra la app a **Aplicaciones**; en Linux abre el DEB con el instalador de software.
-2. **Descarga los recursos que necesitas.** En Windows 2.1.8 elige los componentes; en las otras ediciones pulsa **Descargar ahora**. Puedes usar **Elegir carpeta** para guardarlos en otro disco.
+2. **Descarga los recursos que necesitas.** En Windows y macOS 2.1.8 elige los componentes; en Windows Legacy y Linux pulsa **Descargar ahora**. Puedes usar **Elegir carpeta** para guardarlos en otro disco.
 3. **Espera a que se integren los recursos.** Al terminar, pulsa **Volver al Himnario**. Ya podrás reproducir el contenido descargado sin conexión.
 
-> **Windows 2.1.8:** el asistente muestra el tamaño de los componentes seleccionados y comprueba el espacio necesario. Letras 2.0 se descarga en dos partes y se instala como un solo componente; puedes conservar la música y los videos que ya tienes.
+> **Windows y macOS 2.1.8:** el asistente muestra el tamaño de los componentes seleccionados y comprueba el espacio necesario. Letras 2.0 se descarga en dos partes y se instala como un solo componente; puedes conservar la música y los videos que ya tienes.
 >
-> **macOS y Linux 2.1.7:** el paquete multimedia pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y la instalación. Puedes pausar y continuar la descarga desde el asistente. Windows Legacy usa un paquete separado de **3,87 GB**, con unos **8,0 GB libres** durante su instalación.
+> **Linux 2.1.7:** el paquete multimedia pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y la instalación. Puedes pausar y continuar la descarga desde el asistente. Windows Legacy usa un paquete separado de **3,87 GB**, con unos **8,0 GB libres** durante su instalación.
 
 **[Instalar en Windows](docs/GUIA.md#instalar-windows)** · **[Instalar en Windows Legacy](docs/GUIA.md#instalar-windows-legacy)** · **[Instalar en macOS](docs/GUIA.md#instalar-macos)** · **[Instalar en Linux](docs/GUIA.md#instalar-linux)**
 
-### Novedades de Windows 2.1.8
+### Novedades de Windows y macOS 2.1.8
 
 - **Temas y sugerencias:** busca por necesidad u ocasión, con frases como «término del culto» y accesos a Diezmo y Ofrendas, Bautismo, Santa Cena, Presentación de un niño, Matrimonio y Funerales. Cada sugerencia explica su relación con la letra; puedes seleccionarla, guardarla o añadirla a la lista.
-- **Dos pantallas:** con el escritorio extendido, el menú aparece en la principal de Windows y la secundaria espera con una portada. Recibe la reproducción mientras preparas otros himnos desde la principal. Con una sola pantalla funciona como siempre.
+- **Dos pantallas:** con el escritorio extendido, el menú aparece en la principal definida por el sistema y la secundaria espera con una portada. Recibe la reproducción mientras preparas otros himnos desde la principal. Con una sola pantalla funciona como siempre.
 - **Recursos por componentes:** descarga, actualiza o repara Letras, Cantado, Instrumental o Video desde GitHub. Reconoce la biblioteca anterior y permite renovar solo las letras con **Letras 2.0**.
 - **Interfaz y apertura:** fondo y título restaurados, símbolos temáticos coherentes, ayuda visual actualizada y ajustes del arranque.
 
@@ -114,7 +114,7 @@ Abre **Buscar actualización** dentro del Himnario. Cada edición busca el insta
 
 Si faltan letras, música o videos, pulsa **Reparar Contenido Multimedia** en ese mismo diálogo. Se abrirá el asistente de descarga, con elección de carpeta, pausa, reanudación y reintento. Al finalizar, pulsa **Volver al Himnario**.
 
-**En Windows 2.1.8**, el asistente permite marcar solo los componentes que deseas descargar o reparar. Letras 2.0 se verifica e instala desde sus dos partes sin volver a descargar la música. La biblioteca procedente del paquete completo anterior se conserva y sigue funcionando.
+**En Windows y macOS 2.1.8**, el asistente permite marcar solo los componentes que deseas descargar o reparar. Letras 2.0 se verifica e instala desde sus dos partes sin volver a descargar la música. La biblioteca procedente del paquete completo anterior se conserva y sigue funcionando.
 
 Las actualizaciones normales conservan tus recursos y preferencias. La reparación vuelve a instalar el contenido oficial y puede sustituir archivos multimedia personalizados.
 

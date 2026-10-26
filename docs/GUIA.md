@@ -26,7 +26,7 @@ La edición para Windows 10/11 de 64 bits incorpora **Favoritos**, **Recientes**
 
 **Componentes multimedia:** el asistente ofrece Letras, Cantado, Instrumental y Video desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
 
-Abre **Buscar actualización** para recibir la 2.1.8. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy, macOS y Linux continúan en 2.1.7.
+Abre **Buscar actualización** para recibir la 2.1.8. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy y Linux continúan en 2.1.7; macOS Intel y Apple Silicon también disponen de 2.1.8.
 
 ### Desinstalación en Windows
 
@@ -55,7 +55,7 @@ reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias
 
 ## Instalación en macOS — Intel y Apple Silicon
 
-Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan las novedades de la versión **2.1.7**.
+Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan las novedades de la versión **2.1.8**.
 
 | Edición | Versiones compatibles de macOS |
 | --- | --- |
@@ -64,13 +64,24 @@ Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan 
 
 1. Descarga el DMG de tu procesador.
 2. Ábrelo y arrastra **Himnario Adventista** a **Aplicaciones**.
-3. Abre el Himnario. Si faltan recursos, pulsa **Descargar ahora** o usa **Elegir carpeta** para guardarlos en otro disco.
+3. Abre el Himnario. Elige los componentes multimedia que necesitas o usa **Elegir carpeta** para seleccionar tu biblioteca o guardarlos en otro disco.
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-La versión vigente de macOS es la **2.1.7**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
+La versión vigente de macOS es la **2.1.8**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
 
-### Novedades de macOS 2.1.7
+### Novedades de macOS 2.1.8
+
+**Temas y sugerencias:** el botón de temas conserva las categorías originales y añade Buscar un himno. Puedes escribir una necesidad o una frase como «un himno para terminar el culto», o usar accesos como Diezmo y Ofrendas, Bautismo, Santa Cena, Presentación de un niño, Matrimonio y Funerales. Las sugerencias explican su relación con la letra y permiten seleccionar, guardar en favoritos o añadir a la lista.
+
+**Otra pantalla:** configura la pantalla secundaria como escritorio extendido en los ajustes de macOS. Al abrir, el menú se sitúa en la principal definida por el sistema y la secundaria muestra una portada de espera. El icono de monitor, arriba a la izquierda, permite cambiar el destino. Al reproducir recibe el himno; la principal conserva el menú para preparar los siguientes. Ambas vistas se ocultan y recuperan al minimizar o restaurar el Himnario. Con una pantalla funciona como siempre.
+
+**Recursos por componentes:** Letras, Cantado, Instrumental y Video se descargan o reparan desde GitHub por separado. La biblioteca completa anterior se reconoce como instalada. Se ofrece actualizar solo Letras a 2.0; el asistente gestiona sus dos ZIP y comprueba su integridad antes de sustituirlas. La música y los videos no seleccionados se conservan.
+
+La ayuda del botón **?** se actualiza a estas funciones y conserva las indicaciones de los controles nativos de macOS.
+
+### Favoritos y recientes
+
 
 **Favoritos** conserva los himnos entre aperturas, permite buscar, deshacer y respaldar o recuperar la lista con los paneles de archivos de macOS. El respaldo JSON es compatible con las otras ediciones. **Recientes** guarda únicamente los himnos reproducidos durante la sesión; desde ambos paneles, el signo **+** añade himnos a la lista de reproducción.
 
@@ -78,7 +89,7 @@ La guía del botón **?** incluye el semáforo de la ventana, la barra de títul
 
 ### Reparación y desinstalación en macOS
 
-Desde **Buscar actualización > Reparar Contenido Multimedia** puedes volver a descargar el paquete oficial aunque no haya una nueva versión. El asistente pide confirmación, permite elegir carpeta, pausar, continuar y reintentar; al terminar, pulsa **Volver al Himnario**. La reparación detiene la reproducción y conserva los recursos anteriores si la instalación falla.
+Desde **Buscar actualización > Reparar contenido multimedia** puedes volver a descargar los componentes oficiales aunque no haya una nueva versión. Marca solo los que deseas reparar; puedes elegir carpeta, pausar, continuar y reintentar. Al terminar, pulsa **Volver al Himnario**. La reparación detiene la reproducción y conserva el contenido anterior si la instalación falla.
 
 Para retirar la aplicación y sus datos, abre el menú del Himnario en la barra de macOS y selecciona **Desinstalar Himnario…**. Tras confirmar, se eliminan los recursos, las descargas temporales, los instaladores, las preferencias y los datos web de la aplicación; la app se envía a la Papelera. También se limpian las ubicaciones multimedia registradas en otros discos. Conecta esos discos antes de desinstalar. Los archivos personalizados guardados dentro de Letra, Musica o Video Cantado se eliminan; los documentos y listas exportados fuera de esas carpetas se conservan.
 
