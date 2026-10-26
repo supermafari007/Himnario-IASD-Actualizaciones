@@ -26,7 +26,7 @@ El programa y los recursos multimedia se distribuyen por separado. Primero insta
 
 ## ¿Cuánto espacio y conexión necesito?
 
-**Windows y macOS 2.1.8** muestran el tamaño según los componentes seleccionados y comprueba el espacio para descargar e instalar. Letras 2.0 se ofrece en dos partes, gestionadas automáticamente; no necesitas renovar la música que ya tienes.
+**Windows 2.1.9 y macOS 2.1.8** muestran el tamaño según los componentes seleccionados y comprueba el espacio para descargar e instalar. Letras 2.0 se ofrece en dos partes, gestionadas automáticamente; no necesitas renovar la música que ya tienes.
 
 **Linux 2.1.7:** el paquete multimedia pesa **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y extracción. Haz esta descarga antes de necesitar el Himnario en una reunión; su duración depende de tu conexión. Puedes pausarla y continuarla desde el asistente.
 
@@ -46,17 +46,23 @@ Vuelve al asistente y utiliza **Continuar descarga** o **Reintentar descarga**, 
 
 Abre **Buscar actualización > Reparar Contenido Multimedia**. Confirma la reparación, elige la carpeta si lo necesitas y espera a que se integre el paquete. Al finalizar, pulsa **Volver al Himnario**.
 
-En Windows y macOS 2.1.8 marca solo los componentes que deseas reparar. Los no seleccionados se conservan. La biblioteca instalada desde el paquete anterior se reconoce sin descargarla nuevamente.
+En Windows 2.1.9 y macOS 2.1.8 marca solo los componentes que deseas reparar. Los no seleccionados se conservan. La biblioteca instalada desde el paquete anterior se reconoce sin descargarla nuevamente.
 
 La reparación reinstala el contenido oficial y puede reemplazar archivos personalizados guardados dentro de las carpetas multimedia. Guarda una copia de esos archivos si deseas conservarlos.
 
 ## ¿Cómo proyecto sin mostrar el menú al público?
 
-En **Windows y macOS 2.1.8**, conecta otra pantalla y configúrala como escritorio extendido desde los ajustes de pantallas de tu sistema. Al abrir, la principal definida por el sistema conserva el menú y la secundaria muestra la portada de espera. Pulsa el icono de monitor para cambiar el destino. Al lanzar un himno, la secundaria recibe la reproducción; al detenerlo vuelve a la portada. Con una sola pantalla funciona la vista habitual.
+En **Windows 2.1.9 y macOS 2.1.8**, conecta otra pantalla y configúrala como escritorio extendido desde los ajustes de pantallas de tu sistema. Al abrir, la principal definida por el sistema conserva el menú y la secundaria muestra la portada de espera. Pulsa el icono de monitor para cambiar el destino. Al lanzar un himno, la secundaria recibe la reproducción; al detenerlo vuelve a la portada. Con una sola pantalla funciona la vista habitual.
+
+### Control de la segunda pantalla en Windows 2.1.9
+
+El panel fijo muestra el estado y el himno que se está reproduciendo. Puedes avanzar, retroceder, detener, ocultar la letra o minimizar la secundaria. **Ocultar letra** deja la portada de espera y mantiene el audio; sigue activado aunque selecciones otros himnos, hasta que lo pulses otra vez. Al cerrar y volver a abrir, la letra empieza visible. Cada ventana se minimiza por separado.
+
+Puedes conectar o desconectar una pantalla con el programa abierto. Si Windows está en Duplicar con dos salidas activas, el Himnario intenta extenderlas temporalmente. Al salir recupera la configuración inicial si las pantallas siguen conectadas y no has cambiado tú la distribución. Si el controlador no lo permite, configura **Extender estas pantallas** en Windows. macOS 2.1.8 mantiene su comportamiento anterior.
 
 ## ¿Cómo busco un himno para una ocasión?
 
-En **Windows y macOS 2.1.8**, abre el botón de temas y elige **Buscar un himno**. Escribe una necesidad, un título o frases como «término del culto»; también puedes usar los accesos de ceremonias y servicios. Las sugerencias explican su relación con la letra y permiten guardar favoritos o preparar la lista. La X limpia la consulta. Al reproducir, el panel vuelve al inicio.
+En **Windows 2.1.9 y macOS 2.1.8**, abre el botón de temas y elige **Buscar un himno**. Escribe una necesidad, un título o frases como «término del culto»; también puedes usar los accesos de ceremonias y servicios. Las sugerencias explican su relación con la letra y permiten guardar favoritos o preparar la lista. La X limpia la consulta. Al reproducir, el panel vuelve al inicio.
 
 <a id="macos-no-abre"></a>
 

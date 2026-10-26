@@ -16,17 +16,19 @@ El instalador es un único archivo y no necesita archivos `.bin` adicionales. Si
 
 En Windows, puedes mover la ventana desde el título o la franja superior entre los botones. F11 y el botón superior alternan la pantalla completa sin bordes y recuperan el tamaño y la posición anteriores. En **Buscar actualización**, la frase **Reparar Contenido Multimedia** abre el asistente del primer inicio: permite elegir carpeta, pausar, continuar o reintentar la descarga y volver al Himnario al terminar.
 
-### Novedades de Windows 2.1.8
+### Novedades de Windows 2.1.9
 
 La edición para Windows 10/11 de 64 bits incorpora **Favoritos**, **Recientes** de la sesión y una guía visual renovada al pulsar **?**. El corazón guarda o retira favoritos; el signo **+** permite añadir himnos a la lista de reproducción. Puedes guardar y recuperar tus favoritos desde **Respaldar favoritos**. Recientes se borra al cerrar el programa.
 
 **Temas y sugerencias** conserva las categorías y permite buscar por necesidad, situación u ocasión. Prueba «un himno para terminar el culto» o los accesos de ceremonias; cada sugerencia incluye una explicación. Puedes seleccionar el himno, guardarlo en favoritos o añadirlo a la lista sin reproducirlo todavía.
 
-**Dos pantallas:** configura Windows en **Extender estas pantallas** y abre el Himnario. El menú se sitúa en la principal de Windows y la secundaria abre una portada de espera a pantalla completa. El botón de monitor, arriba a la izquierda, permite elegir dónde reproducir. La principal conserva el menú; ambas ventanas se minimizan y restauran juntas. Con un solo monitor se mantiene la vista habitual.
+**Dos pantallas:** la principal definida por Windows conserva el menú y la secundaria abre una portada de espera a pantalla completa. El botón de monitor, arriba a la izquierda, permite elegir el destino. Windows 2.1.9 responde al conectar o desconectar otra pantalla. Si hay dos salidas activas en Duplicar, intenta extenderlas temporalmente y recuperar el estado inicial al salir; respeta los cambios posteriores del usuario. Con una sola pantalla se mantiene la vista habitual.
+
+El panel fijo de la secundaria muestra el himno en reproducción y permite navegar, detener, ocultar la letra o minimizar esa ventana. **Ocultar letra** muestra la portada manteniendo el audio y conserva esa elección incluso al cambiar de himno, hasta pulsar otra vez el botón; cada nueva sesión comienza con la letra visible. Minimizar el menú afecta solo al menú. La presentación se minimiza y restaura desde su propio control. La guía **?** explica los controles con sus iconos actuales.
 
 **Componentes multimedia:** el asistente ofrece Letras, Cantado, Instrumental y Video desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
 
-Abre **Buscar actualización** para recibir la 2.1.8. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy y Linux continúan en 2.1.7; macOS Intel y Apple Silicon también disponen de 2.1.8.
+Abre **Buscar actualización** para recibir la 2.1.9. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy y Linux continúan en 2.1.7; macOS Intel y Apple Silicon mantienen 2.1.8.
 
 ### Desinstalación en Windows
 
