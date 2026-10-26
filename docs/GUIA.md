@@ -16,11 +16,17 @@ El instalador es un único archivo y no necesita archivos `.bin` adicionales. Si
 
 En Windows, puedes mover la ventana desde el título o la franja superior entre los botones. F11 y el botón superior alternan la pantalla completa sin bordes y recuperan el tamaño y la posición anteriores. En **Buscar actualización**, la frase **Reparar Contenido Multimedia** abre el asistente del primer inicio: permite elegir carpeta, pausar, continuar o reintentar la descarga y volver al Himnario al terminar.
 
-### Novedades de Windows 2.1.7
+### Novedades de Windows 2.1.8
 
 La edición para Windows 10/11 de 64 bits incorpora **Favoritos**, **Recientes** de la sesión y una guía visual renovada al pulsar **?**. El corazón guarda o retira favoritos; el signo **+** permite añadir himnos a la lista de reproducción. Puedes guardar y recuperar tus favoritos desde **Respaldar favoritos**. Recientes se borra al cerrar el programa.
 
-Abre **Buscar actualización** para recibir la 2.1.7. La actualización conserva tus recursos multimedia y preferencias.
+**Temas y sugerencias** conserva las categorías y permite buscar por necesidad, situación u ocasión. Prueba «un himno para terminar el culto» o los accesos de ceremonias; cada sugerencia incluye una explicación. Puedes seleccionar el himno, guardarlo en favoritos o añadirlo a la lista sin reproducirlo todavía.
+
+**Dos pantallas:** configura Windows en **Extender estas pantallas** y abre el Himnario. El menú se sitúa en la principal de Windows y la secundaria abre una portada de espera a pantalla completa. El botón de monitor, arriba a la izquierda, permite elegir dónde reproducir. La principal conserva el menú; ambas ventanas se minimizan y restauran juntas. Con un solo monitor se mantiene la vista habitual.
+
+**Componentes multimedia:** el asistente ofrece Letras, Cantado, Instrumental y Video desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
+
+Abre **Buscar actualización** para recibir la 2.1.8. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy, macOS y Linux continúan en 2.1.7.
 
 ### Desinstalación en Windows
 
