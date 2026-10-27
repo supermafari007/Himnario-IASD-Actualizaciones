@@ -28,7 +28,7 @@ El panel fijo de la secundaria muestra el himno en reproducción y permite naveg
 
 **Componentes multimedia:** el asistente ofrece Letras, Cantado, Instrumental y Video desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
 
-Abre **Buscar actualización** para recibir la 2.1.9. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy y Linux continúan en 2.1.7; macOS Intel y Apple Silicon mantienen 2.1.8.
+Abre **Buscar actualización** para recibir la 2.1.9. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy, Linux y macOS Intel/Apple Silicon reciben las funciones compartidas en 2.1.8.
 
 ### Desinstalación en Windows
 
@@ -41,14 +41,13 @@ Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloquea
 ## Instalación en Windows Legacy — XP/Vista/7/8
 
 Descarga **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** desde la publicación
-2.1.7. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
+2.1.8. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
 Vista requiere SP2 y Windows 7, SP1. El procesador debe admitir SSE2.
 
 Esta edición conserva Solo letra, Instrumental y Cantado; no reproduce videos.
-Descarga un paquete propio de 3,87 GB y consulta un manifiesto exclusivo. Las
-ediciones actuales mantienen sus recursos completos.
+Desde la 2.1.8 descarga Letras, Cantado e Instrumental por componentes desde GitHub. Reconoce la biblioteca anterior y ofrece Letras 2.0 sin volver a descargar la música. Incorpora Temas y sugerencias y presentación en una segunda pantalla extendida. Al minimizar se ocultan ambas ventanas y se restauran juntas.
 
-La versión **2.1.7** incluye favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy, macOS y Linux; recientes se borra al cerrar el programa.
+Desde la versión **2.1.7** se incluyen favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy, macOS y Linux; recientes se borra al cerrar el programa.
 
 Consulta la [guía de Windows Legacy](WINDOWS-LEGACY.md) para importar desde USB,
 reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias.
@@ -112,15 +111,21 @@ Para **Ubuntu 24.04 o posterior, Linux Mint 22 o posterior, Zorin OS 18 y Debian
 
     sudo apt install ./Himnario_Adventista_Linux_AMD64.deb
 
-Usa el nombre ARM64 si corresponde. El instalador del Himnario pesa aproximadamente **1,3 MB**; el gestor de paquetes descarga GTK, WebKitGTK y decodificadores nativos si faltan. La primera instalación necesita conexión.
+Usa el nombre ARM64 si corresponde. El instalador del Himnario pesa aproximadamente **3,0 MB**; el gestor de paquetes descarga GTK, WebKitGTK y decodificadores nativos si faltan. La primera instalación necesita conexión.
 
-Abre **Himnario Adventista** desde el menú. Al primer inicio, pulsa **Descargar ahora** para integrar la multimedia o **Elegir carpeta** para guardarla en otro disco. La ventana usa los botones propios del Himnario, como Windows; F11 alterna pantalla completa. En modo ventana se puede mover desde el título o la franja superior y redimensionar desde los bordes.
+Abre **Himnario Adventista** desde el menú. Al primer inicio, selecciona Letras, Cantado, Instrumental o Video y pulsa **Descargar ahora** para integrar la multimedia o **Elegir carpeta** para guardarla en otro disco. La ventana usa los botones propios del Himnario, como Windows; F11 alterna pantalla completa. En modo ventana se puede mover desde el título o la franja superior y redimensionar desde los bordes.
 
 **Buscar actualización > Reparar Contenido Multimedia** abre el mismo asistente del primer inicio, con confirmación, carpeta, pausa, reanudación y reintento. Al terminar, pulsa **Volver al Himnario**. Cada procesador recibe únicamente su paquete Linux, verificado con SHA-256.
 
 El paquete instala un perfil AppArmor exclusivo de `/usr/bin/himnario-adventista`, autorizado para permitir el aislamiento de WebKit en Ubuntu. No altera las restricciones generales del sistema. Se retira al desinstalar y se elimina al purgar el paquete.
 
-La versión **2.1.7** incluye favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy, macOS y Linux; recientes se borra al cerrar el programa.
+Desde la versión **2.1.7** se incluyen favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy, macOS y Linux; recientes se borra al cerrar el programa.
+
+### Novedades de Linux 2.1.8
+
+Temas y sugerencias conserva las categorías y añade búsquedas por ocasión o necesidad, con explicaciones y acciones de favoritos y lista. Los recursos se descargan por componentes desde GitHub; Letras 2.0 se instala desde sus dos partes y la biblioteca anterior se conserva. Con el escritorio extendido, el menú queda en la principal definida por el sistema y la secundaria espera con la portada hasta reproducir. Se minimizan y restauran juntas. La guía visual y los gráficos se actualizan.
+
+Esta entrega se preparó y verificó desde Windows, sin una nueva ejecución de GTK/WebKit nativos ni del paquete ARM64.
 
 ### Desinstalación en Linux
 
@@ -130,15 +135,15 @@ Eliminar solo el paquete desde el gestor de software conserva los datos del usua
 
 ## Recursos multimedia — letras, música y videos
 
-Los instaladores no incluyen el paquete multimedia. La aplicación lo descarga del [dataset configurado en Hugging Face](https://huggingface.co/datasets/supermafari007/himnario-recursos) y consulta su versión en el [manifiesto multimedia](https://gist.github.com/supermafari007/bfa044dcec126d836bfea974e2a95cb3).
+Los instaladores no incluyen la biblioteca multimedia. Las ediciones actuales descargan los [componentes oficiales desde GitHub](https://github.com/supermafari007/Himnario-IASD-Recursos). Cada plataforma consulta su canal estable.
 
-Las ediciones actuales usan el paquete 1.0 de **4,21 GB**. Reserva aproximadamente **8,6 GB libres** durante la descarga y extracción. Windows Legacy usa un paquete separado de **3,87 GB**, necesita unos **8,0 GB libres** y solo incluye letras y música. Una vez instalados los recursos, puedes reproducirlos sin conexión.
+El asistente calcula el tamaño y espacio necesario según los componentes elegidos. Letras 2.0 se gestiona desde dos ZIP como una sola selección. Se reconocen los recursos instalados desde el paquete completo anterior. Legacy ofrece letras y música; las otras ediciones incluyen también los videos disponibles. Una vez instalados, funcionan sin conexión.
 
 ## Actualizaciones — programa y contenido multimedia
 
 El Himnario comprueba las actualizaciones al iniciar y desde **Buscar actualización**. Consulta las publicaciones del programa y el manifiesto multimedia. Cada edición selecciona su instalador correspondiente y verifica su integridad. Actualizar el programa conserva la multimedia existente.
 
-Si eliges **Más tarde**, al cerrar se prepara la actualización pendiente. En macOS se abre el DMG verificado para que arrastres la app a Aplicaciones; cada procesador recibe su propia edición. Si solo hay recursos multimedia pendientes, se instalan antes de cerrar.
+Si eliges **Más tarde**, al cerrar se prepara la actualización pendiente. En macOS se abre el DMG verificado para que arrastres la app a Aplicaciones; cada procesador recibe su propia edición. Los recursos se actualizan o reparan al seleccionar expresamente sus componentes desde el asistente; no es necesario descargarlos de nuevo al actualizar únicamente el programa.
 
 Las notas usan un encabezado general y secciones por plataforma. Una publicación que solo contiene Windows se identifica como Windows; las publicaciones compartidas indican las plataformas y arquitecturas que realmente incluyen.
 

@@ -1,57 +1,67 @@
-# Windows Legacy 2.1.7
+# Windows Legacy 2.1.8
 
 Edición nativa de 32 bits para Windows XP SP3 (x86), Vista SP2 y Windows 7 SP1/8/8.1.
-Requiere procesador con SSE2. Ofrece Solo letra, Instrumental y Cantado con letras
-sincronizadas. No incluye reproducción de video ni activaciones ocultas.
+Requiere procesador con SSE2. Incluye Solo letra, Instrumental y Cantado con letras
+sincronizadas. El instalador incorpora el reproductor; no requiere .NET, WebView2
+ni instalar VLC. No incluye video ni modos ocultos.
 
 ## Instalar o actualizar
 
 1. Cierra el Himnario Legacy.
-2. Descarga y ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.7/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
-3. La actualización conserva las preferencias y la biblioteca.
+2. Ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
+3. La actualización conserva biblioteca, favoritos y preferencias.
 
-El instalador incluye el reproductor. No necesita .NET, WebView2 ni instalar VLC.
-Windows actual conserva su instalador propio; ambas ediciones usan datos separados.
+## Letras y música por componentes
 
-## Letras y música
+El asistente descarga Letras, Cantado e Instrumental desde GitHub y permite elegir
+qué actualizar o reparar. Reconoce los recursos del paquete completo anterior.
+**Letras 2.0** se descarga en dos ZIP que el programa verifica e integra como un
+solo componente, conservando la música no seleccionada. Indica el tamaño y el
+espacio necesario para la selección y permite continuar una descarga interrumpida.
 
-Desde el primer inicio pulsa Descargar ahora, elige una biblioteca ya disponible
-o importa desde USB el ZIP oficial para Windows Legacy.
+El canal de esta edición es [media-manifest-windows-legacy.json](https://github.com/supermafari007/Himnario-IASD-Recursos/blob/main/media-manifest-windows-legacy.json).
+Puedes seleccionar una biblioteca existente o importar desde USB el ZIP completo
+oficial Legacy 1.0. Ese ZIP conserva las letras originales; después se ofrece
+su actualización a 2.0. Reparar vuelve a instalar solo los componentes marcados
+y puede sustituir archivos personalizados dentro de ellos.
 
-Legacy consulta exclusivamente [version-windows-legacy.json](https://gist.githubusercontent.com/supermafari007/bfa044dcec126d836bfea974e2a95cb3/raw/version-windows-legacy.json).
-El archivo version.json del mismo Gist sigue atendiendo a las ediciones actuales.
-El paquete Legacy pesa 3.865.943.190 bytes (3,87 GB), con 3.950.762.430 bytes al extraer.
-Reserva aproximadamente 8,0 GB libres durante la descarga e instalación.
+## Temas, sugerencias y listas
 
-[Descargar el ZIP Legacy para importar sin conexión](https://huggingface.co/datasets/supermafari007/himnario-recursos/resolve/main/Recursos_Multimedia_Himnario_1.0%20-%20Windows%20Legacy.zip?download=true).
+El catálogo contiene **613 himnos**. El botón de temas conserva las categorías y
+añade búsquedas por necesidad u ocasión, como «un himno para terminar el culto».
+Incluye accesos a Diezmo y Ofrendas, Bautismo, Santa Cena, Presentación de un niño,
+Matrimonio y Funerales. Las sugerencias explican su relación con la letra y permiten
+seleccionar, guardar en favoritos o añadir a la lista con **+**.
 
-Puedes pausar y continuar la descarga. Reparar Contenido Multimedia, dentro de
-Buscar actualización, reinstala Letra y Musica y puede sustituir archivos
-personalizados dentro de esas carpetas. Las otras carpetas no se modifican.
+Favoritos se conserva entre aperturas y admite respaldo JSON compatible con las
+otras ediciones. Recientes registra solo esta sesión y se borra al cerrar.
+La guía del botón **?** se adapta a los controles actuales.
 
-## Usar el himnario
+## Segunda pantalla
 
-Busca por número o título. Enter reproduce; Espacio pausa o continúa; las flechas
-cambian de diapositiva; Esc regresa al menú; F11 alterna ventana y pantalla completa.
-La ventana se arrastra desde su franja superior. El cursor se oculta durante la
-reproducción después de tres segundos de inactividad. Se mantiene la lista de
-reproducción y sus opciones de orden, mezcla, importación y exportación.
+Configura el escritorio extendido en Windows antes de abrir el Himnario. El menú
+permanece en la principal y la secundaria muestra la portada de espera; recibe
+las letras al reproducir. El icono de monitor cambia el destino, y los controles
+de la principal permiten avanzar, retroceder y detener. Las letras se adaptan al
+lienzo panorámico. Minimizar el Himnario minimiza ambas ventanas; al restaurar
+vuelven juntas. Con una pantalla se mantiene la reproducción habitual.
 
-Las listas antiguas con modo 3 pasan a Cantado normal, conservando los himnos.
+## Controles habituales
 
-## Favoritos, recientes y ayuda
-
-La versión **2.1.7** incluye favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy y Linux; recientes se borra al cerrar el programa.
+Enter reproduce; Espacio pausa o continúa; las flechas cambian de diapositiva;
+Esc regresa al menú; F11 alterna ventana y pantalla completa. Arrastra la ventana
+desde su franja superior. El cursor se oculta tras tres segundos de inactividad
+durante la reproducción. Se conservan las opciones de listas, mezcla y respaldo.
 
 ## Desinstalar
 
-Usa el panel de programas o el acceso Desinstalar. Las bibliotecas existentes que
-solo hayas seleccionado se conservan. Los recursos descargados y administrados
-por Legacy y sus preferencias se retiran; también los archivos personalizados
-dentro de sus carpetas de recursos. Los archivos exportados fuera se conservan.
+Usa el panel de programas o Desinstalar. Las bibliotecas existentes que solo hayas
+seleccionado se conservan. Los recursos descargados y administrados por Legacy y
+sus preferencias se retiran, incluidos archivos personalizados dentro de esas
+carpetas. Los documentos exportados fuera se conservan.
 
-## Verificación
+## Verificación de esta entrega
 
-Esta entrega se verifica en Windows anfitrión, con autopruebas y auditoría de las
-importaciones frente a XP SP3. Esa auditoría no sustituye la ejecución y escucha
-en cada sistema antiguo o máquina virtual.
+Se comprobó en Windows anfitrión la interfaz, reproducción, componentes y ciclo
+de instalación/reinstalación/desinstalación, además de auditar las importaciones
+de los binarios frente a XP SP3. No se repitió la ejecución en cada Windows antiguo.
