@@ -1,33 +1,44 @@
 <p align="center">
-  <img src="assets/portada.svg" alt="Himnario Adventista — letras, música y videos para Windows, macOS y Linux" width="1000" />
+  <img src="assets/portada.png" alt="Himnario Adventista — letras, música y videos para Windows, macOS y Linux" width="1000" />
 </p>
 
 # Descarga el Himnario para tu equipo
 
-Letras, música cantada e instrumental y videos para acompañar el canto en la iglesia y en casa. Elige tu edición, instala la aplicación y descarga sus recursos desde el propio Himnario.
+**613 himnos** para acompañar el canto en la iglesia y en casa, con letras, música cantada e instrumental y videos disponibles. Elige la edición de tu equipo, instala la aplicación y descarga los recursos que necesitas desde el propio Himnario.
 
-**[Descargas](#descargas)** · **[Primer inicio](#primer-inicio)** · **[Guía de instalación](docs/GUIA.md)** · **[Ayuda](docs/AYUDA.md)**
+**[Descargas](#descargas)** · **[Funciones](#que-ofrece-el-himnario)** · **[Primer inicio](#primer-inicio)** · **[Guía de instalación](docs/GUIA.md)** · **[Ayuda](docs/AYUDA.md)**
+
+<a id="que-ofrece-el-himnario"></a>
+
+## Qué ofrece el Himnario
+
+| Función | Qué puedes hacer |
+| --- | --- |
+| **613 himnos** | Buscar por número o título y reproducir Solo letra, Instrumental o Cantado. Windows moderno, macOS y Linux incluyen también los videos disponibles; Legacy se centra en letras y música. |
+| **Temas y sugerencias** | Explorar las categorías originales o escribir una necesidad, como «un himno para terminar el culto». Incluye accesos a Gratitud, Consuelo, Oración, Diezmo y Ofrendas, Bautismo, Santa Cena, Presentación de un niño, Matrimonio y Funerales, entre otros. Las sugerencias explican su relación con la letra. |
+| **Favoritos y recientes** | Guardar himnos con el corazón, buscar en tus favoritos, deshacer una eliminación y respaldarlos en JSON compatible entre ediciones. Recientes registra las reproducciones de la sesión y se borra al cerrar. |
+| **Listas de reproducción** | Preparar una lista, ordenar sus himnos, guardarla para otra ocasión y reproducirla de forma secuencial o aleatoria. El signo **+** permite añadir desde favoritos, recientes y sugerencias sin iniciar la reproducción. |
+| **Una o dos pantallas** | Usar el Himnario normalmente con una pantalla, o mantener el menú en la principal y enviar la reproducción a una TV, monitor o proyector. La secundaria espera con una portada; sus controles permiten navegar, ocultar las letras sin detener el audio y minimizar cada ventana por separado. |
+| **Recursos a tu medida** | Descargar, actualizar o reparar solo Letras, Cantado, Instrumental o Video, según tu edición. Elegir carpeta, pausar y continuar las descargas. Reconocer una biblioteca anterior y renovar solo las letras a **Letras 2.0**. |
+| **Ayuda y actualizaciones** | Recorrer una guía visual con el botón **?**, usar pantalla completa o ventana y comprobar nuevas versiones desde el programa. Cada edición recibe el instalador de su sistema y procesador. |
+
+**Una vez descargados los recursos, puedes utilizar el Himnario sin conexión.** Las actualizaciones normales conservan tu biblioteca, favoritos y preferencias. Las descargas de este repositorio no requieren iniciar sesión en GitHub.
 
 ## Versión 2.1.9 · Windows, macOS y Linux
 
-**Windows 10/11, Windows Legacy, macOS y Linux** incorporan Temas y sugerencias por necesidad u ocasión, presentación en una segunda pantalla, recursos descargables por componentes desde GitHub y una apertura más ágil. Conservan los recursos y las preferencias de instalaciones anteriores.
+La **2.1.9 está disponible para todas las ediciones**: Windows 10/11, Windows Legacy, macOS Intel y Apple Silicon, y Linux AMD64/ARM64. Esta actualización mejora el manejo de la presentación, la respuesta de la interfaz y la ayuda visual. Conserva la biblioteca multimedia, los favoritos y las preferencias existentes.
 
-**Todas las ediciones reciben 2.1.9.** Windows Legacy conserva Solo letra, Instrumental y Cantado; Windows moderno, macOS y Linux mantienen también los videos disponibles.
+### Novedades de la 2.1.9
 
-### Novedades de la versión 2.1.9
+- **Panel de presentación fijo:** consulta el himno que se está reproduciendo y avanza, retrocede o detén la reproducción mientras preparas el siguiente desde el menú.
+- **Ocultar letra:** deja la portada de espera en la pantalla secundaria y mantiene el audio. La elección se conserva al cambiar de himno durante la sesión; pulsa de nuevo el ojo para mostrar las letras. Al volver a abrir, empiezan visibles.
+- **Minimización independiente:** minimiza el menú o la pantalla secundaria por separado y recupera la presentación desde su control.
+- **Pantallas en caliente:** conecta o desconecta otra pantalla sin reiniciar. Con una sola pantalla se conserva el funcionamiento habitual.
+- **Iconos y ayuda renovados:** modos de reproducción e indicaciones de la guía ajustados a los controles actuales de cada sistema.
 
-- **Control de la presentación:** panel fijo con estado del himno, navegación, detener y ocultar letra. Ocultar muestra la portada de espera y mantiene el audio; la elección se conserva al cambiar de himno hasta que la desactives. Al abrir de nuevo, la letra vuelve a estar visible.
-- **Ventanas independientes:** minimiza el menú o la presentación por separado, desde sus controles correspondientes.
-- **Pantallas en caliente:** conecta o desconecta una pantalla sin reiniciar. Con dos salidas activas duplicadas, el Himnario intenta ampliarlas temporalmente si el sistema lo permite y recuperar la configuración al cerrar, siempre que no la hayas cambiado después y las pantallas sigan conectadas.
-- **Interfaz coherente:** iconos de Cantado, Instrumental y reproducción ajustados; guía de ayuda actualizada.
+Con salidas duplicadas, se intenta una **ampliación temporal** cuando el sistema y el controlador lo permiten. Al cerrar se recupera la distribución anterior si las pantallas siguen conectadas y no la has cambiado. En XP/Vista configura Extender desde Windows; en Linux, la ampliación automática se prepara para GNOME/Zorin y X11, y otros escritorios o configuraciones especiales utilizan sus ajustes de pantalla.
 
-Disponible para **Windows 10/11 x64, Windows Legacy x86, macOS Intel/Apple Silicon y Linux AMD64/ARM64**. Conserva la biblioteca, los favoritos y las preferencias existentes. En Mac se mantienen el semáforo y los atajos nativos; el monitor queda arriba a la izquierda. En Windows Legacy, XP/Vista requieren configurar Extender desde Windows; Windows 7/8 intenta ampliación temporal si el controlador lo permite. En Linux, la ampliación temporal está disponible para GNOME/Zorin y X11; en otros escritorios o configuraciones especiales, usa los ajustes de pantalla del sistema.
-
-### Funciones compartidas de la versión 2.1.7
-
-Las ediciones de **Windows 10/11, Windows Legacy, macOS y Linux** incorporan favoritos, recientes de la sesión y una guía de ayuda renovada. Sus paneles se integran con la lista de reproducción y se adaptan al espacio de la ventana.
-
-En macOS, la ayuda se adapta a los controles nativos y los DMG presentan una distribución más clara y legible.
+**Windows Legacy** conserva Solo letra, Instrumental y Cantado. Las demás ediciones incluyen también los videos disponibles. [Consulta las notas completas de la 2.1.9](docs/NOTAS-2.1.9.md).
 
 ## Descargas
 
@@ -82,31 +93,6 @@ WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su int
 > **Windows Legacy:** ofrece Letras, Cantado e Instrumental. Las demás ediciones añaden Video. El asistente indica el espacio necesario según la selección; puedes conservar la biblioteca anterior y actualizar solo Letras.
 
 **[Instalar en Windows](docs/GUIA.md#instalar-windows)** · **[Instalar en Windows Legacy](docs/GUIA.md#instalar-windows-legacy)** · **[Instalar en macOS](docs/GUIA.md#instalar-macos)** · **[Instalar en Linux](docs/GUIA.md#instalar-linux)**
-
-### Funciones compartidas desde la versión 2.1.8
-
-- **Temas y sugerencias:** busca por necesidad u ocasión, con frases como «término del culto» y accesos a Diezmo y Ofrendas, Bautismo, Santa Cena, Presentación de un niño, Matrimonio y Funerales. Cada sugerencia explica su relación con la letra; puedes seleccionarla, guardarla o añadirla a la lista.
-- **Dos pantallas:** con el escritorio extendido, el menú aparece en la principal definida por el sistema y la secundaria espera con una portada. Recibe la reproducción mientras preparas otros himnos desde la principal. Con una sola pantalla funciona como siempre.
-- **Recursos por componentes:** descarga, actualiza o repara Letras, Cantado, Instrumental o Video desde GitHub (Legacy ofrece letras y música). Reconoce la biblioteca anterior y permite renovar solo las letras con **Letras 2.0**.
-- **Interfaz y apertura:** fondo y título restaurados, símbolos temáticos coherentes, ayuda visual actualizada y ajustes del arranque.
-
-### Novedades compartidas de la versión 2.1.7
-
-- **Favoritos:** guarda himnos con el corazón, búscalos y consulta tu lista en el orden en que los añadiste. Puedes deshacer una eliminación y respaldar o recuperar tus favoritos.
-- **Recientes:** accede a los himnos reproducidos durante la sesión, del más reciente al más antiguo. El historial se borra al cerrar el programa.
-- **Listas de reproducción:** añade himnos desde favoritos o recientes con el signo **+**, sin iniciar la reproducción automáticamente.
-- **Ayuda visual:** pulsa **?** para recorrer una guía de los controles, con indicaciones que se ajustan a la posición real de los botones.
-
-Estas novedades están disponibles en **Windows 10/11, Windows Legacy, macOS y Linux**. Los respaldos de favoritos en JSON son compatibles entre estas ediciones. La actualización conserva tus recursos multimedia y preferencias.
-
-## Qué puedes hacer
-
-- Buscar entre **613 himnos** por número o título y explorar sus temas.
-- Mostrar las letras y reproducir música **cantada o instrumental**.
-- Reproducir videos en los himnos que tienen ese recurso disponible, en las ediciones actuales.
-- Preparar listas de reproducción y usar el modo secuencial o aleatorio.
-- Usar pantalla completa, mover la ventana y ajustar su tamaño.
-- Comprobar actualizaciones y reparar los recursos desde el programa.
 
 <details>
 <summary><strong>Ver la interfaz del Himnario</strong></summary>

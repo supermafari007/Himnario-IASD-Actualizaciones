@@ -90,7 +90,7 @@ Ejecuta solo la línea de tu procesador. El gestor de paquetes obtiene las depen
 
 ## Linux suena bajo o sube de golpe al salir con Esc
 
-Los paquetes actuales de **Linux 2.1.3** incluyen una corrección de sonido: mantienen el nivel original del archivo, respetan el volumen y la amplificación elegidos en Linux y evitan el salto de volumen al interrumpir un himno con Esc. También corrigen el cambio rápido entre himnos.
+Las ediciones actuales de **Linux** conservan las correcciones de sonido: mantienen el nivel original del archivo, respetan el volumen y la amplificación elegidos en Linux y evitan el salto de volumen al interrumpir un himno con Esc. También corrigen el cambio rápido entre himnos.
 
 Si descargaste un instalador anterior, cierra el Himnario y vuelve a descargar el [DEB de tu procesador](../README.md#descargas). Reinstálalo con una de estas líneas desde la carpeta de descarga:
 
