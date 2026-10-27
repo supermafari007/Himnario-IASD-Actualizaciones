@@ -54,11 +54,11 @@ La reparación reinstala el contenido oficial y puede reemplazar archivos person
 
 En **Windows, Windows Legacy, macOS y Linux actuales**, conecta otra pantalla y configúrala como escritorio extendido desde los ajustes de pantallas de tu sistema. Al abrir, la principal definida por el sistema conserva el menú y la secundaria muestra la portada de espera. Pulsa el icono de monitor para cambiar el destino. Al lanzar un himno, la secundaria recibe la reproducción; al detenerlo vuelve a la portada. Con una sola pantalla funciona la vista habitual.
 
-### Control de la segunda pantalla en Windows 2.1.9
+### Control de la segunda pantalla en Windows y macOS 2.1.9
 
 El panel fijo muestra el estado y el himno que se está reproduciendo. Puedes avanzar, retroceder, detener, ocultar la letra o minimizar la secundaria. **Ocultar letra** deja la portada de espera y mantiene el audio; sigue activado aunque selecciones otros himnos, hasta que lo pulses otra vez. Al cerrar y volver a abrir, la letra empieza visible. Cada ventana se minimiza por separado.
 
-Puedes conectar o desconectar una pantalla con el programa abierto. Si Windows está en Duplicar con dos salidas activas, el Himnario intenta extenderlas temporalmente. Al salir recupera la configuración inicial si las pantallas siguen conectadas y no has cambiado tú la distribución. Si el controlador no lo permite, configura **Extender estas pantallas** en Windows. Las ediciones 2.1.8 de macOS, Legacy y Linux requieren escritorio extendido configurado por el usuario y mantienen la minimización conjunta de ambas ventanas.
+Puedes conectar o desconectar una pantalla con el programa abierto. Si Windows está en Duplicar con dos salidas activas, el Himnario intenta extenderlas temporalmente. Al salir recupera la configuración inicial si las pantallas siguen conectadas y no has cambiado tú la distribución. Si el controlador no lo permite, configura **Extender estas pantallas** en Windows. macOS 2.1.9 también detecta pantallas durante el uso e intenta ampliarlas temporalmente cuando están duplicadas; si el sistema no lo permite, usa Ajustes del Sistema > Pantallas. La restauración respeta los cambios posteriores del usuario. Windows Legacy y Linux 2.1.8 requieren escritorio extendido configurado por el usuario y mantienen la minimización conjunta de ambas ventanas.
 
 ## ¿Cómo busco un himno para una ocasión?
 

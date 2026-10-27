@@ -8,20 +8,20 @@ Letras, música cantada e instrumental y videos para acompañar el canto en la i
 
 **[Descargas](#descargas)** · **[Primer inicio](#primer-inicio)** · **[Guía de instalación](docs/GUIA.md)** · **[Ayuda](docs/AYUDA.md)**
 
-## Windows 2.1.9 · macOS, Windows Legacy y Linux 2.1.8
+## Windows y macOS 2.1.9 · Windows Legacy y Linux 2.1.8
 
 **Windows 10/11, Windows Legacy, macOS y Linux** incorporan Temas y sugerencias por necesidad u ocasión, presentación en una segunda pantalla, recursos descargables por componentes desde GitHub y una apertura más ágil. Conservan los recursos y las preferencias de instalaciones anteriores.
 
-**Windows Legacy y Linux reciben la versión 2.1.8.** Legacy conserva Solo letra, Instrumental y Cantado; Linux mantiene también los videos disponibles. Las novedades exclusivas de Windows 2.1.9 se indican a continuación.
+**Windows Legacy y Linux reciben la versión 2.1.8.** Legacy conserva Solo letra, Instrumental y Cantado; Linux mantiene también los videos disponibles. Las novedades de Windows y macOS 2.1.9 se indican a continuación.
 
-### Novedades de Windows 2.1.9
+### Novedades de Windows y macOS 2.1.9
 
 - **Control de la presentación:** panel fijo con estado del himno, navegación, detener y ocultar letra. Ocultar muestra la portada de espera y mantiene el audio; la elección se conserva al cambiar de himno hasta que la desactives. Al abrir de nuevo, la letra vuelve a estar visible.
 - **Ventanas independientes:** minimiza el menú o la presentación por separado, desde sus controles correspondientes.
-- **Pantallas en caliente:** conecta o desconecta una pantalla sin reiniciar. Con dos salidas activas en Duplicar, el Himnario intenta usar Extender temporalmente y recuperar la configuración al cerrar, siempre que no la hayas cambiado después y las pantallas sigan conectadas.
+- **Pantallas en caliente:** conecta o desconecta una pantalla sin reiniciar. Con dos salidas activas duplicadas, el Himnario intenta ampliarlas temporalmente si el sistema lo permite y recuperar la configuración al cerrar, siempre que no la hayas cambiado después y las pantallas sigan conectadas.
 - **Interfaz coherente:** iconos de Cantado, Instrumental y reproducción ajustados; guía de ayuda actualizada.
 
-Esta entrega es exclusiva para **Windows 10/11 x64**. Conserva la biblioteca, los favoritos y las preferencias existentes.
+Disponible para **Windows 10/11 x64 y macOS Intel/Apple Silicon**. Conserva la biblioteca, los favoritos y las preferencias existentes. En Mac se mantienen el semáforo y los atajos nativos; el monitor queda arriba a la izquierda.
 
 ### Funciones compartidas de la versión 2.1.7
 
@@ -37,8 +37,8 @@ En macOS, la ayuda se adapta a los controles nativos y los DMG presentan una dis
 | --- | --- |
 | **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.9/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.9 · 54,9 MB · EXE |
 | **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.8 · 9,1 MB · EXE x86 |
-| **Mac · Apple Silicon**<br>Chip M1 o posterior · Tahoe, Golden Gate y posteriores |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.8 · 6,2 MB · DMG |
-| **Mac · Intel**<br>Procesador Intel · Ventura, Sonoma, Sequoia y Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.8 · 6,2 MB · DMG |
+| **Mac · Apple Silicon**<br>Chip M1 o posterior · Tahoe, Golden Gate y posteriores |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.9/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.9 · 6,2 MB · DMG |
+| **Mac · Intel**<br>Procesador Intel · Ventura, Sonoma, Sequoia y Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.9/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.9 · 6,3 MB · DMG |
 | **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+, Zorin OS 18 o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_Linux_AMD64.deb)**<br>2.1.8 · 3,0 MB · DEB |
 | **Linux · ARM64**<br>Ubuntu 24.04+ o Debian 13 · ARM de 64 bits |**[Descargar Linux ARM64](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_Linux_ARM64.deb)**<br>2.1.8 · 3,0 MB · DEB |
 

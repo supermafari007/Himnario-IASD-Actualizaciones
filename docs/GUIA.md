@@ -28,7 +28,7 @@ El panel fijo de la secundaria muestra el himno en reproducción y permite naveg
 
 **Componentes multimedia:** el asistente ofrece Letras, Cantado, Instrumental y Video desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
 
-Abre **Buscar actualización** para recibir la 2.1.9. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy, Linux y macOS Intel/Apple Silicon reciben las funciones compartidas en 2.1.8.
+Abre **Buscar actualización** para recibir la 2.1.9. La actualización conserva tus recursos multimedia, favoritos y preferencias. macOS Intel/Apple Silicon también recibe 2.1.9; Windows Legacy y Linux mantienen 2.1.8.
 
 ### Desinstalación en Windows
 
@@ -56,7 +56,7 @@ reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias
 
 ## Instalación en macOS — Intel y Apple Silicon
 
-Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan las novedades de la versión **2.1.8**.
+Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan las novedades de la versión **2.1.9**.
 
 | Edición | Versiones compatibles de macOS |
 | --- | --- |
@@ -69,13 +69,17 @@ Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan 
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-La versión vigente de macOS es la **2.1.8**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
+La versión vigente de macOS es la **2.1.9**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
 
-### Novedades de macOS 2.1.8
+### Novedades de macOS 2.1.9
 
 **Temas y sugerencias:** el botón de temas conserva las categorías originales y añade Buscar un himno. Puedes escribir una necesidad o una frase como «un himno para terminar el culto», o usar accesos como Diezmo y Ofrendas, Bautismo, Santa Cena, Presentación de un niño, Matrimonio y Funerales. Las sugerencias explican su relación con la letra y permiten seleccionar, guardar en favoritos o añadir a la lista.
 
-**Otra pantalla:** configura la pantalla secundaria como escritorio extendido en los ajustes de macOS. Al abrir, el menú se sitúa en la principal definida por el sistema y la secundaria muestra una portada de espera. El icono de monitor, arriba a la izquierda, permite cambiar el destino. Al reproducir recibe el himno; la principal conserva el menú para preparar los siguientes. Ambas vistas se ocultan y recuperan al minimizar o restaurar el Himnario. Con una pantalla funciona como siempre.
+**Otra pantalla:** el icono de monitor está arriba a la izquierda. Al abrir, el menú se sitúa en la principal definida por macOS y la secundaria muestra una portada de espera. Las conexiones y desconexiones se detectan durante el uso. Si hay pantallas duplicadas, el Himnario intenta ampliarlas temporalmente; al salir recupera la configuración inicial solo si sigue siendo la aplicada por el programa y las pantallas siguen conectadas. Si macOS no permite el cambio, usa Ajustes del Sistema > Pantallas.
+
+**Panel de presentación:** sus controles permanecen fijos aunque prepares otro himno. Las flechas recorren la letra y Detener vuelve a la portada. El ojo muestra la portada sin detener el audio; su elección se conserva al cambiar de himno o modo durante la sesión, hasta pulsarlo otra vez. Cada nueva apertura comienza con las letras visibles. El botón de minimizar del panel oculta solo la secundaria y permite recuperarla; el amarillo del Mac minimiza solo el menú. Con una pantalla funciona como siempre.
+
+Los iconos de los modos y Play se armonizan con la barra. La ayuda conserva el semáforo, la barra nativa y los atajos de macOS y explica los controles nuevos.
 
 **Recursos por componentes:** Letras, Cantado, Instrumental y Video se descargan o reparan desde GitHub por separado. La biblioteca completa anterior se reconoce como instalada. Se ofrece actualizar solo Letras a 2.0; el asistente gestiona sus dos ZIP y comprueba su integridad antes de sustituirlas. La música y los videos no seleccionados se conservan.
 
