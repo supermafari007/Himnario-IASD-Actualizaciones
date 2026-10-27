@@ -1,4 +1,4 @@
-# Windows Legacy 2.1.8
+# Windows Legacy 2.1.9
 
 Edición nativa de 32 bits para Windows XP SP3 (x86), Vista SP2 y Windows 7 SP1/8/8.1.
 Requiere procesador con SSE2. Incluye Solo letra, Instrumental y Cantado con letras
@@ -8,7 +8,7 @@ ni instalar VLC. No incluye video ni modos ocultos.
 ## Instalar o actualizar
 
 1. Cierra el Himnario Legacy.
-2. Ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.8/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
+2. Ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.9/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
 3. La actualización conserva biblioteca, favoritos y preferencias.
 
 ## Letras y música por componentes
@@ -39,12 +39,9 @@ La guía del botón **?** se adapta a los controles actuales.
 
 ## Segunda pantalla
 
-Configura el escritorio extendido en Windows antes de abrir el Himnario. El menú
-permanece en la principal y la secundaria muestra la portada de espera; recibe
-las letras al reproducir. El icono de monitor cambia el destino, y los controles
-de la principal permiten avanzar, retroceder y detener. Las letras se adaptan al
-lienzo panorámico. Minimizar el Himnario minimiza ambas ventanas; al restaurar
-vuelven juntas. Con una pantalla se mantiene la reproducción habitual.
+Al conectar otra pantalla, la principal de Windows conserva el menú y la secundaria muestra la portada de espera. El icono de monitor cambia el destino. El panel del operador permanece visible y muestra el himno en reproducción; permite avanzar, retroceder, detener y minimizar solo la secundaria. El botón del ojo oculta las letras sin detener el sonido y conserva esa elección al cambiar de himno durante la sesión. Al abrir de nuevo, las letras empiezan visibles. Minimizar el menú afecta únicamente esa ventana.
+
+La conexión y desconexión se reconocen con el programa abierto. Windows 7/8 intenta ampliar temporalmente las salidas duplicadas si el controlador lo permite; al salir restaura el estado anterior si no cambiaste la distribución. En XP/Vista configura el escritorio extendido desde Windows. Con una pantalla se mantiene la reproducción habitual. Las letras se adaptan al lienzo panorámico.
 
 ## Controles habituales
 

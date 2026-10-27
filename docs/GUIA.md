@@ -28,7 +28,7 @@ El panel fijo de la secundaria muestra el himno en reproducción y permite naveg
 
 **Componentes multimedia:** el asistente ofrece Letras, Cantado, Instrumental y Video desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
 
-Abre **Buscar actualización** para recibir la 2.1.9. La actualización conserva tus recursos multimedia, favoritos y preferencias. macOS Intel/Apple Silicon también recibe 2.1.9; Windows Legacy y Linux mantienen 2.1.8.
+Abre **Buscar actualización** para recibir la 2.1.9. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy, macOS Intel/Apple Silicon y Linux también reciben 2.1.9.
 
 ### Desinstalación en Windows
 
@@ -41,11 +41,11 @@ Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloquea
 ## Instalación en Windows Legacy — XP/Vista/7/8
 
 Descarga **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** desde la publicación
-2.1.8. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
+2.1.9. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
 Vista requiere SP2 y Windows 7, SP1. El procesador debe admitir SSE2.
 
 Esta edición conserva Solo letra, Instrumental y Cantado; no reproduce videos.
-Desde la 2.1.8 descarga Letras, Cantado e Instrumental por componentes desde GitHub. Reconoce la biblioteca anterior y ofrece Letras 2.0 sin volver a descargar la música. Incorpora Temas y sugerencias y presentación en una segunda pantalla extendida. Al minimizar se ocultan ambas ventanas y se restauran juntas.
+Desde la 2.1.8 descarga Letras, Cantado e Instrumental por componentes desde GitHub. Reconoce la biblioteca anterior y ofrece Letras 2.0 sin volver a descargar la música. Incorpora Temas y sugerencias y presentación en una segunda pantalla extendida. En 2.1.9 cada ventana se minimiza por separado; el panel fijo permite ocultar las letras sin detener el audio. Esa elección dura hasta desactivarla o cerrar la sesión. Reconoce la conexión y retirada de pantallas; Windows 7/8 intenta ampliación temporal y XP/Vista requieren Extender desde Windows.
 
 Desde la versión **2.1.7** se incluyen favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy, macOS y Linux; recientes se borra al cerrar el programa.
 
@@ -125,9 +125,9 @@ El paquete instala un perfil AppArmor exclusivo de `/usr/bin/himnario-adventista
 
 Desde la versión **2.1.7** se incluyen favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy, macOS y Linux; recientes se borra al cerrar el programa.
 
-### Novedades de Linux 2.1.8
+### Novedades de Linux 2.1.9
 
-Temas y sugerencias conserva las categorías y añade búsquedas por ocasión o necesidad, con explicaciones y acciones de favoritos y lista. Los recursos se descargan por componentes desde GitHub; Letras 2.0 se instala desde sus dos partes y la biblioteca anterior se conserva. Con el escritorio extendido, el menú queda en la principal definida por el sistema y la secundaria espera con la portada hasta reproducir. Se minimizan y restauran juntas. La guía visual y los gráficos se actualizan.
+Temas y sugerencias conserva las categorías y añade búsquedas por ocasión o necesidad, con explicaciones y acciones de favoritos y lista. Los recursos se descargan por componentes desde GitHub; Letras 2.0 se instala desde sus dos partes y la biblioteca anterior se conserva. Con el escritorio extendido, el menú queda en la principal definida por el sistema y la secundaria espera con la portada hasta reproducir. Cada ventana se minimiza por separado. El panel permanece visible en espera y permite ocultar las letras conservando el audio y la elección durante la sesión. Conectar o desconectar pantallas no requiere reiniciar. GNOME/Zorin y X11 permiten intentar la ampliación temporal de salidas duplicadas; en otros escritorios o configuraciones especiales usa los ajustes del sistema. Al salir, la restauración respeta los cambios del usuario. La guía y los iconos se actualizan.
 
 Esta entrega se preparó y verificó desde Windows, sin una nueva ejecución de GTK/WebKit nativos ni del paquete ARM64.
 
