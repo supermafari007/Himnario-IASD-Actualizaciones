@@ -14,7 +14,9 @@
 
 | Función | Qué puedes hacer |
 | --- | --- |
-| **613 himnos** | Buscar por número o título y reproducir Solo letra, Instrumental o Cantado. Windows moderno, macOS y Linux incluyen también los videos disponibles; Legacy se centra en letras y música. |
+| **613 himnos** | Buscar por número o título y reproducir Solo letra, Instrumental o Cantado. macOS y Linux mantienen los videos disponibles. En Windows 2.2.0 son experimentales y requieren la clave «prueba»; Legacy se centra en letras y música. |
+| **Fragmentos de letra · Windows 2.2.0** | Encontrar un himno aunque no recuerdes el título, escribiendo una parte de su letra. |
+| **Himnos adicionales · Windows 2.2.0** | Descargar aparte ocho himnos nacionales y los de Aventureros, Conquistadores y Guías Mayores, en Solo letra y Cantado. |
 | **Temas y sugerencias** | Explorar las categorías originales o escribir una necesidad, como «un himno para terminar el culto». Incluye accesos a Gratitud, Consuelo, Oración, Diezmo y Ofrendas, Bautismo, Santa Cena, Presentación de un niño, Matrimonio y Funerales, entre otros. Las sugerencias explican su relación con la letra. |
 | **Favoritos y recientes** | Guardar himnos con el corazón, buscar en tus favoritos, deshacer una eliminación y respaldarlos en JSON compatible entre ediciones. Recientes registra las reproducciones de la sesión y se borra al cerrar. |
 | **Listas de reproducción** | Preparar una lista, ordenar sus himnos, guardarla para otra ocasión y reproducirla de forma secuencial o aleatoria. El signo **+** permite añadir desde favoritos, recientes y sugerencias sin iniciar la reproducción. |
@@ -22,11 +24,22 @@
 | **Recursos a tu medida** | Descargar, actualizar o reparar solo Letras, Cantado, Instrumental o Video, según tu edición. Elegir carpeta, pausar y continuar las descargas. Reconocer una biblioteca anterior y renovar solo las letras a **Letras 2.0**. |
 | **Ayuda y actualizaciones** | Recorrer una guía visual con el botón **?**, usar pantalla completa o ventana y comprobar nuevas versiones desde el programa. Cada edición recibe el instalador de su sistema y procesador. |
 
-**Una vez descargados los recursos, puedes utilizar el Himnario sin conexión.** Las actualizaciones normales conservan tu biblioteca, favoritos y preferencias. Las descargas de este repositorio no requieren iniciar sesión en GitHub.
+**Una vez descargados los recursos, puedes utilizar el Himnario sin conexión.** Las actualizaciones conservan tus letras, música, favoritos y preferencias. Windows 2.2.0 retira una vez el video anterior para pasar al acceso experimental por clave. Las descargas de este repositorio no requieren iniciar sesión en GitHub.
 
-## Versión 2.1.9 · Windows, macOS y Linux
+## Windows moderno · versión 2.2.0
 
-La **2.1.9 está disponible para todas las ediciones**: Windows 10/11, Windows Legacy, macOS Intel y Apple Silicon, y Linux AMD64/ARM64. Esta actualización mejora el manejo de la presentación, la respuesta de la interfaz y la ayuda visual. Conserva la biblioteca multimedia, los favoritos y las preferencias existentes.
+Disponible para **Windows 10/11 de 64 bits**. Windows Legacy, macOS Intel y Apple Silicon y Linux **mantienen la 2.1.9**.
+
+- **Busca por la letra que recuerdas**, además del número o el título. Al reproducir, el buscador queda listo para otro himno.
+- **Himnos adicionales:** Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Perú y Uruguay, más Aventureros, Conquistadores y Guías Mayores. Su paquete opcional de unos **403 MB** se descarga o repara por separado, sin sustituir los 613 himnos ni la música instalada.
+- **Video Cantado experimental:** solo puede descargarse y utilizarse después de escribir **prueba** en el buscador principal y pulsar Enter, durante esa sesión. No forma parte de la descarga inicial. Al actualizar se retira una vez la carpeta de video anterior; luego puedes obtenerla con la clave si deseas probarla.
+- **Continuidad y validación:** conserva favoritos y listas, valida los JSON importados y actualiza la ayuda y la reproducción de adicionales en la secundaria.
+
+[Notas completas de Windows 2.2.0](docs/NOTAS-2.2.0.md) · [Paquete de himnos adicionales](https://github.com/supermafari007/Himnario-IASD-Recursos/releases/tag/adicionales-v1.0)
+
+## Funciones compartidas desde la versión 2.1.9
+
+Windows Legacy, macOS Intel y Apple Silicon y Linux AMD64/ARM64 mantienen la **2.1.9**; Windows moderno conserva sus mejoras en la **2.2.0**. Esta actualización mejora el manejo de la presentación, la respuesta de la interfaz y la ayuda visual. Conserva la biblioteca multimedia, los favoritos y las preferencias existentes.
 
 ### Novedades de la 2.1.9
 
@@ -38,7 +51,7 @@ La **2.1.9 está disponible para todas las ediciones**: Windows 10/11, Windows L
 
 Con salidas duplicadas, se intenta una **ampliación temporal** cuando el sistema y el controlador lo permiten. Al cerrar se recupera la distribución anterior si las pantallas siguen conectadas y no la has cambiado. En XP/Vista configura Extender desde Windows; en Linux, la ampliación automática se prepara para GNOME/Zorin y X11, y otros escritorios o configuraciones especiales utilizan sus ajustes de pantalla.
 
-**Windows Legacy** conserva Solo letra, Instrumental y Cantado. Las demás ediciones incluyen también los videos disponibles. [Consulta las notas completas de la 2.1.9](docs/NOTAS-2.1.9.md).
+**Windows Legacy** conserva Solo letra, Instrumental y Cantado. macOS y Linux incluyen los videos disponibles; en Windows moderno el video permanece experimental y requiere la clave por sesión. [Consulta las notas completas de la 2.1.9](docs/NOTAS-2.1.9.md).
 
 ## Descargas
 
@@ -46,7 +59,7 @@ Con salidas duplicadas, se intenta una **ampliación temporal** cuando el sistem
 
 | Tu equipo | Descarga · versión y tamaño |
 | --- | --- |
-| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.9/Himnario_Adventista_Windows_Setup.exe)**<br>2.1.9 · 54,9 MB · EXE |
+| **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.0/Himnario_Adventista_Windows_Setup.exe)**<br>2.2.0 · 56,1 MB · EXE |
 | **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.9/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.1.9 · 9,1 MB · EXE x86 |
 | **Mac · Apple Silicon**<br>Chip M1 o posterior · Tahoe, Golden Gate y posteriores |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.9/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.1.9 · 6,2 MB · DMG |
 | **Mac · Intel**<br>Procesador Intel · Ventura, Sonoma, Sequoia y Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.9/Himnario_Adventista_macOS_Intel.dmg)**<br>2.1.9 · 6,3 MB · DMG |
@@ -88,9 +101,9 @@ WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su int
 2. **Descarga los recursos que necesitas.** En el asistente elige los componentes que necesitas y pulsa **Descargar ahora**. Puedes usar **Elegir carpeta** para guardarlos en otro disco.
 3. **Espera a que se integren los recursos.** Al terminar, pulsa **Volver al Himnario**. Ya podrás reproducir el contenido descargado sin conexión.
 
-> **Todas las ediciones actuales:** el asistente muestra el tamaño de los componentes seleccionados y comprueba el espacio necesario. Letras 2.0 se descarga en dos partes y se instala como un solo componente; puedes conservar la música y los videos que ya tienes.
+> **Todas las ediciones actuales:** el asistente muestra el tamaño de los componentes seleccionados y comprueba el espacio necesario. Letras 2.0 se descarga en dos partes y se instala como un solo componente; puedes conservar la música que ya tienes. Windows 2.2.0 retira una vez el video anterior; después se obtiene solo con la clave de prueba.
 >
-> **Windows Legacy:** ofrece Letras, Cantado e Instrumental. Las demás ediciones añaden Video. El asistente indica el espacio necesario según la selección; puedes conservar la biblioteca anterior y actualizar solo Letras.
+> **Windows Legacy:** ofrece Letras, Cantado e Instrumental. macOS y Linux añaden Video. Windows 2.2.0 ofrece el video experimental únicamente después de activar «prueba», fuera de la descarga inicial. El asistente indica el espacio necesario según la selección; puedes conservar la biblioteca anterior y actualizar solo Letras.
 
 **[Instalar en Windows](docs/GUIA.md#instalar-windows)** · **[Instalar en Windows Legacy](docs/GUIA.md#instalar-windows-legacy)** · **[Instalar en macOS](docs/GUIA.md#instalar-macos)** · **[Instalar en Linux](docs/GUIA.md#instalar-linux)**
 

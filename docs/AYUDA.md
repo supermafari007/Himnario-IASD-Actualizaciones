@@ -153,3 +153,14 @@ Cada versión publica archivos **SHA256SUMS** para sus instaladores. La aplicaci
 ## ¿Dónde pido ayuda?
 
 [Abre una consulta o informa un problema](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/issues/new/choose). Indica la edición, la versión del Himnario, el sistema operativo y qué ocurre. Los formularios te ayudarán a reunir esos datos.
+
+
+## Windows 2.2.0: búsqueda y recursos adicionales
+
+En Windows 10/11 puedes buscar un himno por cualquier fragmento de su letra. El número admite 1–613 y formatos como 001. Al reproducir se limpia el buscador; tus favoritos y listas se conservan.
+
+En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Recursos multimedia ofrece **Himnos adicionales**, con descarga y reparación independientes. Su contenido es adicional a los 613 himnos principales.
+
+**Video Cantado es experimental en Windows 2.2.0.** No aparece en la descarga inicial ni puede usarse sin escribir **prueba** en el buscador principal y pulsar Enter. La activación dura esa sesión. Al actualizar se elimina una vez la carpeta de video anterior; puedes descargarla de nuevo con la clave. Después de reiniciar, el video que permanezca en disco vuelve a quedar bloqueado hasta activar la clave otra vez. Las letras y la música no se eliminan.
+
+Windows Legacy, macOS y Linux mantienen sus entregas 2.1.9 y su funcionamiento actual. [Notas de Windows 2.2.0](NOTAS-2.2.0.md).

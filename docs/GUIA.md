@@ -158,3 +158,14 @@ Las notas usan un encabezado general y secciones por plataforma. Una publicació
 Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Windows, **SHA256SUMS-Windows-Legacy-x86.txt** para Windows Legacy, **SHA256SUMS-macOS-Intel.txt** para macOS Intel, **SHA256SUMS-macOS-AppleSilicon.txt** para macOS Apple Silicon, **SHA256SUMS-Linux-AMD64.txt** y **SHA256SUMS-Linux-ARM64.txt** para Linux, según las ediciones disponibles.
 
 En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256` y en Linux `sha256sum`.
+
+
+## Windows 2.2.0: búsqueda y recursos adicionales
+
+En Windows 10/11 puedes buscar un himno por cualquier fragmento de su letra. El número admite 1–613 y formatos como 001. Al reproducir se limpia el buscador; tus favoritos y listas se conservan.
+
+En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Recursos multimedia ofrece **Himnos adicionales**, con descarga y reparación independientes. Su contenido es adicional a los 613 himnos principales.
+
+**Video Cantado es experimental en Windows 2.2.0.** No aparece en la descarga inicial ni puede usarse sin escribir **prueba** en el buscador principal y pulsar Enter. La activación dura esa sesión. Al actualizar se elimina una vez la carpeta de video anterior; puedes descargarla de nuevo con la clave. Después de reiniciar, el video que permanezca en disco vuelve a quedar bloqueado hasta activar la clave otra vez. Las letras y la música no se eliminan.
+
+Windows Legacy, macOS y Linux mantienen sus entregas 2.1.9 y su funcionamiento actual. [Notas de Windows 2.2.0](NOTAS-2.2.0.md).
