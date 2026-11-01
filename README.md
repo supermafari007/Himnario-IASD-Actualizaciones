@@ -34,6 +34,8 @@ Disponible para **Windows 10/11 de 64 bits**, **Windows Legacy x86 para XP SP3, 
 - **Himnos adicionales:** Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Perú y Uruguay, más Aventureros, Conquistadores y Guías Mayores. Su paquete opcional de unos **403 MB** se descarga o repara por separado, sin sustituir los 613 himnos ni la música instalada.
 - **Continuidad y validación:** conserva favoritos y listas, valida los JSON importados y actualiza la ayuda y la reproducción de adicionales en la secundaria.
 
+**macOS:** los DMG actuales incluyen la revisión del actualizador, con recuperación automática de descargas y verificación SHA-256. Si ya instalaste la primera entrega 2.2.0, reemplaza la aplicación con el DMG actual para recibir esta corrección.
+
 [Notas completas de Windows y macOS 2.2.0](docs/NOTAS-2.2.0.md) · [Paquete de himnos adicionales](https://github.com/supermafari007/Himnario-IASD-Recursos/releases/tag/adicionales-v1.0)
 
 ## Funciones compartidas desde la versión 2.1.9
