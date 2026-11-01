@@ -20,13 +20,13 @@ En Windows, puedes mover la ventana desde el título o la franja superior entre 
 
 La edición para Windows 10/11 de 64 bits incorpora **Favoritos**, **Recientes** de la sesión y una guía visual renovada al pulsar **?**. El corazón guarda o retira favoritos; el signo **+** permite añadir himnos a la lista de reproducción. Puedes guardar y recuperar tus favoritos desde **Respaldar favoritos**. Recientes se borra al cerrar el programa.
 
-**Temas y sugerencias** conserva las categorías y permite buscar por necesidad, situación u ocasión. Prueba «un himno para terminar el culto» o los accesos de ceremonias; cada sugerencia incluye una explicación. Puedes seleccionar el himno, guardarlo en favoritos o añadirlo a la lista sin reproducirlo todavía.
+**Temas y sugerencias** conserva las categorías y permite buscar por necesidad, situación u ocasión. Escribe «un himno para terminar el culto» o los accesos de ceremonias; cada sugerencia incluye una explicación. Puedes seleccionar el himno, guardarlo en favoritos o añadirlo a la lista sin reproducirlo todavía.
 
 **Dos pantallas:** la principal definida por Windows conserva el menú y la secundaria abre una portada de espera a pantalla completa. El botón de monitor, arriba a la izquierda, permite elegir el destino. Windows 2.1.9 responde al conectar o desconectar otra pantalla. Si hay dos salidas activas en Duplicar, intenta extenderlas temporalmente y recuperar el estado inicial al salir; respeta los cambios posteriores del usuario. Con una sola pantalla se mantiene la vista habitual.
 
 El panel fijo de la secundaria muestra el himno en reproducción y permite navegar, detener, ocultar la letra o minimizar esa ventana. **Ocultar letra** muestra la portada manteniendo el audio y conserva esa elección incluso al cambiar de himno, hasta pulsar otra vez el botón; cada nueva sesión comienza con la letra visible. Minimizar el menú afecta solo al menú. La presentación se minimiza y restaura desde su propio control. La guía **?** explica los controles con sus iconos actuales.
 
-**Componentes multimedia:** el asistente ofrece Letras, Cantado, Instrumental y Video desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
+**Componentes multimedia:** el asistente ofrece Letras, Cantado e Instrumental desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
 
 Abre **Buscar actualización** para recibir la 2.1.9. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy, macOS Intel/Apple Silicon y Linux también reciben 2.1.9.
 
@@ -44,7 +44,7 @@ Descarga **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** desde la publicaci
 2.1.9. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
 Vista requiere SP2 y Windows 7, SP1. El procesador debe admitir SSE2.
 
-Esta edición conserva Solo letra, Instrumental y Cantado; no reproduce videos.
+Esta edición conserva Solo letra, Instrumental y Cantado.
 Desde la 2.1.8 descarga Letras, Cantado e Instrumental por componentes desde GitHub. Reconoce la biblioteca anterior y ofrece Letras 2.0 sin volver a descargar la música. Incorpora Temas y sugerencias y presentación en una segunda pantalla extendida. En 2.1.9 cada ventana se minimiza por separado; el panel fijo permite ocultar las letras sin detener el audio. Esa elección dura hasta desactivarla o cerrar la sesión. Reconoce la conexión y retirada de pantallas; Windows 7/8 intenta ampliación temporal y XP/Vista requieren Extender desde Windows.
 
 Desde la versión **2.1.7** se incluyen favoritos persistentes, búsqueda y respaldo en JSON, recientes de la sesión y una guía contextual al pulsar **?**. Desde favoritos o recientes, el signo **+** añade un himno a la lista de reproducción. Los respaldos de favoritos son compatibles con Windows moderno, Windows Legacy, macOS y Linux; recientes se borra al cerrar el programa.
@@ -81,12 +81,11 @@ La versión vigente de macOS es la **2.1.9**, disponible desde Buscar actualizac
 
 Los iconos de los modos y Play se armonizan con la barra. La ayuda conserva el semáforo, la barra nativa y los atajos de macOS y explica los controles nuevos.
 
-**Recursos por componentes:** Letras, Cantado, Instrumental y Video se descargan o reparan desde GitHub por separado. La biblioteca completa anterior se reconoce como instalada. Se ofrece actualizar solo Letras a 2.0; el asistente gestiona sus dos ZIP y comprueba su integridad antes de sustituirlas. La música y los videos no seleccionados se conservan.
+**Recursos por componentes:** Letras, Cantado e Instrumental se descargan o reparan desde GitHub por separado. La biblioteca completa anterior se reconoce como instalada. Se ofrece actualizar solo Letras a 2.0; el asistente gestiona sus dos ZIP y comprueba su integridad antes de sustituirlas. Los componentes no seleccionados se conservan.
 
 La ayuda del botón **?** se actualiza a estas funciones y conserva las indicaciones de los controles nativos de macOS.
 
 ### Favoritos y recientes
-
 
 **Favoritos** conserva los himnos entre aperturas, permite buscar, deshacer y respaldar o recuperar la lista con los paneles de archivos de macOS. El respaldo JSON es compatible con las otras ediciones. **Recientes** guarda únicamente los himnos reproducidos durante la sesión; desde ambos paneles, el signo **+** añade himnos a la lista de reproducción.
 
@@ -96,14 +95,13 @@ La guía del botón **?** incluye el semáforo de la ventana, la barra de títul
 
 Desde **Buscar actualización > Reparar contenido multimedia** puedes volver a descargar los componentes oficiales aunque no haya una nueva versión. Marca solo los que deseas reparar; puedes elegir carpeta, pausar, continuar y reintentar. Al terminar, pulsa **Volver al Himnario**. La reparación detiene la reproducción y conserva el contenido anterior si la instalación falla.
 
-Para retirar la aplicación y sus datos, abre el menú del Himnario en la barra de macOS y selecciona **Desinstalar Himnario…**. Tras confirmar, se eliminan los recursos, las descargas temporales, los instaladores, las preferencias y los datos web de la aplicación; la app se envía a la Papelera. También se limpian las ubicaciones multimedia registradas en otros discos. Conecta esos discos antes de desinstalar. Los archivos personalizados guardados dentro de Letra, Musica o Video Cantado se eliminan; los documentos y listas exportados fuera de esas carpetas se conservan.
+Para retirar la aplicación y sus datos, abre el menú del Himnario en la barra de macOS y selecciona **Desinstalar Himnario…**. Tras confirmar, se eliminan los recursos, las descargas temporales, los instaladores, las preferencias y los datos web de la aplicación; la app se envía a la Papelera. También se limpian las ubicaciones multimedia registradas en otros discos. Conecta esos discos antes de desinstalar. Los archivos personalizados guardados dentro de las carpetas de recursos se eliminan; los documentos y listas exportados fuera de esas carpetas se conservan.
 
 La limpieza completa requiere usar el menú del Himnario. Mover únicamente la app a la Papelera desde Finder conserva sus datos. Las actualizaciones normales conservan los recursos y preferencias.
 
 ### Primera apertura e instalador de macOS
 
 La firma es ad hoc, sin notarización de Apple. Si macOS bloquea la apertura, consulta [qué hacer al abrir la aplicación por primera vez](AYUDA.md#macos-no-abre) y la [guía de Apple](https://support.apple.com/es-cl/guide/mac-help/mh40616/mac).
-
 
 Los DMG incluyen fondo musical, acceso a Applications e instrucciones LEEME_MAC.txt, con iconos alineados, etiquetas más legibles y una distribución que deja visibles los tres elementos. La unidad montada utiliza el icono del Himnario. Arrastra la aplicación a Applications, expulsa la unidad y abre la copia instalada en Aplicaciones.
 
@@ -117,7 +115,7 @@ Para **Ubuntu 24.04 o posterior, Linux Mint 22 o posterior, Zorin OS 18 y Debian
 
 Usa el nombre ARM64 si corresponde. El instalador del Himnario pesa aproximadamente **3,0 MB**; el gestor de paquetes descarga GTK, WebKitGTK y decodificadores nativos si faltan. La primera instalación necesita conexión.
 
-Abre **Himnario Adventista** desde el menú. Al primer inicio, selecciona Letras, Cantado, Instrumental o Video y pulsa **Descargar ahora** para integrar la multimedia o **Elegir carpeta** para guardarla en otro disco. La ventana usa los botones propios del Himnario, como Windows; F11 alterna pantalla completa. En modo ventana se puede mover desde el título o la franja superior y redimensionar desde los bordes.
+Abre **Himnario Adventista** desde el menú. Al primer inicio, selecciona Letras, Cantado o Instrumental y pulsa **Descargar ahora** para integrar la multimedia o **Elegir carpeta** para guardarla en otro disco. La ventana usa los botones propios del Himnario, como Windows; F11 alterna pantalla completa. En modo ventana se puede mover desde el título o la franja superior y redimensionar desde los bordes.
 
 **Buscar actualización > Reparar Contenido Multimedia** abre el mismo asistente del primer inicio, con confirmación, carpeta, pausa, reanudación y reintento. Al terminar, pulsa **Volver al Himnario**. Cada procesador recibe únicamente su paquete Linux, verificado con SHA-256.
 
@@ -133,15 +131,15 @@ Esta entrega se preparó y verificó desde Windows, sin una nueva ejecución de 
 
 ### Desinstalación en Linux
 
-Usa **Información > Desinstalar y eliminar datos…** y confirma. Se eliminan recursos, descargas, preferencias, cachés y las carpetas multimedia registradas; después se solicita la autorización nativa para retirar el paquete. Conecta los discos usados antes de desinstalar. También se eliminan archivos personalizados dentro de Letra, Musica y Video Cantado; las listas exportadas fuera de las carpetas del Himnario se conservan.
+Usa **Información > Desinstalar y eliminar datos…** y confirma. Se eliminan recursos, descargas, preferencias, cachés y las carpetas multimedia registradas; después se solicita la autorización nativa para retirar el paquete. Conecta los discos usados antes de desinstalar. También se eliminan archivos personalizados dentro de las carpetas de recursos; las listas exportadas fuera de las carpetas del Himnario se conservan.
 
 Eliminar solo el paquete desde el gestor de software conserva los datos del usuario. Para una limpieza completa usa primero la opción del Himnario. Las actualizaciones normales conservan recursos y preferencias.
 
-## Recursos multimedia — letras, música y videos
+## Recursos multimedia — letras y música
 
 Los instaladores no incluyen la biblioteca multimedia. Las ediciones actuales descargan los [componentes oficiales desde GitHub](https://github.com/supermafari007/Himnario-IASD-Recursos). Cada plataforma consulta su canal estable.
 
-El asistente calcula el tamaño y espacio necesario según los componentes elegidos. Letras 2.0 se gestiona desde dos ZIP como una sola selección. Se reconocen los recursos instalados desde el paquete completo anterior. Legacy ofrece letras y música; las otras ediciones incluyen también los videos disponibles. Una vez instalados, funcionan sin conexión.
+El asistente calcula el tamaño y espacio necesario según los componentes elegidos. Letras 2.0 se gestiona desde dos ZIP como una sola selección. Se reconocen los recursos instalados desde el paquete completo anterior. Cada edición permite seleccionar los recursos necesarios. Una vez instalados, funcionan sin conexión.
 
 ## Actualizaciones — programa y contenido multimedia
 
@@ -159,13 +157,10 @@ Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Win
 
 En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256` y en Linux `sha256sum`.
 
-
 ## Windows 2.2.0: búsqueda y recursos adicionales
 
 En Windows 10/11 puedes buscar un himno por cualquier fragmento de su letra. El número admite 1–613 y formatos como 001. Al reproducir se limpia el buscador; tus favoritos y listas se conservan.
 
 En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Recursos multimedia ofrece **Himnos adicionales**, con descarga y reparación independientes. Su contenido es adicional a los 613 himnos principales.
-
-**Video Cantado es experimental en Windows 2.2.0.** No aparece en la descarga inicial ni puede usarse sin escribir **prueba** en el buscador principal y pulsar Enter. La activación dura esa sesión. Al actualizar se elimina una vez la carpeta de video anterior; puedes descargarla de nuevo con la clave. Después de reiniciar, el video que permanezca en disco vuelve a quedar bloqueado hasta activar la clave otra vez. Las letras y la música no se eliminan.
 
 Windows Legacy, macOS y Linux mantienen sus entregas 2.1.9 y su funcionamiento actual. [Notas de Windows 2.2.0](NOTAS-2.2.0.md).

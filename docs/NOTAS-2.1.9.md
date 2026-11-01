@@ -33,6 +33,6 @@ La ampliación temporal recupera la distribución anterior al cerrar únicamente
 
 Cierra el Himnario e instala la edición correspondiente a tu sistema y procesador. **Se conservan recursos, favoritos y preferencias.** No necesitas descargar de nuevo la biblioteca completa.
 
-Se mantienen los **613 himnos**, Temas y sugerencias, favoritos, recientes y listas. **Letras 2.0** sigue disponible como actualización multimedia independiente: sus dos ZIP se descargan e instalan juntos desde el asistente. Puedes actualizar o reparar solo los componentes que elijas. Legacy ofrece letras y música; las otras ediciones añaden Video.
+Se mantienen los **613 himnos**, Temas y sugerencias, favoritos, recientes y listas. **Letras 2.0** sigue disponible como actualización multimedia independiente: sus dos ZIP se descargan e instalan juntos desde el asistente. Puedes actualizar o reparar solo los componentes que elijas. Cada edición permite seleccionar los recursos necesarios.
 
 Cada descarga incluye su archivo **SHA-256**. [Descargas y guía por sistema](https://github.com/supermafari007/Himnario-IASD-Actualizaciones#descargas).

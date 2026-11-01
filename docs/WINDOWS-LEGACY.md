@@ -3,7 +3,7 @@
 Edición nativa de 32 bits para Windows XP SP3 (x86), Vista SP2 y Windows 7 SP1/8/8.1.
 Requiere procesador con SSE2. Incluye Solo letra, Instrumental y Cantado con letras
 sincronizadas. El instalador incorpora el reproductor; no requiere .NET, WebView2
-ni instalar VLC. No incluye video ni modos ocultos.
+ni instalar VLC.
 
 ## Instalar o actualizar
 

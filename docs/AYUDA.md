@@ -22,17 +22,17 @@ Una firma válida identifica al editor, pero tampoco garantiza eliminar inmediat
 
 ## ¿Por qué el instalador es pequeño?
 
-El programa y los recursos multimedia se distribuyen por separado. Primero instalas la aplicación y después ella descarga e integra las letras, la música y los videos. El tamaño vigente de cada instalador aparece en la tabla de descargas. Cada sistema puede descargar componentes adicionales si hacen falta.
+El programa y los recursos multimedia se distribuyen por separado. Primero instalas la aplicación y después ella descarga e integra las letras y la música. El tamaño vigente de cada instalador aparece en la tabla de descargas. Cada sistema puede descargar componentes adicionales si hacen falta.
 
 ## ¿Cuánto espacio y conexión necesito?
 
 **Todas las ediciones actuales** muestran el tamaño según los componentes seleccionados y comprueban el espacio para descargar e instalar. Letras 2.0 se ofrece en dos partes, gestionadas automáticamente; no necesitas renovar la música que ya tienes.
 
-Descarga los recursos antes de necesitarlos en una reunión. Legacy ofrece letras y música; las otras ediciones también videos. Puedes conservar lo ya instalado y actualizar o reparar solo lo seleccionado.
+Descarga los recursos antes de necesitarlos en una reunión. Cada edición permite seleccionar los recursos necesarios. Puedes conservar lo ya instalado y actualizar o reparar solo lo seleccionado.
 
 ## ¿Funciona sin Internet?
 
-Sí. Una vez integrados los recursos, puedes mostrar las letras y reproducir la música y los videos descargados sin conexión. Internet se necesita para descargar recursos, repararlos o buscar nuevas versiones.
+Sí. Una vez integrados los recursos, puedes mostrar las letras y reproducir la música descargados sin conexión. Internet se necesita para descargar recursos, repararlos o buscar nuevas versiones.
 
 ## ¿Puedo guardar los recursos en otro disco?
 
@@ -42,7 +42,7 @@ Sí. Pulsa **Elegir carpeta** en el asistente. Usa un disco con espacio suficien
 
 Vuelve al asistente y utiliza **Continuar descarga** o **Reintentar descarga**, según el mensaje que aparezca. El programa reutiliza el avance guardado cuando el servidor lo permite. Comprueba también la conexión y el espacio disponible en el disco elegido.
 
-## Faltan letras, música o videos
+## Faltan letras o música
 
 Abre **Buscar actualización > Reparar Contenido Multimedia**. Confirma la reparación, elige la carpeta si lo necesitas y espera a que se integre el paquete. Al finalizar, pulsa **Volver al Himnario**.
 
@@ -154,13 +154,10 @@ Cada versión publica archivos **SHA256SUMS** para sus instaladores. La aplicaci
 
 [Abre una consulta o informa un problema](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/issues/new/choose). Indica la edición, la versión del Himnario, el sistema operativo y qué ocurre. Los formularios te ayudarán a reunir esos datos.
 
-
 ## Windows 2.2.0: búsqueda y recursos adicionales
 
 En Windows 10/11 puedes buscar un himno por cualquier fragmento de su letra. El número admite 1–613 y formatos como 001. Al reproducir se limpia el buscador; tus favoritos y listas se conservan.
 
 En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Recursos multimedia ofrece **Himnos adicionales**, con descarga y reparación independientes. Su contenido es adicional a los 613 himnos principales.
-
-**Video Cantado es experimental en Windows 2.2.0.** No aparece en la descarga inicial ni puede usarse sin escribir **prueba** en el buscador principal y pulsar Enter. La activación dura esa sesión. Al actualizar se elimina una vez la carpeta de video anterior; puedes descargarla de nuevo con la clave. Después de reiniciar, el video que permanezca en disco vuelve a quedar bloqueado hasta activar la clave otra vez. Las letras y la música no se eliminan.
 
 Windows Legacy, macOS y Linux mantienen sus entregas 2.1.9 y su funcionamiento actual. [Notas de Windows 2.2.0](NOTAS-2.2.0.md).

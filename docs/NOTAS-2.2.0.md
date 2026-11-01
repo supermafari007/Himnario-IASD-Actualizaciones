@@ -14,12 +14,6 @@ Se incorporan los himnos nacionales de Argentina, Bolivia, Chile, Colombia, Ecua
 
 El paquete **Himnos adicionales 1.0** se descarga o repara por separado: 50 láminas panorámicas, 11 pistas MP3 e iconos, aproximadamente 403 MB. Se ofrece cuando falta y no obliga a descargar otra vez las letras o la música ya instaladas. Cantado avanza las láminas según cada grabación; Solo letra permite avance manual. Al terminar regresa al menú o a la espera de la secundaria.
 
-## Video Cantado sigue siendo experimental
-
-El modo, su descarga y su reparación permanecen ocultos y bloqueados hasta escribir **prueba** en el buscador principal y pulsar Enter. La autorización dura únicamente durante esa sesión; se aplica tanto a la reproducción local como a la secundaria. El video no forma parte de la descarga inicial.
-
-Al actualizar se retira una vez la carpeta anterior **Video Cantado** de la biblioteca utilizada y su caché de descarga conocida, conservando las letras, la música, los himnos adicionales y los favoritos. Si quieres probarlo después, activa la clave y vuelve a descargar ese componente. Una descarga obtenida después de esa migración puede conservarse en disco, pero al reiniciar no podrá utilizarse sin escribir de nuevo la clave. Si algún archivo está ocupado, cierra su reproductor y vuelve a abrir el Himnario para completar la retirada.
-
 ## Presentación y continuidad
 
 Se mantienen los controles fijos, la ocultación por sesión, la minimización independiente y la detección de pantallas de la 2.1.9. Los himnos adicionales utilizan también la secundaria; los controles y el estado del operador se sincronizan con la reproducción. La ayuda visual se actualiza para explicar los elementos y las descargas actuales.
