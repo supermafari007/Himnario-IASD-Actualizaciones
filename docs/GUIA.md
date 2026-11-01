@@ -28,7 +28,7 @@ El panel fijo de la secundaria muestra el himno en reproducción y permite naveg
 
 **Componentes multimedia:** el asistente ofrece Letras, Cantado e Instrumental desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
 
-Abre **Buscar actualización** para recibir la 2.1.9. La actualización conserva tus recursos multimedia, favoritos y preferencias. Windows Legacy, macOS Intel/Apple Silicon y Linux también reciben 2.1.9.
+Abre **Buscar actualización** para recibir la 2.2.0 en Windows moderno o Windows Legacy. La actualización conserva tus recursos multimedia, favoritos y preferencias. macOS Intel/Apple Silicon y Linux mantienen la 2.1.9.
 
 ### Desinstalación en Windows
 
@@ -41,7 +41,7 @@ Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloquea
 ## Instalación en Windows Legacy — XP/Vista/7/8
 
 Descarga **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** desde la publicación
-2.1.9. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
+2.2.0. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
 Vista requiere SP2 y Windows 7, SP1. El procesador debe admitir SSE2.
 
 Esta edición conserva Solo letra, Instrumental y Cantado.
@@ -157,10 +157,10 @@ Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Win
 
 En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256` y en Linux `sha256sum`.
 
-## Windows 2.2.0: búsqueda y recursos adicionales
+## Windows y Legacy 2.2.0: búsqueda y recursos adicionales
 
 En Windows 10/11 puedes buscar un himno por cualquier fragmento de su letra. El número admite 1–613 y formatos como 001. Al reproducir se limpia el buscador; tus favoritos y listas se conservan.
 
 En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Recursos multimedia ofrece **Himnos adicionales**, con descarga y reparación independientes. Su contenido es adicional a los 613 himnos principales.
 
-Windows Legacy, macOS y Linux mantienen sus entregas 2.1.9 y su funcionamiento actual. [Notas de Windows 2.2.0](NOTAS-2.2.0.md).
+Windows Legacy 2.2.0 incorpora también la búsqueda por fragmentos y el paquete adicional, con su menú nativo y descarga independiente. macOS y Linux mantienen sus entregas 2.1.9. [Notas de Windows y Legacy 2.2.0](NOTAS-2.2.0.md).

@@ -1,4 +1,4 @@
-# Windows Legacy 2.1.9
+# Windows Legacy 2.2.0
 
 Edición nativa de 32 bits para Windows XP SP3 (x86), Vista SP2 y Windows 7 SP1/8/8.1.
 Requiere procesador con SSE2. Incluye Solo letra, Instrumental y Cantado con letras
@@ -8,22 +8,32 @@ ni instalar VLC.
 ## Instalar o actualizar
 
 1. Cierra el Himnario Legacy.
-2. Ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.1.9/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
+2. Ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.0/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
 3. La actualización conserva biblioteca, favoritos y preferencias.
 
 ## Letras y música por componentes
 
-El asistente descarga Letras, Cantado e Instrumental desde GitHub y permite elegir
+El asistente descarga Letras, Cantado, Instrumental e Himnos adicionales desde GitHub y permite elegir
 qué actualizar o reparar. Reconoce los recursos del paquete completo anterior.
 **Letras 2.0** se descarga en dos ZIP que el programa verifica e integra como un
 solo componente, conservando la música no seleccionada. Indica el tamaño y el
 espacio necesario para la selección y permite continuar una descarga interrumpida.
 
-El canal de esta edición es [media-manifest-windows-legacy.json](https://github.com/supermafari007/Himnario-IASD-Recursos/blob/main/media-manifest-windows-legacy.json).
+El canal de esta edición es [media-manifest-windows-legacy-2.2.json](https://github.com/supermafari007/Himnario-IASD-Recursos/blob/main/media-manifest-windows-legacy-2.2.json).
 Puedes seleccionar una biblioteca existente o importar desde USB el ZIP completo
 oficial Legacy 1.0. Ese ZIP conserva las letras originales; después se ofrece
 su actualización a 2.0. Reparar vuelve a instalar solo los componentes marcados
 y puede sustituir archivos personalizados dentro de ellos.
+
+## Buscar por título o fragmento
+
+El buscador principal encuentra un himno por su título o por una parte de su letra, sin exigir las mismas tildes o puntuación. La casilla numérica admite 1–613 y 001–613; los valores fuera del catálogo se limpian. Al reproducir, el buscador queda listo para la siguiente búsqueda.
+
+## Himnos adicionales
+
+Abre **Temas → Adicionales** para elegir Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Perú o Uruguay, o los himnos de Aventureros, Conquistadores y Guías Mayores. La selección se identifica por su bandera o logotipo. No modifica la numeración de los 613 himnos ni sus listas.
+
+Su paquete opcional de **403 MB** se ofrece cuando falta y se descarga o repara por separado. **Solo letra** permite avance manual; **Cantado** sigue cada grabación, incluidas sus repeticiones, y vuelve a espera al concluir. Funciona también en la segunda pantalla.
 
 ## Temas, sugerencias y listas
 
