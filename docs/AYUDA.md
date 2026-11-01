@@ -154,10 +154,10 @@ Cada versión publica archivos **SHA256SUMS** para sus instaladores. La aplicaci
 
 [Abre una consulta o informa un problema](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/issues/new/choose). Indica la edición, la versión del Himnario, el sistema operativo y qué ocurre. Los formularios te ayudarán a reunir esos datos.
 
-## Windows y Legacy 2.2.0: búsqueda y recursos adicionales
+## Windows y macOS 2.2.0: búsqueda y recursos adicionales
 
 En Windows 10/11 puedes buscar un himno por cualquier fragmento de su letra. El número admite 1–613 y formatos como 001. Al reproducir se limpia el buscador; tus favoritos y listas se conservan.
 
 En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Recursos multimedia ofrece **Himnos adicionales**, con descarga y reparación independientes. Su contenido es adicional a los 613 himnos principales.
 
-Windows Legacy 2.2.0 incorpora también la búsqueda por fragmentos y el paquete adicional, con su menú nativo y descarga independiente. macOS y Linux mantienen sus entregas 2.1.9. [Notas de Windows y Legacy 2.2.0](NOTAS-2.2.0.md).
+Windows Legacy y macOS Intel/Apple Silicon 2.2.0 incorporan también la búsqueda por fragmentos y el paquete adicional, con descarga y reparación independientes. En Mac se mantienen el semáforo, la pantalla completa nativa y Cmd+O/Cmd+S para las listas. Linux mantiene la 2.1.9. [Notas de Windows y macOS 2.2.0](NOTAS-2.2.0.md).

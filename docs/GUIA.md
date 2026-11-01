@@ -56,7 +56,7 @@ reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias
 
 ## Instalación en macOS — Intel y Apple Silicon
 
-Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan las novedades de la versión **2.1.9**.
+Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan las novedades de la versión **2.2.0**.
 
 | Edición | Versiones compatibles de macOS |
 | --- | --- |
@@ -69,7 +69,7 @@ Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan 
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-La versión vigente de macOS es la **2.1.9**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
+La versión vigente de macOS es la **2.2.0**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
 
 ### Novedades de macOS 2.1.9
 
@@ -157,10 +157,10 @@ Cada publicación incluye las sumas de sus archivos: **SHA256SUMS.txt** para Win
 
 En Windows puedes comprobar un archivo con `Get-FileHash -Algorithm SHA256`. En macOS puedes usar `shasum -a 256` y en Linux `sha256sum`.
 
-## Windows y Legacy 2.2.0: búsqueda y recursos adicionales
+## Windows y macOS 2.2.0: búsqueda y recursos adicionales
 
 En Windows 10/11 puedes buscar un himno por cualquier fragmento de su letra. El número admite 1–613 y formatos como 001. Al reproducir se limpia el buscador; tus favoritos y listas se conservan.
 
 En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Recursos multimedia ofrece **Himnos adicionales**, con descarga y reparación independientes. Su contenido es adicional a los 613 himnos principales.
 
-Windows Legacy 2.2.0 incorpora también la búsqueda por fragmentos y el paquete adicional, con su menú nativo y descarga independiente. macOS y Linux mantienen sus entregas 2.1.9. [Notas de Windows y Legacy 2.2.0](NOTAS-2.2.0.md).
+Windows Legacy y macOS Intel/Apple Silicon 2.2.0 incorporan también la búsqueda por fragmentos y el paquete adicional, con descarga y reparación independientes. En Mac se mantienen el semáforo, la pantalla completa nativa y Cmd+O/Cmd+S para las listas. Linux mantiene la 2.1.9. [Notas de Windows y macOS 2.2.0](NOTAS-2.2.0.md).
