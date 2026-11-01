@@ -40,10 +40,3 @@ Las dos ediciones incorporan búsqueda por fragmentos de las letras, validación
 Se mantienen los controles nativos, la pantalla completa al abrir, Cmd+O/Cmd+S, el panel fijo y la minimización independiente de las ventanas. Los adicionales funcionan tanto en la pantalla habitual como en la secundaria, con avance sincronizado en Cantado y manual en Solo letra. La guía refleja los elementos actuales del Mac.
 
 Descarga el **DMG de tu procesador** y arrastra el Himnario a **Aplicaciones**. Los discos conservan el fondo musical, el icono de la unidad y las posiciones de la aplicación, Applications y LEEME. Cada edición dispone también de ZIP alternativo y archivo SHA-256.
-
-
-### Revisión de mantenimiento de macOS
-
-Se ha corregido la continuidad de las descargas del actualizador: las copias de distintas versiones se mantienen separadas y una descarga incompatible se renueva automáticamente, conservando siempre la verificación SHA-256. Se mantiene la versión **2.2.0** y sus funciones.
-
-Si ya instalaste la primera entrega de macOS 2.2.0, descarga el DMG actual y reemplaza la aplicación en **Aplicaciones** para recibir esta corrección. Se conservan tus favoritos y recursos. El actualizador de una versión anterior conserva su comportamiento hasta instalar la revisión; si muestra un fallo de verificación, pulsa **Reintentar** o descarga el DMG directamente.
