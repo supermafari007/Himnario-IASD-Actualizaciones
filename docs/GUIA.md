@@ -28,7 +28,7 @@ El panel fijo de la secundaria muestra el himno en reproducción y permite naveg
 
 **Componentes multimedia:** el asistente ofrece Letras, Cantado e Instrumental desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
 
-Abre **Buscar actualización** para recibir la 2.2.0 en Windows moderno o Windows Legacy. La actualización conserva tus recursos multimedia, favoritos y preferencias. macOS Intel/Apple Silicon y Linux mantienen la 2.1.9.
+Abre **Buscar actualización** para recibir la 2.2.1 en Windows moderno, macOS o Linux; Windows Legacy mantiene la 2.2.0. La actualización conserva tus recursos multimedia, favoritos y preferencias.
 
 ### Desinstalación en Windows
 
@@ -56,7 +56,7 @@ reparar, actualizar o desinstalar. Actualizar conserva biblioteca y preferencias
 
 ## Instalación en macOS — Intel y Apple Silicon
 
-Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan las novedades de la versión **2.2.0**.
+Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan las novedades de la versión **2.2.1**.
 
 | Edición | Versiones compatibles de macOS |
 | --- | --- |
@@ -69,7 +69,7 @@ Elige la edición que corresponda a tu Mac. Ambas ediciones de macOS incorporan 
 
 Los recursos y preferencias existentes se conservan. La aplicación inicia en pantalla completa nativa, con controles de macOS. Usa el botón verde, F11 o Ctrl+Cmd+F para volver al modo ventana; allí puedes moverla desde la barra de título y redimensionarla desde los bordes. Ayuda, información y actualizaciones están a la derecha. El arrastre HTML de letras y fondos está desactivado para evitar imágenes flotantes.
 
-La versión vigente de macOS es la **2.2.0**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
+La versión vigente de macOS es la **2.2.1**, disponible desde Buscar actualización. Abre el DMG descargado y arrastra la app al acceso Applications para reemplazar la copia de Aplicaciones; se conservan recursos y preferencias.
 
 ### Novedades de macOS 2.1.9
 
@@ -165,4 +165,4 @@ En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Rec
 
 Windows Legacy y macOS Intel/Apple Silicon 2.2.0 incorporan también la búsqueda por fragmentos y el paquete adicional, con descarga y reparación independientes. En Mac se mantienen el semáforo, la pantalla completa nativa y Cmd+O/Cmd+S para las listas. Linux 2.2.0 incorpora las mismas funciones de búsqueda por fragmentos y adicionales, con controles propios de GTK. [Notas de la 2.2.0](NOTAS-2.2.0.md).
 
-Linux 2.2.1 añade los himnos adicionales a Favoritos, listas de reproducción y Recientes, y ofrece Instrumental para Aventureros, Conquistadores y Guías Mayores. Después de actualizar el programa, actualiza Himnos adicionales a 2.0.1 desde Buscar actualización. [Notas de Windows y Linux 2.2.1](NOTAS-2.2.1.md).
+Windows, macOS y Linux 2.2.1 añaden los himnos adicionales a Favoritos, listas de reproducción y Recientes, y ofrece Instrumental para Aventureros, Conquistadores y Guías Mayores. Después de actualizar el programa, actualiza Himnos adicionales a 2.0.1 desde Buscar actualización. [Notas de Windows, macOS y Linux 2.2.1](NOTAS-2.2.1.md).
