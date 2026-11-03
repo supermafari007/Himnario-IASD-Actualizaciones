@@ -161,3 +161,5 @@ En Windows 10/11 puedes buscar un himno por cualquier fragmento de su letra. El 
 En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Recursos multimedia ofrece **Himnos adicionales**, con descarga y reparación independientes. Su contenido es adicional a los 613 himnos principales.
 
 Windows Legacy y macOS Intel/Apple Silicon 2.2.0 incorporan también la búsqueda por fragmentos y el paquete adicional, con descarga y reparación independientes. En Mac se mantienen el semáforo, la pantalla completa nativa y Cmd+O/Cmd+S para las listas. Linux 2.2.0 incorpora las mismas funciones de búsqueda por fragmentos y adicionales, con controles propios de GTK. [Notas de la 2.2.0](NOTAS-2.2.0.md).
+
+Linux 2.2.1 añade los himnos adicionales a Favoritos, listas de reproducción y Recientes, y ofrece Instrumental para Aventureros, Conquistadores y Guías Mayores. Después de actualizar el programa, actualiza Himnos adicionales a 2.0.1 desde Buscar actualización. [Notas de Windows y Linux 2.2.1](NOTAS-2.2.1.md).
