@@ -1,6 +1,6 @@
-# Himnario Adventista 2.2.0 · Windows y macOS
+# Himnario Adventista 2.2.0 · Windows, macOS y Linux
 
-Esta versión está disponible para Windows moderno de 64 bits, Windows Legacy x86 y macOS Intel y Apple Silicon. Linux mantiene su entrega 2.1.9.
+Esta versión está disponible para Windows moderno de 64 bits, Windows Legacy x86 macOS Intel y Apple Silicon y Linux AMD64/ARM64.
 
 ## Encontrar el himno que recuerdas
 
@@ -10,7 +10,7 @@ Al comenzar una reproducción, el buscador se limpia para preparar el siguiente 
 
 ## Himnos adicionales
 
-Se incorporan los himnos nacionales de Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Perú y Uruguay, además de Aventureros, Conquistadores y Guías Mayores. En Windows moderno y macOS se encuentran en Temas y también por nombre, país o fragmento de letra. En Legacy se eligen desde Temas → Adicionales o buscando su nombre. Son un catálogo adicional a los 613 himnos, sin asignarles números nuevos ni incorporarlos a las listas numéricas.
+Se incorporan los himnos nacionales de Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Perú y Uruguay, además de Aventureros, Conquistadores y Guías Mayores. En Windows moderno, macOS y Linux se encuentran en Temas y también por nombre, país o fragmento de letra. En Legacy se eligen desde Temas → Adicionales o buscando su nombre. Son un catálogo adicional a los 613 himnos, sin asignarles números nuevos ni incorporarlos a las listas numéricas.
 
 El paquete **Himnos adicionales 1.0** se descarga o repara por separado: 50 láminas panorámicas, 11 pistas MP3 e iconos, aproximadamente 403 MB. Se ofrece cuando falta y no obliga a descargar otra vez las letras o la música ya instaladas. Cantado avanza las láminas según cada grabación; Solo letra permite avance manual. Al terminar regresa al menú o a la espera de la secundaria.
 
@@ -40,3 +40,11 @@ Las dos ediciones incorporan búsqueda por fragmentos de las letras, validación
 Se mantienen los controles nativos, la pantalla completa al abrir, Cmd+O/Cmd+S, el panel fijo y la minimización independiente de las ventanas. Los adicionales funcionan tanto en la pantalla habitual como en la secundaria, con avance sincronizado en Cantado y manual en Solo letra. La guía refleja los elementos actuales del Mac.
 
 Descarga el **DMG de tu procesador** y arrastra el Himnario a **Aplicaciones**. Los discos conservan el fondo musical, el icono de la unidad y las posiciones de la aplicación, Applications y LEEME. Cada edición dispone también de ZIP alternativo y archivo SHA-256.
+
+## Linux AMD64 y ARM64 2.2.0
+
+Basada en Windows moderno 2.2.0: búsqueda por fragmentos, entrada numérica 1–613/001–613, JSON de listas y favoritos con esquemas cerrados, conservación de favoritos y catálogo de los once himnos adicionales. Incluye ayuda actualizada y reproducción local o en secundaria. El paquete opcional Himnos adicionales 1.0 se ofrece cuando falta, con descarga y reparación independientes. Letras 2.0.1 está disponible desde Buscar actualización.
+
+Dos paquetes DEB, aproximadamente 4,2 MB cada uno, para Ubuntu 24.04+, Mint 22+, Zorin OS 18 o Debian 13 según arquitectura. Instala el de tu procesador con el gestor de software o `sudo apt install ./Himnario_Adventista_Linux_AMD64.deb` (ARM64 utiliza su DEB correspondiente). Se conservan las correcciones previas de audio e instalación, favoritos y biblioteca.
+
+Preparada y verificada desde Windows: lógica Python, contratos de interfaz, inventarios, arquitectura y estructura DEB. Esta entrega no repitió la ejecución gráfica en GTK/WebKitGTK real ni en hardware ARM64.
