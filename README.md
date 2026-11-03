@@ -21,7 +21,7 @@
 | **Favoritos y recientes** | Guardar himnos con el corazón, buscar en tus favoritos, deshacer una eliminación y respaldarlos en JSON compatible entre ediciones. Recientes registra las reproducciones de la sesión y se borra al cerrar. |
 | **Listas de reproducción** | Preparar una lista, ordenar sus himnos, guardarla para otra ocasión y reproducirla de forma secuencial o aleatoria. El signo **+** permite añadir desde favoritos, recientes y sugerencias sin iniciar la reproducción. |
 | **Una o dos pantallas** | Usar el Himnario normalmente con una pantalla, o mantener el menú en la principal y enviar la reproducción a una TV, monitor o proyector. La secundaria espera con una portada; sus controles permiten navegar, ocultar las letras sin detener el audio y minimizar cada ventana por separado. |
-| **Recursos a tu medida** | Descargar, actualizar o reparar solo Letras, Cantado o Instrumental, según tu edición. Elegir carpeta, pausar y continuar las descargas. Reconocer una biblioteca anterior y renovar solo las letras a **Letras 2.0**. |
+| **Recursos a tu medida** | Descargar, actualizar o reparar solo Letras, Cantado o Instrumental, según tu edición. Elegir carpeta, pausar y continuar las descargas. Reconocer una biblioteca anterior y renovar solo las letras a **Letras 2.0.1**. |
 | **Ayuda y actualizaciones** | Recorrer una guía visual con el botón **?**, usar pantalla completa o ventana y comprobar nuevas versiones desde el programa. Cada edición recibe el instalador de su sistema y procesador. |
 
 **Una vez descargados los recursos, puedes utilizar el Himnario sin conexión.** Las actualizaciones conservan tus letras, música, favoritos y preferencias. Las descargas de este repositorio no requieren iniciar sesión en GitHub.
@@ -100,7 +100,9 @@ WebView2 es el motor de Microsoft que utiliza la aplicación para mostrar su int
 2. **Descarga los recursos que necesitas.** En el asistente elige los componentes que necesitas y pulsa **Descargar ahora**. Puedes usar **Elegir carpeta** para guardarlos en otro disco.
 3. **Espera a que se integren los recursos.** Al terminar, pulsa **Volver al Himnario**. Ya podrás reproducir el contenido descargado sin conexión.
 
-> **Todas las ediciones actuales:** el asistente muestra el tamaño de los componentes seleccionados y comprueba el espacio necesario. Letras 2.0 se descarga en dos partes y se instala como un solo componente; puedes conservar la música que ya tienes.
+**Letras 2.0.1:** mejora la legibilidad de 198 láminas con fondos de hojas y familia, conservando las letras y los 613 himnos. Disponible desde **Buscar actualización** en las ediciones actuales; no requiere reinstalar el programa. [Detalles y descargas de los recursos](https://github.com/supermafari007/Himnario-IASD-Recursos/releases/tag/v2.0.1).
+
+> **Todas las ediciones actuales:** el asistente muestra el tamaño de los componentes seleccionados y comprueba el espacio necesario. Letras 2.0.1 se descarga en dos partes y se instala como un solo componente; puedes conservar la música que ya tienes.
 >
 > **Windows Legacy:** ofrece Letras, Cantado e Instrumental. El asistente indica el espacio necesario según la selección; puedes conservar la biblioteca anterior y actualizar solo Letras.
 
@@ -121,7 +123,7 @@ Abre **Buscar actualización** dentro del Himnario. Cada edición busca el insta
 
 Si faltan letras o música, pulsa **Reparar Contenido Multimedia** en ese mismo diálogo. Se abrirá el asistente de descarga, con elección de carpeta, pausa, reanudación y reintento. Al finalizar, pulsa **Volver al Himnario**.
 
-**En todas las ediciones actuales**, el asistente permite marcar solo los componentes que deseas descargar o reparar. Letras 2.0 se verifica e instala desde sus dos partes sin volver a descargar la música. La biblioteca procedente del paquete completo anterior se conserva y sigue funcionando.
+**En todas las ediciones actuales**, el asistente permite marcar solo los componentes que deseas descargar o reparar. Letras 2.0.1 se verifica e instala desde sus dos partes sin volver a descargar la música. La biblioteca procedente del paquete completo anterior se conserva y sigue funcionando.
 
 Las actualizaciones normales conservan tus recursos y preferencias. La reparación vuelve a instalar el contenido oficial y puede sustituir archivos multimedia personalizados.
 
