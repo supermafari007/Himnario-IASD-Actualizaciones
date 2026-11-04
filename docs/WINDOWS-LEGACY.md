@@ -15,14 +15,14 @@ ni instalar VLC.
 
 El asistente descarga Letras, Cantado, Instrumental e Himnos adicionales desde GitHub y permite elegir
 qué actualizar o reparar. Reconoce los recursos del paquete completo anterior.
-**Letras 2.0.2** se descarga en dos ZIP que el programa verifica e integra como un
+**Letras 2.0.3** se descarga en dos ZIP que el programa verifica e integra como un
 solo componente, conservando la música no seleccionada. Indica el tamaño y el
 espacio necesario para la selección y permite continuar una descarga interrumpida.
 
 El canal de esta edición es [media-manifest-windows-legacy-2.2.1.json](https://github.com/supermafari007/Himnario-IASD-Recursos/blob/main/media-manifest-windows-legacy-2.2.1.json).
 Puedes seleccionar una biblioteca existente o importar desde USB el ZIP completo
 oficial Legacy 1.0. Ese ZIP conserva las letras originales; después se ofrece
-su actualización a 2.0.2. Reparar vuelve a instalar solo los componentes marcados
+su actualización a 2.0.3. Reparar vuelve a instalar solo los componentes marcados
 y puede sustituir archivos personalizados dentro de ellos.
 
 ## Buscar por título o fragmento
