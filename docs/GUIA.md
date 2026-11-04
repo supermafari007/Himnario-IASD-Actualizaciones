@@ -28,7 +28,7 @@ El panel fijo de la secundaria muestra el himno en reproducción y permite naveg
 
 **Componentes multimedia:** el asistente ofrece Letras, Cantado e Instrumental desde GitHub. Reconoce la biblioteca del paquete completo anterior y permite actualizar solo las letras a 2.0. Sus dos ZIP se descargan y verifican automáticamente como un componente. Reparar permite volver a instalar solo los componentes marcados; puede reemplazar archivos personalizados de esa selección.
 
-Abre **Buscar actualización** para recibir la 2.2.1 en Windows moderno, macOS o Linux; Windows Legacy mantiene la 2.2.0. La actualización conserva tus recursos multimedia, favoritos y preferencias.
+Abre **Buscar actualización** para recibir la 2.2.1 en Windows moderno, macOS o Linux; Windows Legacy también recibe la 2.2.1. La actualización conserva tus recursos multimedia, favoritos y preferencias.
 
 ### Desinstalación en Windows
 
@@ -41,7 +41,7 @@ Si el Himnario sigue abierto, un disco está desconectado o hay archivos bloquea
 ## Instalación en Windows Legacy — XP/Vista/7/8
 
 Descarga **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** desde la publicación
-2.2.0. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
+2.2.1. No requiere .NET, WebView2 ni instalar VLC. XP requiere SP3 de 32 bits;
 Vista requiere SP2 y Windows 7, SP1. El procesador debe admitir SSE2.
 
 Esta edición conserva Solo letra, Instrumental y Cantado.
@@ -165,4 +165,4 @@ En Temas encontrarás Himnos nacionales y Otros himnos. Si falta su paquete, Rec
 
 Windows Legacy y macOS Intel/Apple Silicon 2.2.0 incorporan también la búsqueda por fragmentos y el paquete adicional, con descarga y reparación independientes. En Mac se mantienen el semáforo, la pantalla completa nativa y Cmd+O/Cmd+S para las listas. Linux 2.2.0 incorpora las mismas funciones de búsqueda por fragmentos y adicionales, con controles propios de GTK. [Notas de la 2.2.0](NOTAS-2.2.0.md).
 
-Windows, macOS y Linux 2.2.1 añaden los himnos adicionales a Favoritos, listas de reproducción y Recientes, y ofrece Instrumental para Aventureros, Conquistadores y Guías Mayores. Después de actualizar el programa, actualiza Himnos adicionales a 2.0.1 desde Buscar actualización. [Notas de Windows, macOS y Linux 2.2.1](NOTAS-2.2.1.md).
+Windows, Windows Legacy, macOS y Linux 2.2.1 añaden los himnos adicionales a Favoritos, listas de reproducción y Recientes, y ofrece Instrumental para Aventureros, Conquistadores y Guías Mayores. Después de actualizar el programa, actualiza Himnos adicionales a 2.0.1 desde Buscar actualización. [Notas de Windows, macOS y Linux 2.2.1](NOTAS-2.2.1.md).

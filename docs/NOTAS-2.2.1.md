@@ -1,6 +1,6 @@
 # Windows, macOS y Linux 2.2.1 · Himnos adicionales integrados
 
-Disponible para **Windows 10/11 de 64 bits, macOS Intel y Apple Silicon, y Linux AMD64/ARM64**.
+Disponible para **Windows 10/11 de 64 bits, Windows Legacy x86, macOS Intel y Apple Silicon, y Linux AMD64/ARM64**.
 
 ## Tus adicionales, junto a los himnos habituales
 
@@ -21,7 +21,7 @@ Disponible para **Windows 10/11 de 64 bits, macOS Intel y Apple Silicon, y Linux
 
 **Respaldos:** las copias anteriores de favoritos siguen funcionando. Si un archivo nuevo incluye adicionales, necesita una edición que admita favoritos o listas de adicionales; las versiones anteriores de otras plataformas no los importan. Los respaldos que contienen solo favoritos de los 613 conservan el formato anterior.
 
-Esta entrega está disponible para Windows moderno, macOS y Linux. **Windows Legacy mantiene 2.2.0**, con su canal de recursos compatible.
+Esta entrega está disponible para Windows moderno, Windows Legacy, macOS y Linux. Los clientes anteriores conservan sus canales de recursos compatibles.
 
 ## Linux AMD64 y ARM64 2.2.1
 
@@ -38,3 +38,11 @@ Dos aplicaciones nativas independientes: **Intel** para Ventura, Sonoma, Sequoia
 Los once adicionales se integran con Favoritos, listas mixtas y Recientes. Aventureros, Conquistadores y Guías Mayores ofrecen Instrumental sincronizado; los países mantienen Solo letra y Cantado. Se conservan los favoritos guardados por versiones anteriores, su orden y la biblioteca instalada.
 
 Actualiza la app desde el DMG de tu procesador y después **Himnos adicionales 2.0.1** desde Buscar actualización. La descarga se verifica antes de instalarse; se conserva la corrección de caché del actualizador. El DMG mantiene el icono del Himnario y los accesos a la aplicación, Applications y LEEME.
+
+## Windows Legacy 2.2.1
+
+Edición nativa x86 para **XP SP3 (SSE2), Vista SP2, Windows 7 SP1 y 8/8.1**, con reproductor incluido y sin requerir .NET ni WebView2. Los once adicionales se integran con Favoritos, listas mixtas y Recientes; Aventureros, Conquistadores y Guías Mayores incorporan Instrumental con avance sincronizado propio. Los ocho países mantienen Solo letra y Cantado.
+
+Se conservan los favoritos numéricos y su orden. Los respaldos mixtos se comparten con las otras ediciones 2.2.1 compatibles y se validan antes de importarse. La ayuda y los iconos de los paneles identifican cada adicional mediante su bandera o logotipo. Una nueva reproducción recupera la secundaria minimizada y conserva la ocultación de letras de la sesión.
+
+Instala **Himnario_Adventista_Windows_Legacy_x86_Setup.exe** y después actualiza **Himnos adicionales a 2.0.1** desde Buscar actualización. Se reconoce el paquete 1.0 y se conserva la música y las letras de los 613.

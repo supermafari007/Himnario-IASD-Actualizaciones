@@ -1,4 +1,4 @@
-# Windows Legacy 2.2.0
+# Windows Legacy 2.2.1
 
 Edición nativa de 32 bits para Windows XP SP3 (x86), Vista SP2 y Windows 7 SP1/8/8.1.
 Requiere procesador con SSE2. Incluye Solo letra, Instrumental y Cantado con letras
@@ -8,21 +8,21 @@ ni instalar VLC.
 ## Instalar o actualizar
 
 1. Cierra el Himnario Legacy.
-2. Ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.0/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
+2. Ejecuta [Himnario_Adventista_Windows_Legacy_x86_Setup.exe](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.1/Himnario_Adventista_Windows_Legacy_x86_Setup.exe).
 3. La actualización conserva biblioteca, favoritos y preferencias.
 
 ## Letras y música por componentes
 
 El asistente descarga Letras, Cantado, Instrumental e Himnos adicionales desde GitHub y permite elegir
 qué actualizar o reparar. Reconoce los recursos del paquete completo anterior.
-**Letras 2.0** se descarga en dos ZIP que el programa verifica e integra como un
+**Letras 2.0.1** se descarga en dos ZIP que el programa verifica e integra como un
 solo componente, conservando la música no seleccionada. Indica el tamaño y el
 espacio necesario para la selección y permite continuar una descarga interrumpida.
 
-El canal de esta edición es [media-manifest-windows-legacy-2.2.json](https://github.com/supermafari007/Himnario-IASD-Recursos/blob/main/media-manifest-windows-legacy-2.2.json).
+El canal de esta edición es [media-manifest-windows-legacy-2.2.1.json](https://github.com/supermafari007/Himnario-IASD-Recursos/blob/main/media-manifest-windows-legacy-2.2.1.json).
 Puedes seleccionar una biblioteca existente o importar desde USB el ZIP completo
 oficial Legacy 1.0. Ese ZIP conserva las letras originales; después se ofrece
-su actualización a 2.0. Reparar vuelve a instalar solo los componentes marcados
+su actualización a 2.0.1. Reparar vuelve a instalar solo los componentes marcados
 y puede sustituir archivos personalizados dentro de ellos.
 
 ## Buscar por título o fragmento
@@ -31,9 +31,9 @@ El buscador principal encuentra un himno por su título o por una parte de su le
 
 ## Himnos adicionales
 
-Abre **Temas → Adicionales** para elegir Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Perú o Uruguay, o los himnos de Aventureros, Conquistadores y Guías Mayores. La selección se identifica por su bandera o logotipo. No modifica la numeración de los 613 himnos ni sus listas.
+Abre **Temas → Adicionales** para elegir Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Perú o Uruguay, o los himnos de Aventureros, Conquistadores y Guías Mayores. La selección se identifica por su bandera o logotipo. No modifica la numeración de los 613 himnos; puedes combinarlos con ellos en las listas.
 
-Su paquete opcional de **403 MB** se ofrece cuando falta y se descarga o repara por separado. **Solo letra** permite avance manual; **Cantado** sigue cada grabación, incluidas sus repeticiones, y vuelve a espera al concluir. Funciona también en la segunda pantalla.
+Su paquete opcional **Himnos adicionales 2.0.1**, de unos **411 MB**, se ofrece cuando falta y se descarga o repara por separado. **Solo letra** permite avance manual; **Cantado** sigue cada grabación, incluidas sus repeticiones, y vuelve a espera al concluir. Los tres clubes también incluyen **Instrumental** con tiempos propios. Todos se pueden guardar en Favoritos, añadir a listas mixtas y ver en Recientes. Funciona también en la segunda pantalla.
 
 ## Temas, sugerencias y listas
 
@@ -43,8 +43,7 @@ Incluye accesos a Diezmo y Ofrendas, Bautismo, Santa Cena, Presentación de un n
 Matrimonio y Funerales. Las sugerencias explican su relación con la letra y permiten
 seleccionar, guardar en favoritos o añadir a la lista con **+**.
 
-Favoritos se conserva entre aperturas y admite respaldo JSON compatible con las
-otras ediciones. Recientes registra solo esta sesión y se borra al cerrar.
+Favoritos se conserva entre aperturas y admite respaldo JSON. Las copias que incluyen adicionales necesitan una edición 2.2.1 compatible; las copias numéricas anteriores siguen funcionando. Recientes registra solo esta sesión y se borra al cerrar.
 La guía del botón **?** se adapta a los controles actuales.
 
 ## Segunda pantalla

@@ -15,9 +15,9 @@
 | Función | Qué puedes hacer |
 | --- | --- |
 | **613 himnos** | Buscar por número o título y reproducir Solo letra, Instrumental o Cantado. |
-| **Fragmentos de letra · Windows, macOS y Linux desde 2.2.0** | Encontrar un himno aunque no recuerdes el título, escribiendo una parte de su letra. |
-| **Himnos adicionales · Windows, macOS y Linux desde 2.2.0** | Descargar aparte ocho himnos nacionales y los de Aventureros, Conquistadores y Guías Mayores, en Solo letra y Cantado. |
-| **Adicionales integrados · Windows, macOS y Linux 2.2.1** | Guardar los adicionales en favoritos, combinarlos en listas y verlos en recientes. Aventureros, Conquistadores y Guías Mayores también tienen Instrumental con avance sincronizado. |
+| **Fragmentos de letra · todas las ediciones desde 2.2.0** | Encontrar un himno aunque no recuerdes el título, escribiendo una parte de su letra. |
+| **Himnos adicionales · todas las ediciones desde 2.2.0** | Descargar aparte ocho himnos nacionales y los de Aventureros, Conquistadores y Guías Mayores, en Solo letra y Cantado. |
+| **Adicionales integrados · todas las ediciones 2.2.1** | Guardar los adicionales en favoritos, combinarlos en listas y verlos en recientes. Aventureros, Conquistadores y Guías Mayores también tienen Instrumental con avance sincronizado. |
 | **Temas y sugerencias** | Explorar las categorías originales o escribir una necesidad, como «un himno para terminar el culto». Incluye accesos a Gratitud, Consuelo, Oración, Diezmo y Ofrendas, Bautismo, Santa Cena, Presentación de un niño, Matrimonio y Funerales, entre otros. Las sugerencias explican su relación con la letra. |
 | **Favoritos y recientes** | Guardar himnos con el corazón, buscar en tus favoritos, deshacer una eliminación y respaldarlos en JSON. Los respaldos de los 613 se comparten entre ediciones; los que incluyen adicionales requieren una edición compatible. Recientes registra las reproducciones de la sesión y se borra al cerrar. |
 | **Listas de reproducción** | Preparar una lista, ordenar sus himnos, guardarla para otra ocasión y reproducirla de forma secuencial o aleatoria. El signo **+** permite añadir desde favoritos, recientes y sugerencias sin iniciar la reproducción. |
@@ -27,27 +27,23 @@
 
 **Una vez descargados los recursos, puedes utilizar el Himnario sin conexión.** Las actualizaciones conservan tus letras, música, favoritos y preferencias. Las descargas de este repositorio no requieren iniciar sesión en GitHub.
 
-## Windows, macOS y Linux · versión 2.2.1
+## Todas las ediciones · versión 2.2.1
 
-Para **Windows 10/11 de 64 bits, macOS Intel y Apple Silicon, y Linux AMD64/ARM64**: todos los himnos adicionales se integran con **Favoritos, listas de reproducción y Recientes**. Aventureros, Conquistadores y Guías Mayores incorporan **Instrumental**, con tiempos de avance propios. Los himnos nacionales conservan Solo letra y Cantado.
+Para **Windows 10/11 de 64 bits, Windows Legacy x86, macOS Intel y Apple Silicon, y Linux AMD64/ARM64**: todos los himnos adicionales se integran con **Favoritos, listas de reproducción y Recientes**. Aventureros, Conquistadores y Guías Mayores incorporan **Instrumental**, con tiempos de avance propios. Los himnos nacionales conservan Solo letra y Cantado.
 
 Actualiza el programa y después el paquete **Himnos adicionales 2.0.1** desde **Buscar actualización**. Son unos **411 MB**; las letras y la música de los 613 se conservan.
 
 [Notas de Windows, macOS y Linux 2.2.1](docs/NOTAS-2.2.1.md) · [Paquete Himnos adicionales 2.0.1](https://github.com/supermafari007/Himnario-IASD-Recursos/releases/tag/adicionales-v2.0.1)
 
-## Windows Legacy · versión 2.2.0
+## Windows Legacy · XP/Vista/7/8
 
-**Windows Legacy x86 para XP SP3, Vista SP2 y 7/8/8.1** mantiene la **2.2.0**.
+La **2.2.1** conserva sus tres modos y su reproductor integrado, sin requerir .NET ni WebView2. Funciona en **XP SP3 x86 (SSE2), Vista SP2, Windows 7 SP1 y 8/8.1**. Los adicionales se integran con favoritos, listas y recientes; los tres clubes incluyen Instrumental sincronizado. Se conservan el perfil y la biblioteca anteriores.
 
-- **Busca por la letra que recuerdas**, además del número o el título. Al reproducir, el buscador queda listo para otro himno.
-- **Himnos adicionales:** Argentina, Bolivia, Chile, Colombia, Ecuador, Paraguay, Perú y Uruguay, más Aventureros, Conquistadores y Guías Mayores. Su paquete opcional de unos **403 MB** se descarga o repara por separado, sin sustituir los 613 himnos ni la música instalada.
-- **Continuidad y validación:** conserva favoritos y listas, valida los JSON importados y actualiza la ayuda y la reproducción de adicionales en la secundaria.
-
-[Notas completas de la 2.2.0](docs/NOTAS-2.2.0.md) · [Paquete de himnos adicionales](https://github.com/supermafari007/Himnario-IASD-Recursos/releases/tag/adicionales-v1.0)
+[Guía de Windows Legacy](docs/WINDOWS-LEGACY.md) · [Notas de la 2.2.1](docs/NOTAS-2.2.1.md)
 
 ## Funciones compartidas desde la versión 2.1.9
 
-Windows moderno, macOS Intel/Apple Silicon y Linux conservan estas mejoras en la **2.2.1**; Windows Legacy, en la **2.2.0**. Esta actualización mejora el manejo de la presentación, la respuesta de la interfaz y la ayuda visual. Conserva la biblioteca multimedia, los favoritos y las preferencias existentes.
+Todas las ediciones conservan estas mejoras en la **2.2.1**. Esta actualización mejora el manejo de la presentación, la respuesta de la interfaz y la ayuda visual. Conserva la biblioteca multimedia, los favoritos y las preferencias existentes.
 
 ### Novedades de la 2.1.9
 
@@ -68,7 +64,7 @@ Con salidas duplicadas, se intenta una **ampliación temporal** cuando el sistem
 | Tu equipo | Descarga · versión y tamaño |
 | --- | --- |
 | **Windows · Intel / AMD**<br>Windows 10 / 11 de 64 bits |**[Descargar Windows](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.1/Himnario_Adventista_Windows_Setup.exe)**<br>2.2.1 · 58,0 MB · EXE |
-| **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.0/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.2.0 · 9,2 MB · EXE x86 |
+| **Windows Legacy · Intel / AMD**<br>XP SP3 (32 bits), Vista SP2, 7 SP1 y 8/8.1 |**[Descargar Windows Legacy](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.1/Himnario_Adventista_Windows_Legacy_x86_Setup.exe)**<br>2.2.1 · 9,2 MB · EXE x86 |
 | **Mac · Apple Silicon**<br>Chip M1 o posterior · Tahoe, Golden Gate y posteriores |**[Descargar Mac Apple Silicon](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.1/Himnario_Adventista_macOS_AppleSilicon.dmg)**<br>2.2.1 · 7,7 MB · DMG |
 | **Mac · Intel**<br>Procesador Intel · Ventura, Sonoma, Sequoia y Tahoe |**[Descargar Mac Intel](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.1/Himnario_Adventista_macOS_Intel.dmg)**<br>2.2.1 · 7,8 MB · DMG |
 | **Linux · Intel / AMD**<br>Ubuntu 24.04+, Mint 22+, Zorin OS 18 o Debian 13 |**[Descargar Linux Intel / AMD](https://github.com/supermafari007/Himnario-IASD-Actualizaciones/releases/download/v2.2.1/Himnario_Adventista_Linux_AMD64.deb)**<br>2.2.1 · 4,2 MB · DEB |
